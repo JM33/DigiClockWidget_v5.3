@@ -249,6 +249,7 @@ public class SettingsHomeFragment extends Fragment {
         darkThemeLayout = (LinearLayout) mView.findViewById(R.id.LinearLayoutDarkTheme);
         btdarktheme = (TextView)mView.findViewById(R.id.buttonDarkTheme);
 
+        /*
         if(isMyServiceRunning(WidgetBackgroundService.class)){
             serviceRunningSummary.setText(R.string.p_bg_service_running_summary);
             serviceRunningButton.setChecked(true);
@@ -256,9 +257,10 @@ public class SettingsHomeFragment extends Fragment {
             serviceRunningSummary.setText(R.string.p_bg_service_stopped_summary);
             serviceRunningButton.setChecked(false);
         }
-
         setServiceRunningListener(serviceRunningButton);
         setServiceRunningListener(serviceRunningLinearLayout);
+
+         */
 
         homeClockSeekBar.setProgress(clocktextsize);
         homeClockSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
@@ -454,6 +456,7 @@ public class SettingsHomeFragment extends Fragment {
         }
     }
 
+    /*
     private void setServiceRunningListener(View view) {
         view.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -502,6 +505,8 @@ public class SettingsHomeFragment extends Fragment {
             }
         });
     }
+
+     */
 
     private void setHomeColorsOnClickListener(View view){
         view.setOnClickListener(new View.OnClickListener() {

@@ -117,7 +117,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 
 		restartAll(context);
 
-		digiClockBroadcastReceiver.register(context);
+		//digiClockBroadcastReceiver.register(context);
 
 
 	}
@@ -182,6 +182,8 @@ public class DigiClockProvider extends AppWidgetProvider {
 			//		PackageManager.DONT_KILL_APP);
 			*/
 
+
+			/*
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 				JobScheduler jobScheduler = (JobScheduler) context.getSystemService(Context.JOB_SCHEDULER_SERVICE);
 				jobScheduler.cancelAll();
@@ -191,12 +193,14 @@ public class DigiClockProvider extends AppWidgetProvider {
 				appWidgetAlarm.stopAlarm();
 			}
 
+			 */
+
 			//Intent serviceBG = new Intent(context.getApplicationContext(), WidgetBackgroundService.class);
 			//serviceBG.putExtra("SHUTDOWN", true);
 			//context.getApplicationContext().startService(serviceBG);
 			//context.getApplicationContext().stopService(serviceBG);
 
-			digiClockBroadcastReceiver.unregister(context);
+			//digiClockBroadcastReceiver.unregister(context);
 	    }  
 	 @Override
      public void onReceive(Context context, Intent intent) {

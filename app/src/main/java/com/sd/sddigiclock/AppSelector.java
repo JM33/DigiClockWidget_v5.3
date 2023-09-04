@@ -282,6 +282,7 @@ public class AppSelector extends AppCompatActivity {
                     UpdateWidgetView.setClockButtonApp(pname, appWidgetId, getApplicationContext());
                     //Log.d("SDDC", "Selected: " + pname);
                     finish();
+                    /*
                     final Intent intent = new Intent(getApplicationContext(), UpdateWidgetService.class);
 
                     intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
@@ -289,6 +290,8 @@ public class AppSelector extends AppCompatActivity {
 
                     setResult(RESULT_OK, intent);
                     getApplicationContext().startService(intent);
+
+                     */
                 }
 
             });

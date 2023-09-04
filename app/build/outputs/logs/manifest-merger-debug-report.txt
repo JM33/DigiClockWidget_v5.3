@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-145:12
-INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-145:12
-INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-145:12
-INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-145:12
+ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-147:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\great\.gradle\caches\transforms-3\52dc22ec7427552ecd6d3b864ea72365\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\great\.gradle\caches\transforms-3\6812425476b574ab32b420afe21b14d8\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\great\.gradle\caches\transforms-3\30f4c334bb9586b8299d31214a27cc88\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -81,12 +81,12 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\great\.gradle\caches\transforms-3\89d7c0a63c4c68190d59f33c4abce116\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\great\.gradle\caches\transforms-3\f3521e625b4ba3bfb9db345ad459607d\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\great\.gradle\caches\transforms-3\a83a03db1daa4314d8622e6d887074b5\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-145:12
-INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-145:12
-INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-147:12
 	package
 		INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-145:12
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:2:1-147:12
 		INJECTED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml
 	android:versionName
 		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:5:5-30
@@ -280,16 +280,10 @@ uses-permission#android.permission.READ_PHONE_STATE
 ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:12:5-75
 	android:name
 		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:12:22-72
-uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:13:5-77
-MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\great\.gradle\caches\transforms-3\acafdeb0a962e8003a8bb148568cea95\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
-MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\great\.gradle\caches\transforms-3\acafdeb0a962e8003a8bb148568cea95\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
-	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:13:22-74
 uses-permission#android.permission.SCHEDULE_EXACT_ALARM
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:14:5-78
+ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:15:5-78
 	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:14:22-76
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:15:22-76
 uses-permission#com.android.vending.BILLING
 ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:17:5-66
 MERGED from [com.android.billingclient:billing:5.1.0] C:\Users\great\.gradle\caches\transforms-3\d03b0ff58528ae925ef7e62dc97e22dd\transformed\jetified-billing-5.1.0\AndroidManifest.xml:10:5-67
@@ -393,7 +387,7 @@ ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\sr
 	android:name
 		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:44:18-60
 application
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:47:5-143:19
+ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:47:5-145:19
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\great\.gradle\caches\transforms-3\6812425476b574ab32b420afe21b14d8\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\great\.gradle\caches\transforms-3\6812425476b574ab32b420afe21b14d8\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\great\.gradle\caches\transforms-3\30f4c334bb9586b8299d31214a27cc88\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -530,72 +524,50 @@ ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\sr
 		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:96:17-52
 	android:name
 		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:95:24-65
-service#com.sd.sddigiclock.RepeatingJob
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:101:9-104:38
-	android:exported
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:104:13-36
-	android:permission
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:103:13-69
-	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:102:13-41
-service#com.sd.sddigiclock.WidgetBackgroundService
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:106:9-59
-	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:106:18-57
-service#com.sd.sddigiclock.UpdateWidgetService
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:108:9-55
-	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:108:18-53
-service#com.sd.sddigiclock.ClockJobScheduler
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:110:9-112:71
-	android:permission
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:112:13-69
-	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:111:13-46
 activity#com.sd.sddigiclock.AppSelector
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:114:9-116:53
+ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:116:9-118:53
 	android:theme
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:116:13-50
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:118:13-50
 	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:115:13-40
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:117:13-40
 receiver#com.sd.sddigiclock.DigiClockBroadcastReceiver
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:118:9-129:20
+ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:120:9-131:20
 	android:enabled
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:118:19-41
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:120:19-41
 	android:exported
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:120:13-36
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:122:13-36
 	android:permission
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:119:13-75
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:121:13-75
 	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:118:42-84
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:120:42-84
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:122:13-125:29
+ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:124:13-127:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:123:17-79
+ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:125:17-79
 	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:123:25-76
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:125:25-76
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:124:17-76
+ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:126:17-76
 	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:124:27-73
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:126:27-73
 intent-filter#action:name:android.intent.action.CONFIGURATION_CHANGED
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:126:13-128:29
+ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:128:13-130:29
 action#android.intent.action.CONFIGURATION_CHANGED
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:127:17-86
+ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:129:17-86
 	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:127:25-83
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:129:25-83
 meta-data#preloaded_fonts
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:133:9-135:57
+ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:135:9-137:57
 	android:resource
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:135:13-54
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:137:13-54
 	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:134:13-43
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:136:13-43
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:137:9-139:51
+ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:139:9-141:51
 	android:value
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:139:13-49
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:141:13-49
 	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:138:13-69
+		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:140:13-69
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\great\.gradle\caches\transforms-3\4bec6ff7de487c935a016a4cd35ff388\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
 	android:exported
@@ -700,6 +672,10 @@ ADDED from [com.android.billingclient:billing:5.1.0] C:\Users\great\.gradle\cach
 		ADDED from [com.android.billingclient:billing:5.1.0] C:\Users\great\.gradle\caches\transforms-3\d03b0ff58528ae925ef7e62dc97e22dd\transformed\jetified-billing-5.1.0\AndroidManifest.xml:31:13-72
 	android:name
 		ADDED from [com.android.billingclient:billing:5.1.0] C:\Users\great\.gradle\caches\transforms-3\d03b0ff58528ae925ef7e62dc97e22dd\transformed\jetified-billing-5.1.0\AndroidManifest.xml:28:13-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\great\.gradle\caches\transforms-3\acafdeb0a962e8003a8bb148568cea95\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\great\.gradle\caches\transforms-3\acafdeb0a962e8003a8bb148568cea95\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\great\.gradle\caches\transforms-3\acafdeb0a962e8003a8bb148568cea95\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\great\.gradle\caches\transforms-3\69262e6e1ef2f549fc8371faf15c8c5f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
