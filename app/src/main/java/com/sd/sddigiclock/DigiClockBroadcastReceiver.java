@@ -13,6 +13,7 @@ import android.util.Log;
 import java.lang.reflect.WildcardType;
 import java.util.concurrent.TimeUnit;
 
+import androidx.core.content.ContextCompat;
 import androidx.work.ExistingPeriodicWorkPolicy;
 import androidx.work.ExistingWorkPolicy;
 import androidx.work.OneTimeWorkRequest;
@@ -24,6 +25,7 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
     private static final String TAG = "DigiClockBroadcastReceiver";
 
     private boolean isRegistered;
+    private static int receiverFlags;
 
 
     @Override
@@ -102,6 +104,17 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
             intentFilter.addAction("android.intent.action.BOOT_COMPLETED");
             intentFilter.addAction("android.intent.action.CONFIGURATION_CHANGED");
             context.registerReceiver(this, intentFilter);
+            boolean listenToBroadcastsFromOtherApps = false;
+            /*
+            //Android 14 ???
+            if (listenToBroadcastsFromOtherApps) {
+                receiverFlags = ContextCompat.RECEIVER_EXPORTED;
+            } else {
+                receiverFlags = ContextCompat.RECEIVER_NOT_EXPORTED;
+            }
+            ContextCompat.register(context, this, intentFilter, receiverFlags);
+
+             */
             isRegistered = true;
         }
     }

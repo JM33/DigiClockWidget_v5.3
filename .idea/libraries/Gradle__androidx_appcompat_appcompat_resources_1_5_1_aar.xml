@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.appcompat:appcompat-resources:1.5.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/97eb746208aa0a825f74635e1595d468/transformed/jetified-appcompat-resources-1.5.1/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/97eb746208aa0a825f74635e1595d468/transformed/jetified-appcompat-resources-1.5.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/97eb746208aa0a825f74635e1595d468/transformed/jetified-appcompat-resources-1.5.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/97eb746208aa0a825f74635e1595d468/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />

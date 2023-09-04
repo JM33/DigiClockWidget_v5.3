@@ -420,6 +420,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 		 /*
 		 Intent intent = new Intent(context, UpdateWidgetService.class);
 		 intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
+		 intent.setPackage(context.getPackageName());
 		 if(batterySave) {
 			 intent.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
 		 }

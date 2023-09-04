@@ -1793,10 +1793,14 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		Log.d(TAG, "Start OneTimeWorkRequest");
 
 
+
 		Intent updateIntent = new Intent(getApplicationContext(), DigiClockProvider.class);
 		updateIntent.setAction(DigiClockProvider.SETTINGS_CHANGED);
 		updateIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
+		updateIntent.setPackage(getPackageName());
 		setResult(RESULT_OK, updateIntent);
+
+
 		//getApplicationContext().sendBroadcast(updateIntent);
 
 
