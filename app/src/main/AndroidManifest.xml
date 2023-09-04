@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="13"
+    android:versionName="5.3">
+
+    <uses-sdk android:minSdkVersion="23"
+        android:targetSdkVersion="33"/>
+
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+
+
+    <queries>
+        <package android:name="com.google.android.deskclock" />
+        <package android:name="com.sec.android.app.clockpackage" />
+        <package android:name="com.motorola.blur.alarmclock" />
+        <package android:name="com.htc.android.worldclock" />
+        <package android:name="com.sonyericsson.alarm" />
+        <package android:name="zte.com.cn.alarmclock" />
+        <package android:name="com.lge.alarm.alarmclocknew" />
+        <package android:name="com.lge.clock" />
+        <package android:name="com.sonyericsson.organizer" />
+        <package android:name="com.oneplus.deskclock" />
+
+        <package android:name="com.simplemobiletools.clock" />
+        <package android:name="com.alarmclock.xtreme.free" />
+        <package android:name="hdesign.theclock" />
+        <package android:name="com.mad.zenflipclock" />
+        <package android:name="com.cama.app.huge80sclock" />
+        <package android:name="com.apalon.myclockfree" />
+        <package android:name="com.panagola.app.digitalclock" />
+        <package android:name="com.maxwen.deskclock" />
+
+
+        <package android:name="com.google.android.calendar" />
+    </queries>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MaterialYouColors"
+        android:hardwareAccelerated="true">
+        <activity
+            android:name=".DigiClockPrefs"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialYouColors"
+            android:hardwareAccelerated="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".DigiClockProvider"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="CLOCK_TICK" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="JOB_CLOCK_TICK" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="SETTINGS_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.os.action.DEVICE_IDLE_MODE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_DREAMING_STOPPED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="clockOnClickTag" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info"/>
+        </receiver>
+
+
+
+        <service
+            android:name=".RepeatingJob"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="true"/>
+
+        <service android:name=".WidgetBackgroundService"/>
+
+        <service android:name=".UpdateWidgetService"/>
+
+        <service
+            android:name=".ClockJobScheduler"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <activity
+            android:name=".AppSelector"
+            android:theme="@style/AppThemeDialog" />
+
+        <receiver android:enabled="true" android:name=".DigiClockBroadcastReceiver"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CONFIGURATION_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/p_ads_app_id"/>
+
+
+
+    </application>
+
+</manifest>

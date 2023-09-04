@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\Brian\Documents\StudioProjects\DigiClockWidget v5.0.0\app"
+    name=":app"
+    type="APP"
+    maven="DigiClockWidget v5.0.0:app:"
+    gradle="7.3.1"
+    buildFolder="build"
+    bootClassPath="D:\Android\bundle\sdk\platforms\android-33\android.jar;D:\Android\bundle\sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

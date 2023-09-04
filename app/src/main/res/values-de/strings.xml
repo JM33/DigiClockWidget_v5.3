@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SD Digiluhr</string>
+    <string name="p_Title">Digiluhr die Einstellungen</string>
+    <string name="p_clock_title">Uhreinstellungen</string>
+    <string name="p_clock_color">Textfarbe der Uhr</string>
+    <string name="p_clock_size">Textgröße der Uhr</string>
+    <string name="p_date_title">Datumseinstellungen</string>
+    <string name="p_date_match_clock_color">Farbe der Uhr</string>
+    <string name="p_date_color">Datum Textfarbe</string>
+    <string name="p_date_size">Datumstextgröße</string>
+    <string name="p_date_format">Datumsformat</string>
+    <string name="p_military">24 Stunden Zeit</string>
+    <string name="p_show_date">Datum anzeigen</string>
+    <string name="p_show_ampm">AM / PM</string>
+    <string name="p_choose_bg">Hintergrund auswählen</string>
+    <string name="p_bg_fill_title">Hintergrund füllen</string>
+    <string name="bgs_ok">OK</string>
+    <string name="bgs_title">Hintergrund auswählen</string>
+    <string name="p_save">Sparen</string>
+    <string name="p_cancel">Stornieren</string>
+    <string name="fontcustom">Brauch</string>
+    <string name="fontdefault">Standard</string>
+    <string name="bytes">256 Bytes</string>
+    <string name="carbon">Kohlenstoff</string>
+    <string name="dist_galaxy">Entfernte Galaxie</string>
+    <string name="good_times">Gute Zeiten</string>
+    <string name="jester">Narr</string>
+    <string name="custom_color">Freiwählbare Farbe</string>
+    <string name="digital">Digital</string>
+    <string name="p_date_format_close">Schließen</string>
+    <string name="choose_app_title">Wählen Sie eine Anwendung aus</string>
+    <string name="clock_click_app">Uhr Klicken Sie auf App</string>
+
+    <string-array name="date_formats">
+        <item>Tue January 23, 2018</item>
+        <item>Tue Jan 23, 2018</item>
+        <item>Tue 1-23-2018</item>
+        <item>Tue 1/23/2018</item>
+        <item>Tuesday January 23, 2018</item>
+        <item>Tuesday Jan 23, 2018</item>
+        <item>Tuesday 1-23-2018</item>
+        <item>Tuesday 1/23/2018</item>
+        <item>January 23, 2018</item>
+        <item>Jan 23, 2018</item>
+        <item>1-23-2018</item>
+        <item>1/23/2018</item>
+        <item>1-23-18</item>
+        <item>1/23/18</item>
+        <item>January 23</item>
+        <item>1-23</item>
+        <item>1/23</item>
+        <item>Tue January 23</item>
+        <item>Tue Jan 23</item>
+        <item>Tue 1-23</item>
+        <item>Tue 1/23</item>
+        <item>Tuesday Jan 23</item>
+        <item>Tuesday 1/23</item>
+        <item>Tue 23-1-2018</item>
+        <item>Tue 23/1/2018</item>
+        <item>Tuesday 23-1-2018</item>
+        <item>Tuesday 23/1/2018</item>
+        <item>23-1-2018</item>
+        <item>23/1/2018</item>
+        <item>23-1-18</item>
+        <item>23/1/18</item>
+        <item>23-1</item>
+        <item>23/1</item>
+        <item>Tue 23-1</item>
+        <item>Tue 23/1</item>
+        <item>Tuesday 23-13</item>
+        <item>Tuesday 23/13</item>
+        <item>Tue 1-23-18</item>
+        <item>Tue 1/23/18</item>
+        <item>Tuesday 1-23-18</item>
+        <item>Tuesday 1/23/18</item>
+        <item>Tue 23-1-18</item>
+        <item>Tue 23/1/18</item>
+        <item>Tuesday 23-1-18</item>
+        <item>Tuesday 23/1/18</item>
+
+    </string-array>
+    <string name="date">Datum</string>
+    <string name="clock">Uhr</string>
+    <string name="background">Hintergrund</string>
+    <string name="font">Schriftart</string>
+    <string name="oversize">Textgröße ist zu groß. Reduzieren Sie die Textgröße der Uhr oder des Datums.</string>
+    <string name="p_classic_mode">" Klassisch"</string>
+    <string name="p_classic_mode_subtext">" Der klassische Modus ermöglicht einen größeren Text für Uhrzeit und Datum. Verwendet nur Systemschriftarten und weniger Hintergrundoptionen."</string>
+    <string name="p_advanced_mode">Fortgeschritten</string>
+    <string name="p_advanced_mode_subtext">Der erweiterte Modus ermöglicht verschiedene Schriftarten und Hintergrundoptionen. Die Textgröße für Uhrzeit und Datum ist begrenzt.</string>
+    <string name="p_mode">Modus</string>
+    <string name="p_about">Über</string>
+    <string name="p_about_info">Erstellt von Brian Kimmel SilentDesigns Copyright 2013 Alle Rechte vorbehalten \n\n\nPrivatsphäre\n\nDiese Anwendung sammelt, speichert oder verkauft keine personenbezogenen Daten. Die Möglichkeit, eine Anwendung über das Widget zu öffnen, erfordert eine Abfrage aller installierten Anwendungen. Nur der Name der ausgewählten Anwendung wird gespeichert.</string>
+    <string name="p_select_mode">Auswahlmodus</string>
+    <string name="p_help">Hilfe</string>
+    <string name="p_help_button_1">(1) Einstellungsschaltfläche. Drücken Sie, um die Einstellungen für dieses Widget zu starten</string>
+    <string name="p_help_button_2">(2) Uhr Klicken Sie auf die App-Schaltfläche. Drücken Sie, um die App zu starten, die der Uhrtaste zugewiesen ist</string>
+    <string name="p_help_button_3">(3) Schaltfläche Aktualisieren. Drücken Sie, um das Widget zu aktualisieren. Nützlich nach dem Umschalten zwischen Hoch- und Querformat</string>
+    <string name="widget_description">Benutzerdefiniertes Digitaluhr-Widget mit anpassbarer Größe</string>
+    <string name="home">Start</string>
+    <string name="p_clock_color_summary">Wählen Sie die Farbe des Uhrentextes</string>
+    <string name="p_date_match_clock_color_summary">Datum und Uhr haben die gleiche Farbe</string>
+    <string name="p_loading_fonts">Schriftarten laden</string>
+    <string name="p_date_color_summary">Wählen Sie die Farbe des Datumstextes</string>
+    <string name="p_date_format_summary">Wählen Sie das Format des Datumstextes</string>
+    <string name="p_military_summary">24-Stunden-Uhr anzeigen. Deaktivieren Sie die Option, um die 12-Stunden-Uhr anzuzeigen</string>
+    <string name="p_show_date_summary">Datum anzeigen. Zum Ausblenden deaktivieren.</string>
+    <string name="p_show_ampm_summary">Zeigen Sie AM oder PM mit Uhr an. Zum Ausblenden deaktivieren.</string>
+    <string name="p_stack_clock">Stapeluhr</string>
+    <string name="p_stack_clock_summary">Stunden über Minuten anzeigen</string>
+    <string name="clock_click_app_summary">Wählen Sie die Anwendung aus, die gestartet werden soll, wenn auf die Uhr geklickt wird</string>
+    <string name="p_bg_service_running_title">Service d\'arrièHintergrunddienstre-plan</string>
+    <string name="p_bg_service_running_summary">Der Hintergrunddienst wird ausgeführt</string>
+    <string name="p_bg_service_stopped_summary">Der Hintergrunddienst wird gestoppt. Der Dienst muss ausgeführt werden, um die Uhr auf dem neuesten Stand zu halten.</string>
+    <string name="notification_content_text">Läuft im Hintergrund</string>
+    <string name="p_preview_title">Vorschau-Widget</string>
+    <string name="p_toast_bg_service_stopped">Der Dienst muss ausgeführt werden, um die Uhr zu aktualisieren. Bitte starten Sie den Dienst neu</string>
+    <string name="p_use_material_you">Verwenden Sie die Farben des Startbildschirms</string>
+    <string name="p_use_material_you_summary">Widget-Farben stimmen mit den Farben des Startbildschirms überein (Material You)</string>
+    <string name="p_use_home_colors_disabled">Farbeinstellung durch Farben des Startbildschirms. Deaktivieren Sie die Farben des Startbildschirms, um die Farbe zu ändern.</string>
+    <string name="p_corner_radius">Eckenradius</string>
+    <string name="system_font">System</string>
+    <string name="p_donate">Spenden</string>
+    <string name="p_donate_summary">Wenn Ihnen diese Anwendung gefällt, denken Sie bitte über eine Spende nach</string>
+    <string name="p_donate_one">Spenden $1(USD)</string>
+    <string name="p_donate_two">Spenden $2(USD)</string>
+    <string name="p_donate_five">Spenden $5(USD)</string>
+    <string name="p_dark_theme">Dunkles Thema</string>
+    <string name="p_dark_theme_always_off">Lichtthema</string>
+    <string name="p_dark_theme_always_off_summary">Das Lichtthema wird immer angezeigt</string>
+    <string name="p_dark_theme_always_on">Dunkles Thema</string>
+    <string name="p_dark_theme_always_on_summary">Das dunkle Design wird immer angezeigt</string>
+    <string name="p_dark_theme_auto_on">Geräteeinstellung</string>
+    <string name="p_dark_theme_auto_on_summary">Das Design ändert sich zu dunkel oder hell, wenn sich die Geräteeinstellung ändert</string>
+    <string name="p_dark_theme_disabled">Aktivieren Sie die Farben des Startbildschirms, um die Einstellung für das dunkle Design zu ändern</string>
+    <string name="p_dark_theme_summary">Wählen Sie, wann das dunkle Design angezeigt wird</string>
+    <string name="p_select_app_help_title">" Anwendung auswählen"</string>
+    <string name="p_select_app_help">Wählen Sie eine zu startende Anwendung aus. Die ausgewählte Anwendung wird gestartet, wenn auf die Mitte des Widgets geklickt wird.\n\nWenn keine Anwendung ausgewählt ist, werden durch Klicken auf die Mitte des Widgets die Einstellungen für das Widget geöffnet.\n\nAufgrund von Android-Sicherheitsänderungen sind nur Apps verfügbar, die in der Liste erscheinen.</string>
+</resources>

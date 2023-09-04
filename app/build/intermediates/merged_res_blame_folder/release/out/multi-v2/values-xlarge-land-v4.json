@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.sd.sddigiclock.app-mergeReleaseResources-48:/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\great\\Documents\\StudioProjects\\DigiClockWidget v5.0.0\\app\\src\\main\\res\\values-xlarge-land\\dimen.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "1,1",
+                        "startOffsets": "104,54",
+                        "endColumns": "49,48",
+                        "endOffsets": "152,101"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,108",
+                        "endColumns": "52,51",
+                        "endOffsets": "103,155"
+                    }
+                }
+            ]
+        }
+    ]
+}

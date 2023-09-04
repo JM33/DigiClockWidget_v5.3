@@ -1,0 +1,63 @@
+<resources>
+
+    <style name="MyWidgetTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#F4F4F4</item>
+        <item name="textColorAlertDialogListItem">#F4F4F4</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeDialog" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeTwo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlActivated">#ffffff</item>
+        <item name="colorControlNormal">#111111</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MaterialYouColors" parent="Theme.MaterialComponents.DayNight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorAccent">@color/primaryColor</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryVariantColor</item>
+        <item name="colorOnPrimary">@color/secondaryVariantColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/secondaryVariantColor</item>
+
+
+        <item name="actionMenuTextColor">@color/black</item>
+        <item name ="colorOnBackground">@color/black</item>
+
+        <item name="colorControlActivated">@color/primaryColor</item>
+        <item name="colorControlNormal">@color/primaryVariantColor</item>
+        <item name="colorSwitchThumbNormal">@color/primaryColor</item>
+
+        <item name="colorNavigationItem">@color/menu_item_color_state</item>
+        <item name="colorNavigationItemSelected">@color/primaryColor</item>
+        <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state</item>
+
+    </style>
+
+    <style name="Widget.Custom.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="itemIconTint">?attr/colorNavigationItem</item>
+        <item name="itemTextColor">?android:textColorPrimary</item>
+        <item name="itemBackground">?attr/drawableNavigationItemBackground</item>
+    </style>
+
+</resources>

@@ -1,0 +1,574 @@
+[
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\font_trade_winds.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\font\\trade_winds.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xxhdpi_clock.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xxhdpi\\clock.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\font_audiowide.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\font\\audiowide.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_ambilwarna_arrow_right.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\ambilwarna_arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\font_slackey.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\font\\slackey.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-mdpi_backgrounds.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-mdpi\\backgrounds.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xhdpi_ambilwarna_arrow_right.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xhdpi\\ambilwarna_arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\font_fugaz_one.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\font\\fugaz_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_blank.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\blank.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_fragment_about.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\fragment_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout-v31_widget_layout.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout-v31\\widget_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_grey.9.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\grey.9.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_date_format_layout.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\date_format_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xxhdpi_fonts.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xxhdpi\\fonts.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-mdpi_about.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-mdpi\\about.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-mdpi_progress.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-mdpi\\progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_date.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\date.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_check.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_ambilwarna_arrow_down.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\ambilwarna_arrow_down.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_ambilwarna_target.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\ambilwarna_target.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_widget_preview.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\widget_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\color_mtrl_btn_text_color_selector.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\color\\mtrl_btn_text_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_clock.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\clock.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_clock_prefs.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\clock_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xhdpi_home.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xhdpi\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_fragment_clock_settings.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\fragment_clock_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_stock.9.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\stock.9.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\font_walter_turncoat.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\font\\walter_turncoat.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_ambilwarna_dialog.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\ambilwarna_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_icsblue.9.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\icsblue.9.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_checker.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\checker.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout-v31_widget_layout_classic.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout-v31\\widget_layout_classic.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_cancel.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_checkbox.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\checkbox.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-anydpi_fonts.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-anydpi\\fonts.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\color_menu_item_color_state.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\color\\menu_item_color_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_custombg.9.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\custombg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_help_package_layout.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\help_package_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-mdpi_donate.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-mdpi\\donate.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_clearbg.9.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\clearbg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xxhdpi_home.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xxhdpi\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-mdpi_home.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-mdpi\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_digiclock_prefs_layout.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\digiclock_prefs_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_ambilwarna_cursor.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\ambilwarna_cursor.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xhdpi_about.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xhdpi\\about.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_fonts.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\fonts.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_ambilwarna_arrow_down.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\ambilwarna_arrow_down.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_ambilwarna_cursor.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\ambilwarna_cursor.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xhdpi_ambilwarna_target.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xhdpi\\ambilwarna_target.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_layout_app_listview.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\layout_app_listview.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_help_dialog.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\help_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_layout_digiclock_prefs.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\layout_digiclock_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_help.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\help.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-anydpi_clock.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-anydpi\\clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_backgrounds.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\backgrounds.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-anydpi_home.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-anydpi\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-ldpi_ambilwarna_target.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-ldpi\\ambilwarna_target.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xhdpi_backgrounds.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xhdpi\\backgrounds.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_widget_preview2.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\widget_preview2.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\xml_widget_info.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\xml\\widget_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xxhdpi_about.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xxhdpi\\about.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_help_select_app_layout.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\help_select_app_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_logo.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_splash2.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\splash2.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-anydpi_help.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-anydpi\\help.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\font_architects_daughter.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\font\\architects_daughter.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_about_layout.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\about_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_widget_layout_classic.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\widget_layout_classic.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xxhdpi_help.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xxhdpi\\help.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\font_graduate.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\font\\graduate.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_home.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xhdpi_date.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xhdpi\\date.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-mdpi_help.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-mdpi\\help.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-anydpi_about.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-anydpi\\about.xml"
+    },
+    {
+        "merged": "com.sd.sddigiclock.app-merged_res-50:/layout_fragment_settings_home.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-52:/layout/fragment_settings_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_preview_cell_rectangle.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\preview_cell_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-ldpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_fragment_date_settings.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\fragment_date_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-anydpi_donate.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-anydpi\\donate.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xxhdpi_date.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xxhdpi\\date.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_checkedbox.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\checkedbox.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\xml_text_clock.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\xml\\text_clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-mdpi_clock.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-mdpi\\clock.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_date_prefs.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\date_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\font_happy_monkey.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\font\\happy_monkey.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_buttons_help.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\buttons_help.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_ambilwarna_target.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\ambilwarna_target.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-anydpi_backgrounds.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-anydpi\\backgrounds.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-anydpi_date.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-anydpi\\date.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_blackbg.9.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\blackbg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-mdpi_date.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-mdpi\\date.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-mdpi_fonts.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-mdpi\\fonts.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_activity_app_selector.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\activity_app_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xxhdpi_backgrounds.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xxhdpi\\backgrounds.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_time.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\time.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_main2.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xhdpi_ambilwarna_cursor.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xhdpi\\ambilwarna_cursor.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\font_calligraffitti.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\font\\calligraffitti.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-ldpi_ambilwarna_cursor.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-ldpi\\ambilwarna_cursor.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_color_sample.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\color_sample.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_about.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\about.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xhdpi_fonts.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xhdpi\\fonts.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xhdpi_clock.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xhdpi\\clock.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\menu_drawer_menu.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\menu\\drawer_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_menu_item_background.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\menu_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-ldpi_ambilwarna_arrow_right.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-ldpi\\ambilwarna_arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_widget_layout.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\widget_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\font_bubbler_one.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\font\\bubbler_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_bgselect.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\bgselect.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_ambilwarna_arrow_right.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\ambilwarna_arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_menu_background_color_state.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\menu_background_color_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\menu_bottom_navigation_menu.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\menu\\bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\font_creepster.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\font\\creepster.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_fragment_settings_home.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\fragment_settings_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xhdpi_help.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xhdpi\\help.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_dark_dialog.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\dark_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_selected_color.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\selected_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xxhdpi_donate.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xxhdpi\\donate.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\color_mtrl_btn_ripple_color.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\color\\mtrl_btn_ripple_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xhdpi_ambilwarna_arrow_down.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xhdpi\\ambilwarna_arrow_down.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_fragment_help.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\fragment_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_donate.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\donate.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_ambilwarna_hue.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\ambilwarna_hue.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_actionbar_view.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\actionbar_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_checkered.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\checkered.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable_sd_white.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable\\sd_white.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout-land_ambilwarna_dialog.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout-land\\ambilwarna_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_mode_select.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\mode_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_donate_layout.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\donate_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_fragment_font_settings.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\fragment_font_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-xhdpi_donate.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-xhdpi\\donate.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\font_ewert.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\font\\ewert.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-ldpi_ambilwarna_arrow_down.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-ldpi\\ambilwarna_arrow_down.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\drawable-hdpi_black.png.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\drawable-hdpi\\black.png"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_main.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\menu_actionbar_menu.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\menu\\actionbar_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-merged_res-50:\\layout_fragment_background_settings.xml.flat",
+        "source": "C:\\Users\\great\\.gradle\\daemon\\8.0\\com.sd.sddigiclock.app-main-52:\\layout\\fragment_background_settings.xml"
+    }
+]

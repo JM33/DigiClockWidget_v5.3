@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/ProgressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:indeterminate="true" />
+
+        <LinearLayout
+            android:id="@+id/AppSelectorLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/primaryColor"
+                    android:visibility="gone">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/textViewCustomPackageTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:text="Enter app package name"
+
+                            android:textColor="?android:textColorPrimary"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:layout_weight="2"/>
+
+                        <Button
+                            android:id="@+id/buttonClickAppCustomPackageHelp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:drawableRight="@drawable/help"
+                            android:backgroundTint="@android:color/darker_gray"/>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/primaryColor"
+                    android:visibility="gone">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="com.example.package.name">
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/textInputEditTextCustomPackage"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="10dp"
+                                    android:layout_weight="2"
+                                    android:textSize="20sp"
+                                    android:textColor="?android:textColorPrimary">
+
+                                </com.google.android.material.textfield.TextInputEditText>
+
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/primaryColor">
+                </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="@string/choose_app_title"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_weight="2"/>
+                <Button
+                    android:id="@+id/buttonSelectAppHelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/help"
+                    android:backgroundTint="@android:color/darker_gray"/>
+
+
+        </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/primaryColor">
+                </LinearLayout>
+                <ListView
+                    android:id="@+id/ListViewAppSelect"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                </ListView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="bottom|center_horizontal"
+                    android:background="@color/secondaryColor">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="bottom|center_horizontal">
+
+                                <Button
+                                    android:id="@+id/buttonClockClickAppCancel"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="@string/p_cancel"
+                                    android:backgroundTint="@color/secondaryColor"/>
+
+                        </LinearLayout>
+                </LinearLayout>
+
+
+        </RelativeLayout>
+
+</FrameLayout>

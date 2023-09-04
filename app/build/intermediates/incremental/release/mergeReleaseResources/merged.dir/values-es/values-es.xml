@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string-array name="date_formats">
+        <item>Tue January 23, 2018</item>
+        <item>Tue Jan 23, 2018</item>
+        <item>Tue 1-23-2018</item>
+        <item>Tue 1/23/2018</item>
+        <item>Tuesday January 23, 2018</item>
+        <item>Tuesday Jan 23, 2018</item>
+        <item>Tuesday 1-23-2018</item>
+        <item>Tuesday 1/23/2018</item>
+        <item>January 23, 2018</item>
+        <item>Jan 23, 2018</item>
+        <item>1-23-2018</item>
+        <item>1/23/2018</item>
+        <item>1-23-18</item>
+        <item>1/23/18</item>
+        <item>January 23</item>
+        <item>1-23</item>
+        <item>1/23</item>
+        <item>Tue January 23</item>
+        <item>Tue Jan 23</item>
+        <item>Tue 1-23</item>
+        <item>Tue 1/23</item>
+        <item>Tuesday Jan 23</item>
+        <item>Tuesday 1/23</item>
+        <item>Tue 23-1-2018</item>
+        <item>Tue 23/1/2018</item>
+        <item>Tuesday 23-1-2018</item>
+        <item>Tuesday 23/1/2018</item>
+        <item>23-1-2018</item>
+        <item>23/1/2018</item>
+        <item>23-1-18</item>
+        <item>23/1/18</item>
+        <item>23-1</item>
+        <item>23/1</item>
+        <item>Tue 23-1</item>
+        <item>Tue 23/1</item>
+        <item>Tuesday 23-13</item>
+        <item>Tuesday 23/13</item>
+        <item>Tue 1-23-18</item>
+        <item>Tue 1/23/18</item>
+        <item>Tuesday 1-23-18</item>
+        <item>Tuesday 1/23/18</item>
+        <item>Tue 23-1-18</item>
+        <item>Tue 23/1/18</item>
+        <item>Tuesday 23-1-18</item>
+        <item>Tuesday 23/1/18</item>
+
+    </string-array>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificación nueva</item>
+    <item quantity="other">%d notificaciones nuevas</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ir a inicio"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hecho"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Suprimir"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ocultar"</string>
+    <string name="app_name">SD RelojDigital</string>
+    <string name="background">Fondo</string>
+    <string name="bgs_ok">OK</string>
+    <string name="bgs_title">Escoge el fondo</string>
+    <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
+    <string name="bytes">256 bytes</string>
+    <string name="carbon">Carbón</string>
+    <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
+    <string name="choose_app_title">Seleccione una aplicación</string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string name="clock">Reloj</string>
+    <string name="clock_click_app">Haga clic en el reloj app</string>
+    <string name="clock_click_app_summary">Elija la aplicación para iniciar cuando se haga clic en el reloj</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Habilitar</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s no funcionará hasta que no habilites Servicios de Google Play.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Habilita Servicios de Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instalar</string>
+    <string name="common_google_play_services_install_text">%1$s no se ejecutará si los Servicios de Google Play no están instalados en tu dispositivo.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Descargar Servicios de Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilidad Servicios de Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Error de Servicios de Google Play</string>
+    <string name="common_google_play_services_unknown_issue">La aplicación %1$s tiene problemas con los Servicios de Google Play. Vuelve a intentarlo.</string>
+    <string name="common_google_play_services_unsupported_text">No es posible ejecutar la aplicación %1$s sin los Servicios de Google Play, que no son compatibles con tu dispositivo.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Actualizar</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s no funcionará hasta que no actualices Servicios de Google Play.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Actualiza Servicios de Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s no se ejecutará hasta que finalice la actualización en curso de Servicios de Google Play.</string>
+    <string name="common_google_play_services_wear_update_text">Se necesita una nueva versión de Servicios de Google Play. Se actualizará en breve.</string>
+    <string name="common_open_on_phone">Abrir en teléfono</string>
+    <string name="common_signin_button_text">Iniciar sesión</string>
+    <string name="common_signin_button_text_long">Iniciar sesión con Google</string>
+    <string msgid="6083905920877235314" name="copy">"Copiar"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Enlace copiado en el portapapeles"</string>
+    <string name="custom_color">Color personalizado</string>
+    <string name="date">" Fecha"</string>
+    <string name="digital">Digital</string>
+    <string name="dist_galaxy">Galaxia distante</string>
+    <string name="error_icon_content_description">Error</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Ajustes avanzados"</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiar enlace"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Abrir en el navegador"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Compartir enlace"</string>
+    <string name="font">Fuente</string>
+    <string name="fontcustom">Personalizado</string>
+    <string name="fontdefault">Defecto</string>
+    <string name="good_times">Buenos tiempos</string>
+    <string name="home">Inicio</string>
+    <string name="icon_content_description">Icono del cuadro de diálogo</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="jester">Bufón</string>
+    <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
+    <string name="material_hour_selection">Seleccionar hora</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A.M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para escribir la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P.M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de introducción de texto para escribir la hora.</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Retirar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_cancel">Cancelar</string>
+    <string name="mtrl_picker_confirm">Aceptar</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido.</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El periodo no es válido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir al año %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fuera del periodo válido: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–Fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un periodo</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio–Fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de introducción Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca para seleccionar un día</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca para seleccionar un año</string>
+    <string name="mtrl_timepicker_cancel">Cancelar</string>
+    <string name="mtrl_timepicker_confirm">Aceptar</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Abrir panel de navegación"</string>
+    <string msgid="6573031135582639649" name="not_set">"Sin establecer"</string>
+    <string name="notification_content_text">Corriendo en segundo plano</string>
+    <string name="offline_notification_text">Toca para abrir el anuncio</string>
+    <string name="offline_notification_title">Mira el anuncio guardado cuando no tenías conexión</string>
+    <string name="offline_opt_in_confirm">Aceptar</string>
+    <string name="offline_opt_in_confirmation">Recibirás una notificación que incluirá el enlace cuando recuperes la conexión</string>
+    <string name="offline_opt_in_decline">No, gracias</string>
+    <string name="offline_opt_in_message">Te enviaremos una notificación que incluirá un enlace al sitio web del anunciante.</string>
+    <string name="offline_opt_in_title">Se abrirá el anuncio cuando recuperes la conexión.</string>
+    <string name="oversize">El tamaño del texto es demasiado grande. Reducir el tamaño del texto del reloj o la fecha.</string>
+    <string name="p_Title">Ajustes del RelojDigital</string>
+    <string name="p_about">" Acerca de"</string>
+    <string name="p_about_info">Creado por Brian Kimmel SilentDesigns Copyright 2013 Todos los derechos reservados \n\n\nIntimidad\n\nEsta aplicación no recopila, almacena ni vende ningún dato personal. La capacidad de abrir una aplicación desde el widget requiere una consulta de todas las aplicaciones instaladas. Solo se almacenará el nombre de la aplicación seleccionada.</string>
+    <string name="p_advanced_mode">Avanzado</string>
+    <string name="p_advanced_mode_subtext">" El modo avanzado permite diferentes fuentes y opciones de fondo. El tamaño del texto del reloj y la fecha será limitado."</string>
+    <string name="p_bg_fill_title">Llenar fondo</string>
+    <string name="p_bg_service_running_summary">El servicio en segundo plano se está ejecutando</string>
+    <string name="p_bg_service_running_title">Servicio de fondo</string>
+    <string name="p_bg_service_stopped_summary">El servicio en segundo plano se detiene. El servicio debe estar funcionando para mantener el reloj actualizado.</string>
+    <string name="p_cancel">Cancelar</string>
+    <string name="p_choose_bg">Escoge el fondo</string>
+    <string name="p_classic_mode">Clásico</string>
+    <string name="p_classic_mode_subtext">" El modo clásico permite un reloj más grande y texto de fecha. Utiliza solo la fuente del sistema y menos opciones de fondo."</string>
+    <string name="p_clock_color">Color del texto del reloj</string>
+    <string name="p_clock_color_summary">Elige el color del texto del reloj.</string>
+    <string name="p_clock_size">Tamaño del texto del reloj</string>
+    <string name="p_clock_title">Ajustes del Reloj</string>
+    <string name="p_corner_radius">Radio de esquina</string>
+    <string name="p_dark_theme">Tema oscuro</string>
+    <string name="p_dark_theme_always_off">Tema de luz</string>
+    <string name="p_dark_theme_always_off_summary">El tema claro siempre se mostrará</string>
+    <string name="p_dark_theme_always_on">Tema oscuro</string>
+    <string name="p_dark_theme_always_on_summary">El tema oscuro siempre se mostrará</string>
+    <string name="p_dark_theme_auto_on">Configuración del dispositivo</string>
+    <string name="p_dark_theme_auto_on_summary">El tema cambiará a oscuro o claro cuando cambie la configuración del dispositivo</string>
+    <string name="p_dark_theme_disabled">Habilite los colores de la pantalla de inicio para cambiar la configuración del tema oscuro</string>
+    <string name="p_dark_theme_summary">Elija cuándo se mostrará el tema oscuro</string>
+    <string name="p_date_color">Fecha texto color</string>
+    <string name="p_date_color_summary">Elige el color del texto de la fecha</string>
+    <string name="p_date_format">Formato de fecha</string>
+    <string name="p_date_format_close">Cerrar</string>
+    <string name="p_date_format_summary">Elija el formato del texto de la fecha</string>
+    <string name="p_date_match_clock_color">Color del reloj del partido</string>
+    <string name="p_date_match_clock_color_summary">La fecha y el reloj serán del mismo color.</string>
+    <string name="p_date_size">Tamaño del texto de la fecha</string>
+    <string name="p_date_title">Ajustes de fecha</string>
+    <string name="p_donate">Donar</string>
+    <string name="p_donate_five">Donar $5(USD)</string>
+    <string name="p_donate_one">Donar $1(USD)</string>
+    <string name="p_donate_summary">Si te gusta esta aplicación por favor considere una donación</string>
+    <string name="p_donate_two">Donar $2(USD)</string>
+    <string name="p_help">Ayuda</string>
+    <string name="p_help_button_1">(1) Botón de configuración. Presiona para iniciar la configuración de este widget</string>
+    <string name="p_help_button_2">(2) Reloj Haga clic en el botón de la aplicación. Presiona para iniciar la aplicación asignada al botón del reloj</string>
+    <string name="p_help_button_3">(3) Botón de actualización. Pulse para actualizar el widget. Útil después de cambiar entre orientación vertical y horizontal.</string>
+    <string name="p_loading_fonts">Cargando fuentes</string>
+    <string name="p_military">Tiempo de 24 horas</string>
+    <string name="p_military_summary">Mostrar reloj de 24 horas. Desmarque para mostrar el reloj de 12 horas</string>
+    <string name="p_mode">" Modo"</string>
+    <string name="p_preview_title">Widget de vista previa</string>
+    <string name="p_save">Salvar</string>
+    <string name="p_select_app_help">Elija una aplicación para iniciar. La aplicación seleccionada se iniciará cuando se haga clic en el centro del widget. \n\nSi no se selecciona ninguna aplicación, al hacer clic en el centro del widget se abrirá la configuración del widget. \n\nDebido a los cambios de seguridad de Android, solo están disponibles las aplicaciones que aparecen en la lista.</string>
+    <string name="p_select_app_help_title">Seleccionar aplicación</string>
+    <string name="p_select_mode">Seleccionar modo</string>
+    <string name="p_show_ampm">AM / PM</string>
+    <string name="p_show_ampm_summary">Muestra AM o PM con reloj. Desmarque para ocultar.</string>
+    <string name="p_show_date">Mostrar fecha</string>
+    <string name="p_show_date_summary">mostrar la fecha Desmarque para ocultar.</string>
+    <string name="p_stack_clock">Reloj de Pila</string>
+    <string name="p_stack_clock_summary">Mostrar horas sobre minutos</string>
+    <string name="p_toast_bg_service_stopped">El servicio debe estar ejecutándose para actualizar el reloj. Por favor reinicie el servicio</string>
+    <string name="p_use_home_colors_disabled">Color establecido por los colores de la pantalla de inicio. Deshabilite los colores de la pantalla de inicio para cambiar de color.</string>
+    <string name="p_use_material_you">Usar colores de la pantalla de inicio</string>
+    <string name="p_use_material_you_summary">Los colores del widget coincidirán con los colores de la pantalla de inicio (Material You)</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" se ha copiado en el portapapeles."</string>
+    <string name="s1">Guardar imagen</string>
+    <string name="s2">¿Permitir que el anuncio almacene imágenes en la galería de imágenes?</string>
+    <string name="s3">Aceptar</string>
+    <string name="s4">Rechazar</string>
+    <string name="s5">Crear evento de calendario</string>
+    <string name="s6">¿Permitir que el anuncio cree un evento de calendario?</string>
+    <string name="s7">Anuncio de prueba</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Buscar"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="system_font">Sistema</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"DESACTIVADA"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ACTIVADO"</string>
+    <string name="widget_description">Widget de reloj digital de tamaño personalizado</string>
+</resources>

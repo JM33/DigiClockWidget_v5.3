@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SD DigiSaat</string>
+    <string name="p_Title">DigiSaat Ayarları</string>
+    <string name="p_clock_title">Saat Ayarları</string>
+    <string name="p_clock_color">Saat Metin Rengi</string>
+    <string name="p_clock_size">Saat Metin Boyutu</string>
+    <string name="p_date_title">Tarih Ayarları</string>
+    <string name="p_date_match_clock_color">Maç Saati Rengi</string>
+    <string name="p_date_color">Tarih Metin Rengi</string>
+    <string name="p_date_size">Tarih Metin Boyutu</string>
+    <string name="p_date_format">Tarih formatı</string>
+    <string name="p_military">24 saat zaman</string>
+    <string name="p_show_date">Tarihi Göster</string>
+    <string name="p_show_ampm">AM / PM</string>
+    <string name="p_choose_bg">Arkaplan seç</string>
+    <string name="p_bg_fill_title">Arka Plan Doldur</string>
+    <string name="bgs_ok">Tamam</string>
+    <string name="bgs_title">Arkaplan seç</string>
+    <string name="p_save">Kayıt etmek</string>
+    <string name="p_cancel">İptal etmek</string>
+    <string name="fontcustom">Görenek</string>
+    <string name="fontdefault">Varsayılan</string>
+    <string name="bytes">256 Bayt</string>
+    <string name="carbon">Karbon</string>
+    <string name="dist_galaxy">Uzak galaksi</string>
+    <string name="good_times">İyi zamanlar</string>
+    <string name="jester">Soytarı</string>
+    <string name="custom_color">Özel renk</string>
+    <string name="digital">Dijital</string>
+    <string name="p_date_format_close">Kapat</string>
+    <string name="choose_app_title">Bir Uygulama Seçin</string>
+    <string name="clock_click_app">Saat Tıklama Uygulaması</string>
+
+    <string-array name="date_formats">
+        <item>Tue January 23, 2018</item>
+        <item>Tue Jan 23, 2018</item>
+        <item>Tue 1-23-2018</item>
+        <item>Tue 1/23/2018</item>
+        <item>Tuesday January 23, 2018</item>
+        <item>Tuesday Jan 23, 2018</item>
+        <item>Tuesday 1-23-2018</item>
+        <item>Tuesday 1/23/2018</item>
+        <item>January 23, 2018</item>
+        <item>Jan 23, 2018</item>
+        <item>1-23-2018</item>
+        <item>1/23/2018</item>
+        <item>1-23-18</item>
+        <item>1/23/18</item>
+        <item>January 23</item>
+        <item>1-23</item>
+        <item>1/23</item>
+        <item>Tue January 23</item>
+        <item>Tue Jan 23</item>
+        <item>Tue 1-23</item>
+        <item>Tue 1/23</item>
+        <item>Tuesday Jan 23</item>
+        <item>Tuesday 1/23</item>
+        <item>Tue 23-1-2018</item>
+        <item>Tue 23/1/2018</item>
+        <item>Tuesday 23-1-2018</item>
+        <item>Tuesday 23/1/2018</item>
+        <item>23-1-2018</item>
+        <item>23/1/2018</item>
+        <item>23-1-18</item>
+        <item>23/1/18</item>
+        <item>23-1</item>
+        <item>23/1</item>
+        <item>Tue 23-1</item>
+        <item>Tue 23/1</item>
+        <item>Tuesday 23-13</item>
+        <item>Tuesday 23/13</item>
+        <item>Tue 1-23-18</item>
+        <item>Tue 1/23/18</item>
+        <item>Tuesday 1-23-18</item>
+        <item>Tuesday 1/23/18</item>
+        <item>Tue 23-1-18</item>
+        <item>Tue 23/1/18</item>
+        <item>Tuesday 23-1-18</item>
+        <item>Tuesday 23/1/18</item>
+
+    </string-array>
+    <string name="date">Tarihi</string>
+    <string name="clock">Saat</string>
+    <string name="background">Arka Plan</string>
+    <string name="font">Yazı tipi</string>
+    <string name="oversize">Metin boyutu çok büyük. Saatin veya tarihin metin boyutunu küçültün.</string>
+    <string name="p_classic_mode">" Klasik"</string>
+    <string name="p_classic_mode_subtext">" Klasik mod daha büyük saat ve tarih metinleri için izin verir. Yalnızca sistem fontunu ve daha az arka plan seçeneklerini kullanır."</string>
+    <string name="p_advanced_mode">Ileri</string>
+    <string name="p_advanced_mode_subtext">Gelişmiş mod, farklı yazı tiplerine ve arka plan seçeneklerine izin verir. Saat ve tarih metin boyutu sınırlı olacaktır.</string>
+    <string name="p_mode">Kip</string>
+    <string name="p_about">Hakkinda</string>
+    <string name="p_about_info">Brian Kimmel tarafından düzenlendi SilentDesigns Copyright 2013 Tüm hakları saklıdır \n\n\nMahremiyet\n\nBu uygulama herhangi bir kişisel veri toplamaz, saklamaz veya satmaz. Widget\'tan bir uygulama açabilme yeteneği, yüklü tüm uygulamaların sorgulanmasını gerektirir. Yalnızca seçilen uygulamanın adı saklanacaktır.</string>
+    <string name="p_select_mode">Mod seç</string>
+    <string name="p_help">Yardım et</string>
+    <string name="p_help_button_1">(1) Ayarlar Düğmesi. Bu widget\'in ayarlarını başlatmak için basın.</string>
+    <string name="p_help_button_2">(2) Saat Uygulama Düğmesine tıklayın. Saat düğmesine atanmış uygulamayı başlatmak için basın</string>
+    <string name="p_help_button_3">(3) Yenile düğmesi. Widget\'ı yenilemek için basın. Dikey ve yatay yönlendirme arasında geçiş yaptıktan sonra kullanışlıdır</string>
+    <string name="widget_description">Özel boyutlandırılabilir dijital saat widget\'ı</string>
+    <string name="home">Ana</string>
+    <string name="p_clock_color_summary">Saat metninin rengini seçin</string>
+    <string name="p_date_match_clock_color_summary">Tarih ve saat aynı renk olacak</string>
+    <string name="p_loading_fonts">Yazı Tiplerini Yükleme</string>
+    <string name="p_date_color_summary">Tarih metninin rengini seçin</string>
+    <string name="p_date_format_summary">Tarih metninin biçimini seçin</string>
+    <string name="p_military_summary">24 saatlik saati göster. 12 saatlik saati göstermek için işareti kaldırın</string>
+    <string name="p_show_date_summary">tarihi göster Gizlemek için işareti kaldırın.</string>
+    <string name="p_show_ampm_summary">Saatle birlikte AM veya PM\'yi göster. Gizlemek için işareti kaldırın.</string>
+    <string name="p_stack_clock">Yığın Saat</string>
+    <string name="p_stack_clock_summary">Dakikaların üzerindeki saatleri göster</string>
+    <string name="clock_click_app_summary">Saat tıklandığında başlatılacak uygulamayı seçin</string>
+    <string name="p_bg_service_running_title">Arka plan hizmeti</string>
+    <string name="p_bg_service_running_summary">Arka plan hizmeti çalışıyor</string>
+    <string name="p_bg_service_stopped_summary">Arka plan hizmeti durduruldu. Saati güncel tutmak için hizmet çalışıyor olmalıdır.</string>
+    <string name="notification_content_text">Arka planda çalışıyor</string>
+    <string name="p_preview_title">Önizleme Widget\'ı</string>
+    <string name="p_toast_bg_service_stopped">Saati güncellemek için hizmet çalışıyor olmalıdır. Lütfen hizmeti yeniden başlatın</string>
+    <string name="p_use_material_you">Ana Ekran Renklerini Kullan</string>
+    <string name="p_use_material_you_summary">Widget renkleri ana ekran renkleriyle eşleşecek (Malzeme Siz)</string>
+    <string name="p_use_home_colors_disabled">Ana ekran renklerine göre ayarlanan renk. Rengi değiştirmek için ana ekran renklerini devre dışı bırakın.</string>
+    <string name="p_corner_radius">Köşe yarıçapı</string>
+    <string name="system_font">Sistem</string>
+    <string name="p_donate">Bağış yapmak</string>
+    <string name="p_donate_summary">Bu uygulamayı beğendiyseniz, lütfen bir bağış düşünün</string>
+    <string name="p_donate_one">Bağış yapmak $1(USD)</string>
+    <string name="p_donate_two">Bağış yapmak $2(USD)</string>
+    <string name="p_donate_five">Bağış yapmak $5(USD)</string>
+    <string name="p_dark_theme">Karanlık Tema</string>
+    <string name="p_dark_theme_always_off">Hafif Tema</string>
+    <string name="p_dark_theme_always_off_summary">Işık teması her zaman görüntülenecek</string>
+    <string name="p_dark_theme_always_on">Karanlık Tema</string>
+    <string name="p_dark_theme_always_on_summary">Karanlık tema her zaman görüntülenecek</string>
+    <string name="p_dark_theme_auto_on">Cihaz ayarları</string>
+    <string name="p_dark_theme_auto_on_summary">Cihaz ayarı değiştiğinde tema koyu veya açık olarak değişecek</string>
+    <string name="p_dark_theme_disabled">Koyu tema ayarını değiştirmek için Ana Ekran Renklerini etkinleştirin</string>
+    <string name="p_dark_theme_summary">Karanlık temanın ne zaman görüntüleneceğini seçin</string>
+    <string name="p_select_app_help">Başlatmak için bir uygulama seçin. Widget\'ın merkezi tıklandığında seçilen uygulama başlatılacaktır. \n\nHerhangi bir uygulama seçilmezse, widget\'ın merkezi tıklandığında widget\'ın ayarları açılır. \n\nAndroid güvenlik değişiklikleri nedeniyle yalnızca listede görünen uygulamalar kullanılabilir.</string>
+    <string name="p_select_app_help_title">Uygulama Seçin</string>
+</resources>

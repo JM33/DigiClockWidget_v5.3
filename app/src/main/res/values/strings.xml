@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SD Digiclock</string>
+    <string name="widget_description" tools:ignore="MissingTranslation">Custom resizabledigital clock widget</string>
+    <string name="p_Title">DigiClock Settings</string>
+
+    <string name="p_test_ads_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="p_ads_app_id" translatable="false">ca-app-pub-8464832253906514~9226333961</string>
+    <string name="p_ads_id" translatable="false">ca-app-pub-8464832253906514/9393854926</string>
+
+    <string name="home" >Home</string>
+    <string name="clock">Clock</string>
+    <string name="date">Date</string>
+    <string name="background">Background</string>
+    <string name="font">Font</string>
+
+    <string name="p_clock_title">Clock Settings</string>
+    <string name="p_clock_color">Clock Text Color</string>
+    <string name="p_clock_color_summary" tools:ignore="MissingTranslation">Choose the color of the clock text</string>
+    <string name="p_clock_size">Clock Text Size</string>
+    <string name="p_date_title">Date Settings</string>
+    <string name="p_date_match_clock_color">Match Clock Color</string>
+    <string name="p_date_match_clock_color_summary" tools:ignore="MissingTranslation">Date and clock will be the same color</string>
+    <string name="p_date_color">Date Text Color</string>
+    <string name="p_date_size">Date Text Size</string>
+    <string name="p_date_format">Date Format</string>
+    <string name="p_date_format_summary" tools:ignore="MissingTranslation">Choose the format of the date text</string>
+    <string name="p_military">24 Hour Time</string>
+    <string name="p_military_summary" tools:ignore="MissingTranslation">Show 24 hour clock. Uncheck to show 12 hour clock</string>
+    <string name="p_show_date">Show Date</string>
+    <string name="p_show_date_summary" tools:ignore="MissingTranslation">Show the date. Uncheck to hide.</string>
+    <string name="p_show_ampm">Show AM/PM</string>
+    <string name="p_show_ampm_summary" tools:ignore="MissingTranslation">Show AM or PM with clock. Uncheck to hide.</string>
+    <string name="p_stack_clock" tools:ignore="MissingTranslation">Stack Clock</string>
+    <string name="p_stack_clock_summary" tools:ignore="MissingTranslation">Show hours above minutes</string>
+    <string name="p_choose_bg">Choose Background</string>
+    <string name="p_bg_fill_title">Fill background</string>
+    <string name="p_bg_fill_sum_on" translatable="false">The background will fill widget\'s cells</string>
+    <string name="p_bg_fill_sum_off" translatable="false">The background will wrap the text</string>
+
+    <string name="bgs_ok">OK</string>
+    <string name="bgs_title">Choose Background</string>
+
+    <string name="p_save">Save</string>
+    <string name="p_cancel">Cancel</string>
+    <string name="hello" translatable="false">hello</string>
+
+    <string name="fontcustom">Custom</string>
+    <string name="fontdefault">Default</string>
+    <string name="chantilli_aqua" translatable="false">Chantilli</string>
+    <string name="roboto" translatable="false">Roboto</string>
+    <string name="robotofont" translatable="false">Roboto</string>
+    <string name="droidsans" translatable="false">Droid Sans</string>
+    <string name="droidserif" translatable="false">Droid Serif</string>
+
+    <string name="bytes">256 Bytes</string>
+    <string name="brushstroke" translatable="false">Brush Stroke</string>
+    <string name="carbon">Carbon</string>
+    <string name="dist_galaxy">Distant Galaxy</string>
+    <string name="good_times">Good Times</string>
+    <string name="jester">Jester</string>
+    <string name="olde_english" translatable="false">Olde English</string>
+    <string name="weezer" translatable="false">Weezer</string>
+    <string name="custom_color">Custom Color</string>
+    <string name="digital">Digital</string>
+
+    <string name="p_date_format_close">Close</string>
+
+    <string name="p_classic_mode">Classic</string>
+    <string name="p_classic_mode_subtext">Classic mode allows for larger clock and date text.  Uses system font only and fewer background choices.</string>
+
+    <string name="p_advanced_mode">Advanced</string>
+    <string name="p_advanced_mode_subtext">Advanced mode allows different fonts and background options.  The clock and date text size will be limited.</string>
+
+
+    <string name="title_activity_app_chooser" translatable="false">AppChooserActivity</string>
+    <string name="choose_app_title">Select An Application</string>
+    <string name="clock_click_app">Clock Click App</string>
+    <string name="clock_click_app_summary" tools:ignore="DuplicateDefinition,MissingTranslation">Choose application to launch when clock is clicked</string>
+    <string name="oversize">Text size is too large.  Reduce text size of clock or date.</string>
+    <string name="p_mode">Mode</string>
+    <string name="p_about">About</string>
+    <string name="p_about_info">Created by Brian Kimmel SilentDesigns Copyright 2013 All rights reserved. \n\n\nPrivacy\n\nThis application does not collect, store, or sell any personal data.  The ability to open an application from the widget requires a query of all installed applications.  Only the name of the selected application will be stored.</string>
+    <string name="p_select_mode">Select Mode</string>
+    <string name="p_help">Help</string>
+    <string name="p_help_button_1">(1) Settings Button.  Press to launch the settings for this widget</string>
+    <string name="p_help_button_2">(2) Clock Click App Button.  Press to launch the app assigned to the clock button</string>
+    <string name="p_help_button_3">(3) Refresh button.  Press to refresh the widget.  Useful after switching between portrait and landscape orientation</string>
+
+    <string name="p_bg_service_running_title" tools:ignore="MissingTranslation">Background service</string>
+    <string name="p_bg_service_running_summary" tools:ignore="MissingTranslation">Background service is running</string>
+    <string name="p_bg_service_stopped_summary" tools:ignore="MissingTranslation">Background service is stopped.  Service must be running to keep clock updated.</string>
+
+    <string name="notification_content_text" tools:ignore="MissingTranslation">Running in background</string>
+
+    <string name="p_preview_title" tools:ignore="MissingTranslation">Preview Widget</string>
+
+    <string name="p_toast_bg_service_stopped" tools:ignore="MissingTranslation">Service must be running to update clock.  Please restart the service</string>
+    <string name="p_use_material_you" tools:ignore="MissingTranslation">Use Home Screen Colors</string>
+    <string name="p_use_material_you_summary" tools:ignore="MissingTranslation">Widget colors will match home screen colors (Material You)</string>
+
+    <string name="p_use_home_colors_disabled" tools:ignore="MissingTranslation">Color set by home screen colors. Disable home screen colors to change color.</string>
+
+
+
+    <string name="p_corner_radius" tools:ignore="MissingTranslation">Corner Radius</string>
+
+    <string name="p_dark_theme" tools:ignore="MissingTranslation">Dark Theme</string>
+    <string name="p_dark_theme_summary" tools:ignore="MissingTranslation">Choose when dark theme will be displayed</string>
+    <string name="p_dark_theme_always_on" tools:ignore="MissingTranslation">Dark theme</string>
+    <string name="p_dark_theme_always_on_summary" tools:ignore="MissingTranslation">Dark theme will always be displayed</string>
+    <string name="p_dark_theme_always_off" tools:ignore="MissingTranslation">Light theme</string>
+    <string name="p_dark_theme_always_off_summary" tools:ignore="MissingTranslation">Light theme will always be displayed</string>
+    <string name="p_dark_theme_auto_on" tools:ignore="MissingTranslation">Device Setting</string>
+    <string name="p_dark_theme_auto_on_summary" tools:ignore="MissingTranslation">Theme will change to dark or light when device setting changes</string>
+    <string name="p_dark_theme_disabled" tools:ignore="MissingTranslation">Enable Home Screen Colors to change dark theme setting</string>
+
+
+
+    <string name="system_font" tools:ignore="MissingTranslation">System</string>
+
+    <string name="p_donate" tools:ignore="MissingTranslation">Donate</string>
+    <string name="p_donate_summary" tools:ignore="MissingTranslation">If you like this application please consider a donation</string>
+    <string name="p_donate_one" tools:ignore="MissingTranslation">Donate $1(USD)</string>
+    <string name="p_donate_two" tools:ignore="MissingTranslation">Donate $2(USD)</string>
+    <string name="p_donate_five" tools:ignore="MissingTranslation">Donate $5(USD)</string>
+
+    <string name="p_loading_fonts" tools:ignore="MissingTranslation">Loading fonts</string>
+
+    <string name="p_battery_ignore" tools:ignore="MissingTranslation">Ignore Battery Saver</string>
+    <string name="p_battery_ignore_summary_on" tools:ignore="MissingTranslation">When battery saver is on this widget will be continue to run</string>
+    <string name="p_battery_ignore_summary_off" tools:ignore="MissingTranslation">When battery saver is on this widget will not update</string>
+
+    <string-array name="date_formats">
+        <item>Tue January 23, 2018</item>
+        <item>Tue Jan 23, 2018</item>
+        <item>Tue 1–23–2018</item>
+        <item>Tue 1/23/2018</item>
+        <item>Tuesday January 23, 2018</item>
+        <item>Tuesday Jan 23, 2018</item>
+        <item>Tuesday 1–23–2018</item>
+        <item>Tuesday 1/23/2018</item>
+        <item>January 23, 2018</item>
+        <item>Jan 23, 2018</item>
+        <item>1–23–2018</item>
+        <item>1/23/2018</item>
+        <item>1–23–18</item>
+        <item>1/23/18</item>
+        <item>January 23</item>
+        <item>1–23</item>
+        <item>1/23</item>
+        <item>Tue January 23</item>
+        <item>Tue Jan 23</item>
+        <item>Tue 1–23</item>
+        <item>Tue 1/23</item>
+        <item>Tuesday Jan 23</item>
+        <item>Tuesday 1/23</item>
+        <item>Tue 23–1–2018</item>
+        <item>Tue 23/1/2018</item>
+        <item>Tuesday 23–1–2018</item>
+        <item>Tuesday 23/1/2018</item>
+        <item>23–1–2018</item>
+        <item>23/1/2018</item>
+        <item>23–1–18</item>
+        <item>23/1/18</item>
+        <item>23–1</item>
+        <item>23/1</item>
+        <item>Tue 23–1</item>
+        <item>Tue 23/1</item>
+        <item>Tuesday 23–13</item>
+        <item>Tuesday 23/13</item>
+        <item>Tue 1–23–18</item>
+        <item>Tue 1/23/18</item>
+        <item>Tuesday 1–23–18</item>
+        <item>Tuesday 1/23/18</item>
+        <item>Tue 23–1–18</item>
+        <item>Tue 23/1/18</item>
+        <item>Tuesday 23–1–18</item>
+        <item>Tuesday 23/1/18</item>
+
+    </string-array>
+    <string name="p_date_color_summary">Choose the color of the date text</string>
+    <string name="drawer_open" translatable="false">Open Drawer</string>
+    <string name="drawer_close" translatable="false">Close Drawer</string>
+    <string name="p_package_help_title" tools:ignore="MissingTranslation">Custom Package</string>
+    <string name="p_select_app_help_title" >Select Application</string>
+    <string name="p_select_app_help" >"Choose an application to launch.  The selected application will launch when the center of the widget is clicked. \n\nIf no application is selected, clicking the center of the widget will open the settings for the widget \n\nDue to Android security changes only apps that appear in the list are available. "</string>
+
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SD DigiHorloge</string>
+    <string name="p_Title">DigiHorloge Réglages</string>
+    <string name="p_clock_title">Paramètres d\'horloge</string>
+    <string name="p_clock_color">Couleur du texte de l\'horloge</string>
+    <string name="p_clock_size">Taille du texte de l\'horloge</string>
+    <string name="p_date_title">Paramètres de date</string>
+    <string name="p_date_match_clock_color">Match couleur d\'horloge</string>
+    <string name="p_date_color">Couleur du texte de la date</string>
+    <string name="p_date_size">Date Texte Taille</string>
+    <string name="p_date_format">Format de date</string>
+    <string name="p_military">" Heure 24 heures"</string>
+    <string name="p_show_date">Afficher la date</string>
+    <string name="p_show_ampm">AM / PM</string>
+    <string name="p_choose_bg">Choisissez le fond</string>
+    <string name="p_bg_fill_title">Remplir le fond</string>
+    <string name="bgs_ok">D\'accord</string>
+    <string name="bgs_title">Choisissez le fond</string>
+    <string name="p_save">Sauvegarder</string>
+    <string name="p_cancel">Annuler</string>
+    <string name="fontcustom">Douane</string>
+    <string name="fontdefault">Défaut</string>
+    <string name="bytes">256 octets</string>
+    <string name="carbon">Carbone</string>
+    <string name="dist_galaxy">Galaxie lointaine</string>
+    <string name="good_times">Bon temps</string>
+    <string name="jester">Fou du roi</string>
+    <string name="custom_color">Couleur personnalisée</string>
+    <string name="digital">Numérique</string>
+    <string name="p_date_format_close">Fermer</string>
+    <string name="choose_app_title">Sélectionnez une application</string>
+    <string name="clock_click_app">Horloge Cliquez App</string>
+
+    <string-array name="date_formats">
+        <item>Tue January 23, 2018</item>
+        <item>Tue Jan 23, 2018</item>
+        <item>Tue 1-23-2018</item>
+        <item>Tue 1/23/2018</item>
+        <item>Tuesday January 23, 2018</item>
+        <item>Tuesday Jan 23, 2018</item>
+        <item>Tuesday 1-23-2018</item>
+        <item>Tuesday 1/23/2018</item>
+        <item>January 23, 2018</item>
+        <item>Jan 23, 2018</item>
+        <item>1-23-2018</item>
+        <item>1/23/2018</item>
+        <item>1-23-18</item>
+        <item>1/23/18</item>
+        <item>January 23</item>
+        <item>1-23</item>
+        <item>1/23</item>
+        <item>Tue January 23</item>
+        <item>Tue Jan 23</item>
+        <item>Tue 1-23</item>
+        <item>Tue 1/23</item>
+        <item>Tuesday Jan 23</item>
+        <item>Tuesday 1/23</item>
+        <item>Tue 23-1-2018</item>
+        <item>Tue 23/1/2018</item>
+        <item>Tuesday 23-1-2018</item>
+        <item>Tuesday 23/1/2018</item>
+        <item>23-1-2018</item>
+        <item>23/1/2018</item>
+        <item>23-1-18</item>
+        <item>23/1/18</item>
+        <item>23-1</item>
+        <item>23/1</item>
+        <item>Tue 23-1</item>
+        <item>Tue 23/1</item>
+        <item>Tuesday 23-13</item>
+        <item>Tuesday 23/13</item>
+        <item>Tue 1-23-18</item>
+        <item>Tue 1/23/18</item>
+        <item>Tuesday 1-23-18</item>
+        <item>Tuesday 1/23/18</item>
+        <item>Tue 23-1-18</item>
+        <item>Tue 23/1/18</item>
+        <item>Tuesday 23-1-18</item>
+        <item>Tuesday 23/1/18</item>
+
+    </string-array>
+    <string name="date">Date</string>
+    <string name="clock">L\'horloge</string>
+    <string name="background">Fond</string>
+    <string name="font">Police de caractère</string>
+    <string name="oversize">La taille du texte est trop grande. Réduit la taille du texte de l\'horloge ou de la date.</string>
+    <string name="p_classic_mode">" Classique"</string>
+    <string name="p_classic_mode_subtext">Le mode classique permet une plus grande horloge et la date du texte. Utilise la police système uniquement et moins de choix d’arrière-plan.</string>
+    <string name="p_advanced_mode">Avancé</string>
+    <string name="p_advanced_mode_subtext">Le mode avancé autorise différentes polices et options d’arrière-plan. La taille du texte de l\'horloge et de la date sera limitée.</string>
+    <string name="p_mode">Mode</string>
+    <string name="p_about">Sur</string>
+    <string name="p_about_info">Créé par Brian Kimmel SilentDesigns Copyright 2013 tous droits réservés \n\n\nVie privée\n\nCette application ne collecte, ne stocke ni ne vend aucune donnée personnelle. La possibilité d\'ouvrir une application à partir du widget nécessite une requête de toutes les applications installées. Seul le nom de l\'application sélectionnée sera stocké.</string>
+    <string name="p_select_mode">Sélectionnez le mode</string>
+    <string name="p_help">Aidez-moi</string>
+    <string name="p_help_button_1">(1) Bouton Paramètres. Appuyez sur pour lancer les paramètres de ce widget.</string>
+    <string name="p_help_button_2">(2) Horloge Cliquez sur le bouton App. Appuyez sur pour lancer l\'application assignée au bouton de l\'horloge</string>
+    <string name="p_help_button_3">(3) bouton Actualiser. Appuyez sur pour actualiser le widget. Utile après avoir basculé entre l\'orientation portrait et orientation paysage</string>
+    <string name="widget_description">Widget d\'horloge numérique redimensionnable personnalisé</string>
+    <string name="home">Accueil</string>
+    <string name="p_clock_color_summary">Choisissez la couleur du texte de l\'horloge</string>
+    <string name="p_date_match_clock_color_summary">La date et l\'horloge seront de la même couleur</string>
+    <string name="p_loading_fonts">Chargement des polices</string>
+    <string name="p_date_color_summary">Choisissez la couleur du texte de la date</string>
+    <string name="p_date_format_summary">Choisissez le format du texte de la date</string>
+    <string name="p_military_summary">Afficher l\'horloge 24 heures. Décochez pour afficher l\'horloge de 12 heures</string>
+    <string name="p_show_date_summary">afficher la date Décochez pour masquer.</string>
+    <string name="p_show_ampm_summary">Afficher AM ou PM avec horloge. Décochez pour masquer.</string>
+    <string name="p_stack_clock">Horloge de Pile</string>
+    <string name="p_stack_clock_summary">Afficher les heures au-dessus des minutes</string>
+    <string name="clock_click_app_summary">Choisissez l\'application à lancer lorsque vous cliquez sur l\'horloge</string>
+    <string name="p_bg_service_running_title">Service d\'arrière-plan</string>
+    <string name="p_bg_service_running_summary">Le service d\'arrière-plan est en cours d\'exécution</string>
+    <string name="p_bg_service_stopped_summary">Der HinteLe service d\'arrière-plan est arrêté. Le service doit être en cours d\'exécution pour maintenir l\'horloge à jour.rgrunddienst wird gestoppt. Der Dienst muss ausgeführt werden, um die Uhr auf dem neuesten Stand zu halten.</string>
+    <string name="notification_content_text">Courir en arrière-plan</string>
+    <string name="p_preview_title">Aperçu du widget</string>
+    <string name="p_toast_bg_service_stopped">Le service doit être en cours d\'exécution pour mettre à jour l\'horloge. Veuillez redémarrer le service</string>
+    <string name="p_use_material_you">Utiliser les couleurs de l\'écran d\'accueil</string>
+    <string name="p_use_material_you_summary">Les couleurs du widget correspondront aux couleurs de l\'écran d\'accueil (Material You)</string>
+    <string name="p_use_home_colors_disabled">Couleur définie par les couleurs de l\'écran d\'accueil. Désactivez les couleurs de l\'écran d\'accueil pour changer de couleur.</string>
+    <string name="p_corner_radius">Rayon d\'angle</string>
+    <string name="system_font">Système</string>
+    <string name="p_donate">Faire un don</string>
+    <string name="p_donate_summary">Si vous aimez cette application, pensez à faire un don</string>
+    <string name="p_donate_one">Faire un don $1(USD)</string>
+    <string name="p_donate_two">Faire un don $2(USD)</string>
+    <string name="p_donate_five">Faire un don $5(USD)</string>
+    <string name="p_dark_theme">Thème Sombre</string>
+    <string name="p_dark_theme_always_off">Thème Lumière</string>
+    <string name="p_dark_theme_always_off_summary">Le thème de la lumière sera toujours affiché</string>
+    <string name="p_dark_theme_always_on">Thème Sombre</string>
+    <string name="p_dark_theme_always_on_summary">Le thème sombre sera toujours affiché</string>
+    <string name="p_dark_theme_auto_on">Réglage de l\'appareil</string>
+    <string name="p_dark_theme_auto_on_summary">Le thème deviendra sombre ou clair lorsque les paramètres de l\'appareil changeront</string>
+    <string name="p_dark_theme_disabled">Activer les couleurs de l\'écran d\'accueil pour modifier le paramètre de thème sombre</string>
+    <string name="p_dark_theme_summary">Choisissez quand le thème sombre sera affiché</string>
+    <string name="p_select_app_help_title">Sélectionnez l\'application</string>
+    <string name="p_select_app_help">Choisissez une application à lancer. L\'application sélectionnée se lancera lorsque vous cliquerez sur le centre du widget. \n\nSi aucune application n\'est sélectionnée, cliquer au centre du widget ouvrira les paramètres du widget. \n\nEn raison des changements de sécurité d\'Android, seules les applications qui apparaissent dans la liste sont disponibles.</string>
+</resources>

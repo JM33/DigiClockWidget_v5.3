@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    android:padding="2dp"
+    android:backgroundTint="@color/secondaryColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textViewAboutHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/p_package_help_title"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="30dp"
+            android:paddingStart="10dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="?android:attr/colorBackground">
+                <TextView
+                    android:id="@+id/textViewCustomPackagNameInfo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to get a custom package name\n\nOption 1: Get package name from Google Play Store\n\n-Open the google play app\n-Search for the app and select the app\n-Press the menu button(3 dots)\n-Select Share\n-Select and Copy the package name.  The package name is found at the end of the link text after the =(e.g. com.android.settings)\n-Reopen the widget settings and paste the package name"
+
+                    android:textColor="?android:textColorPrimary"/>
+
+                <TextView
+                    android:id="@+id/textViewCustomPackagNameInfo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\n\nOption 2: Use another app to find package name\n\n-Open the google play app\n-Search for the app: Package Name Viewer 2.0, or use the link below \n\nhttps://play.google.com/store/apps/details?id=com.csdroid.pkg&amp;hl=en_US&amp;gl=US\n\n-Install and open the app\n-Find the package name of the app installed on your phone\n-Copy the package name\n-Reopen the widget settings and paste the package name"
+
+                    android:textColor="?android:textColorPrimary"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="bottom|center_horizontal"
+            android:background="@color/secondaryColor">
+
+            <Button
+                android:id="@+id/buttonPackageHelpOK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@android:string/ok"
+                android:textColor="?android:textColorPrimary"
+                android:backgroundTint="@color/secondaryColor"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>
