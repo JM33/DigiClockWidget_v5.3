@@ -111,17 +111,9 @@ public class UpdateWidgetWorker extends Worker {
                 .setInitialDelay(millisToNextMin, TimeUnit.MILLISECONDS)
                 //.setInitialDelay(10, TimeUnit.SECONDS)
                 .build();
-        //WorkManager.getInstance(getApplicationContext()).cancelAllWorkByTag("UpdateWidgetWork");
         WorkManager.getInstance(context)
                 .enqueueUniqueWork("ScheduledUpdateWidgetWork", ExistingWorkPolicy.REPLACE, myWork);
     }
 
 
-    private void registerDigiClockBroadcastReceiver(Context context){
-        IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction("android.intent.action.BOOT_COMPLETED");
-        intentFilter.addAction("android.intent.action.CONFIGURATION_CHANGED");
-        DigiClockBroadcastReceiver receiver = new DigiClockBroadcastReceiver();
-        context.registerReceiver(receiver, intentFilter);
-    }
 }

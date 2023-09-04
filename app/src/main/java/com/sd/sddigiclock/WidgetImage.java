@@ -214,6 +214,9 @@ public class WidgetImage {
             if(hours<10){
                 shours = ("0" + Integer.toString(hours));
             }
+            if(!show24 && (hours == 0 || hours == 24)){
+                shours = "12";
+            }
         }
 
         if(minutes<10){

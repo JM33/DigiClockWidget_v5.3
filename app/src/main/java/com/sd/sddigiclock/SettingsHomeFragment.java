@@ -249,6 +249,7 @@ public class SettingsHomeFragment extends Fragment {
         darkThemeLayout = (LinearLayout) mView.findViewById(R.id.LinearLayoutDarkTheme);
         btdarktheme = (TextView)mView.findViewById(R.id.buttonDarkTheme);
 
+        /*
         if(isMyServiceRunning(WidgetBackgroundService.class)){
             serviceRunningSummary.setText(R.string.p_bg_service_running_summary);
             serviceRunningButton.setChecked(true);
@@ -259,6 +260,8 @@ public class SettingsHomeFragment extends Fragment {
 
         setServiceRunningListener(serviceRunningButton);
         setServiceRunningListener(serviceRunningLinearLayout);
+
+         */
 
         homeClockSeekBar.setProgress(clocktextsize);
         homeClockSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
@@ -458,6 +461,7 @@ public class SettingsHomeFragment extends Fragment {
         view.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Log.i("HomeSettings", "View clicked = "+view.getId());
+                /*
                 if(isMyServiceRunning(WidgetBackgroundService.class)){
                     //stop service
                     serviceRunningSummary.setText(R.string.p_bg_service_stopped_summary);
@@ -499,6 +503,8 @@ public class SettingsHomeFragment extends Fragment {
                     }
                     Log.i("DigiClockPrefs", "Start BG Service");
                 }
+
+                 */
             }
         });
     }

@@ -933,7 +933,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		btsave = (ImageButton)DCP.findViewById(R.id.btSave);
 		btcancel = (ImageButton)DCP.findViewById(R.id.btCancel);
 
-
+		/*
 		if(isMyServiceRunning(WidgetBackgroundService.class)){
 			btstartbgservice.setText(R.string.p_bg_service_running_summary);
 			btstartbgservice.setCompoundDrawablesWithIntrinsicBounds(0,0,R.drawable.checkedbox,0);
@@ -941,6 +941,8 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 			btstartbgservice.setText(R.string.p_bg_service_stopped_summary);
 			btstartbgservice.setCompoundDrawablesWithIntrinsicBounds(0,0,R.drawable.checkbox,0);
 		}
+
+		 */
 		saveLinearLayout = (LinearLayout)DCP.findViewById(R.id.saveLinearLayout);
 		cancelLinearLayout = (LinearLayout)DCP.findViewById(R.id.cancelLinearLayout);
 		//mDateFormatFrameLayout = (FrameLayout)DCP.findViewById(R.id.DateFormatFrameLayout);
@@ -1059,6 +1061,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		setClockClickAppListener(btclockclickapp);
 		setClockClickAppListener(clockClickAppLayout);
 
+		/*
 		btstartbgservice.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 				if(isMyServiceRunning(WidgetBackgroundService.class)){
@@ -1105,6 +1108,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 			}
 		});
 
+		 */
 		setDateTextColorListener(btdcolor);
 		setDateTextColorListener(dateTextColorLayout);
 
@@ -2267,7 +2271,9 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
         TIME.set(Calendar.SECOND, 0);
         TIME.set(Calendar.MILLISECOND, 0);
 
+        /*
         final Intent intent = new Intent(context, UpdateWidgetService.class);
+
 
         //Bundle extras = intent.getExtras();
 		//if (extras != null) {
@@ -2279,11 +2285,12 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
         intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
         intent.setData(Uri.parse(intent.toUri(Intent.URI_INTENT_SCHEME)));
 
+
         if (service == null)
         {
             service = PendingIntent.getService(context, 0, intent, PendingIntent.FLAG_IMMUTABLE);
         }
-
+ */
 		//final PendingIntent pending = PendingIntent.getService(context, 0, intent, 0);
 		//m.cancel(pending);
 

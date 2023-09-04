@@ -34,29 +34,12 @@ public class WidgetWorker extends Worker {
     @Override
     public Result doWork() {
         try{
-            //WorkHandler.onDoWork(mContext);
-            //Intent intent = new Intent(mContext.getApplicationContext(), DigiClockProvider.class);
-            //intent.setAction(DigiClockProvider.ACTION_TICK);
-            //mContext.sendBroadcast(intent);
-            /*
-            for(int appWidgetId: appWidgetIds){
-                if(appWidgetId == AppWidgetManager.INVALID_APPWIDGET_ID){
-                    continue;
-                }
-                UpdateWidgetView.updateView(mContext, appWidgetId);
-                Log.i(TAG, "Worker updated widget ID: " +appWidgetId);
 
-            }
-
-             */
             OneTimeWorkRequest.Builder myWorkBuilder =
                     new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
 
             OneTimeWorkRequest myWork = myWorkBuilder
-                    //.setInitialDelay(millisToNextMin, TimeUnit.MILLISECONDS)
-                    //.setInitialDelay(10, TimeUnit.SECONDS)
                     .build();
-            //WorkManager.getInstance(getApplicationContext()).cancelAllWorkByTag("UpdateWidgetWork");
             WorkManager.getInstance(mContext)
                     .enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.REPLACE, myWork);
             Log.d(TAG, "Finished WidgetWorker doWork");

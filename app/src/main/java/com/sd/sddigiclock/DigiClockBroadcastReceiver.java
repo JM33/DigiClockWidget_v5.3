@@ -100,6 +100,7 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
             //Log.d(this.toString(), " going to register this broadcast receiver");
             IntentFilter intentFilter = new IntentFilter();
             intentFilter.addAction("android.intent.action.BOOT_COMPLETED");
+            intentFilter.addAction("android.intent.action.SCREEN_ON");
             intentFilter.addAction("android.intent.action.CONFIGURATION_CHANGED");
             context.registerReceiver(this, intentFilter);
             isRegistered = true;

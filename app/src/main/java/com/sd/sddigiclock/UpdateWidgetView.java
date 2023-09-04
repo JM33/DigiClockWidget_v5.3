@@ -115,6 +115,7 @@ public class UpdateWidgetView {
 
         Intent appChooserIntent=new Intent(context, AppSelector.class);
 
+        appChooserIntent.setPackage(context.getPackageName());
         Bundle bundle = new Bundle();
         bundle.putInt("AppWidgetId", appWidgetId);
         appChooserIntent.putExtras(bundle);
@@ -144,6 +145,7 @@ public class UpdateWidgetView {
 
         Intent refreshIntent = new Intent(context, DigiClockPrefs.class);
         //refreshIntent.setComponent(cnpref);
+        refreshIntent.setPackage(context.getPackageName());
         refreshIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         refreshIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
         refreshIntent.putExtra("Refresh", "Yes");
@@ -251,6 +253,7 @@ public class UpdateWidgetView {
                 return;
             }
             //alarmClockIntent.setAction(AppWidgetManager.ACTION_APPWIDGET_UPDATE);
+            alarmClockIntent.setPackage(packageInfo.packageName);
             alarmClockIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             alarmClockIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
             alarmClockIntent.setData(Uri.parse(alarmClockIntent.toUri(Intent.URI_INTENT_SCHEME)));
