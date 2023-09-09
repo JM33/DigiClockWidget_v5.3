@@ -65,7 +65,7 @@ public class UpdateWidgetWorker extends Worker {
     public Result doWork() {
 
         // Do the work here
-
+        try{
         for(int appWidgetId: appWidgetIds){
             if(appWidgetId != AppWidgetManager.INVALID_APPWIDGET_ID){
                 UpdateWidgetView.updateView(mContext, appWidgetId);
@@ -80,7 +80,11 @@ public class UpdateWidgetWorker extends Worker {
         scheduleUpdate(getApplicationContext());
 
         // Indicate whether the work finished successfully with the Result
-        return Result.success();
+            return Result.success();
+        } catch (Exception exception){
+            Log.d(TAG, "doWork Exception: "+ exception);
+            return Result.failure();
+        }
     }
 
     public static void scheduleUpdate(Context context) {
@@ -112,7 +116,7 @@ public class UpdateWidgetWorker extends Worker {
                 //.setInitialDelay(10, TimeUnit.SECONDS)
                 .build();
         WorkManager.getInstance(context)
-                .enqueueUniqueWork("ScheduledUpdateWidgetWork", ExistingWorkPolicy.REPLACE, myWork);
+                .enqueueUniqueWork("ScheduledUpdateWidgetWork", ExistingWorkPolicy.KEEP, myWork);
     }
 
 

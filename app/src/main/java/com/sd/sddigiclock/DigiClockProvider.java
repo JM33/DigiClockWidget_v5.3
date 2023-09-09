@@ -223,7 +223,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 		 int[] appWidgetIds = appWidgetManager.getAppWidgetIds(thisAppWidget);
 
 		 if (intent.getAction().equals(SETTINGS_CHANGED)) {
-			 onUpdate(context, appWidgetManager, appWidgetIds);
+			 //onUpdate(context, appWidgetManager, appWidgetIds);
 			 if (appWidgetIds.length > 0) {
 				 restartAll(context);
 			 }
@@ -318,7 +318,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 		OneTimeWorkRequest myWork = myWorkBuilder
 				.build();
 		WorkManager.getInstance(context)
-				.enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.REPLACE, myWork);
+				.enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.KEEP, myWork);
 		/*
 		SharedPreferences prefs = context.getSharedPreferences("prefs", 0);
 		boolean batterySave = prefs.getBoolean("IgnoreBatterySave", false);

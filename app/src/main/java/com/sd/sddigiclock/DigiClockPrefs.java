@@ -1788,7 +1788,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 				.build();
 		//WorkManager.getInstance(getApplicationContext()).cancelAllWorkByTag("UpdateWidgetWork");
 		WorkManager.getInstance(getApplicationContext())
-				.enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.REPLACE, myWork);
+				.enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.APPEND, myWork);
 		Log.d(TAG, "Start OneTimeWorkRequest");
 
 

@@ -102,7 +102,7 @@ public class UpdateWidgetView {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             PendingIntent pendingIntent = PendingIntent.getActivity(context,
-                    0, prefsIntent, PendingIntent.FLAG_MUTABLE);
+                    appWidgetId, prefsIntent, PendingIntent.FLAG_MUTABLE);
             view.setOnClickPendingIntent(R.id.SettingsButton, pendingIntent);
             //view.setOnClickPendingIntent(R.id.SettingsButton, getPendingSelfIntent(context, ClockOnClick));
         }else{
@@ -143,6 +143,7 @@ public class UpdateWidgetView {
         view.setOnClickPendingIntent(R.id.ClockButton, DigiClockProvider.getPendingSelfIntent(context,DigiClockProvider.ClockOnClick, appWidgetId));
 
 
+        /*
         Intent refreshIntent = new Intent(context, DigiClockPrefs.class);
         //refreshIntent.setComponent(cnpref);
         refreshIntent.setPackage(context.getPackageName());
@@ -151,8 +152,16 @@ public class UpdateWidgetView {
         refreshIntent.putExtra("Refresh", "Yes");
         //refreshIntent.setData(Uri.parse(intent.toUri(Intent.URI_INTENT_SCHEME)));
         refreshIntent.setData(Uri.withAppendedPath(Uri.parse("myapp://widget/id/#togetituniqie" + appWidgetId), String.valueOf(appWidgetId)));
+
+         */
+
+        Intent refreshIntent = new Intent(context, DigiClockBroadcastReceiver.class);
+        refreshIntent.setPackage(context.getPackageName());
+        refreshIntent.setAction(DigiClockBroadcastReceiver.REFRESH_WIDGET);
+        refreshIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-            PendingIntent pendingIntentR = PendingIntent.getActivity(context, 0, refreshIntent, PendingIntent.FLAG_IMMUTABLE);
+            PendingIntent pendingIntentR = PendingIntent.getBroadcast(context, appWidgetId, refreshIntent, PendingIntent.FLAG_IMMUTABLE);
             view.setOnClickPendingIntent(R.id.refreshButton, pendingIntentR);
         }else{
             PendingIntent pendingIntentR = PendingIntent.getService(context, 0, refreshIntent, PendingIntent.FLAG_UPDATE_CURRENT);

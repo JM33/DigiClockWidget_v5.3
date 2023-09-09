@@ -23,6 +23,7 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
 
     private static final String TAG = "DigiClockBroadcastReceiver";
 
+    public static final String REFRESH_WIDGET = "REFRESH_WIDGET";
     private boolean isRegistered;
 
 
@@ -35,7 +36,7 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
         OneTimeWorkRequest myWork = myWorkBuilder
                 .build();
         WorkManager.getInstance(context)
-                .enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.REPLACE, myWork);
+                .enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.KEEP, myWork);
         Log.i(TAG, "Broadcast Received");
 
         /*
@@ -102,6 +103,7 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
             intentFilter.addAction("android.intent.action.BOOT_COMPLETED");
             intentFilter.addAction("android.intent.action.SCREEN_ON");
             intentFilter.addAction("android.intent.action.CONFIGURATION_CHANGED");
+            intentFilter.addAction(REFRESH_WIDGET);
             context.registerReceiver(this, intentFilter);
             isRegistered = true;
         }

@@ -41,7 +41,7 @@ public class WidgetWorker extends Worker {
             OneTimeWorkRequest myWork = myWorkBuilder
                     .build();
             WorkManager.getInstance(mContext)
-                    .enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.REPLACE, myWork);
+                    .enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.KEEP, myWork);
             Log.d(TAG, "Finished WidgetWorker doWork");
             return Result.success();
         } catch (Exception exception){
