@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.sd.sddigiclock.app-mergeDebugResources-48:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.sd.sddigiclock.app-mergeDebugResources-54:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\6812425476b574ab32b420afe21b14d8\\transformed\\material-1.7.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\f0d327b5fa71a05459955de625eeb703\\transformed\\material-1.9.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

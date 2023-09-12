@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
     defaultConfig {
         applicationId "com.sd.sddigiclock"
         minSdkVersion 23
-        targetSdkVersion 33
+        targetSdkVersion 34
         vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
@@ -19,26 +19,39 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'com.google.android.material:material:1.7.0'
-    implementation 'androidx.navigation:navigation-ui:2.5.3'
-    implementation 'androidx.fragment:fragment:1.5.4'
-    implementation 'androidx.navigation:navigation-fragment:2.5.3'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.navigation:navigation-ui:2.7.2'
+    implementation 'androidx.fragment:fragment:1.6.1'
+    implementation 'androidx.navigation:navigation-fragment:2.7.2'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'androidx.preference:preference:1.2.0'
-    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.2'
-    def billing_version = "5.1.0"
-    implementation "com.android.billingclient:billing:$billing_version"
-    implementation 'com.google.android.gms:play-services-base:18.1.0'
+    implementation 'androidx.preference:preference:1.2.1'
+    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.9'
 
-    def lifecycle_version = "2.5.1"
+    def billing_version = "6.0.1"
+    implementation "com.android.billingclient:billing:$billing_version"
+    implementation 'com.google.android.gms:play-services-base:18.2.0'
+
+    def lifecycle_version = "2.6.2"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
 
-    def work_version = "2.7.1"
+    def work_version = "2.8.1"
     implementation "androidx.work:work-runtime:$work_version"
 
-    def ads_version = "21.3.0"
+    def ads_version = "22.3.0"
     implementation "com.google.android.gms:play-services-ads:$ads_version"
+
+    def core_version = "1.12.0"
+    implementation "androidx.core:core:$core_version"
+
+    constraints {
+        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0") {
+            because("kotlin-stdlib-jdk7 is now a part of kotlin-stdlib")
+        }
+        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0") {
+            because("kotlin-stdlib-jdk8 is now a part of kotlin-stdlib")
+        }
+    }
 }
