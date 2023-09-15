@@ -1,52 +1,58 @@
-com.sd.sddigiclock.app-jetified-activity-ktx-1.5.1-0 C:\Users\great\.gradle\caches\transforms-3\0e0f10ed3c773a0df39f68d2c77cbd4e\transformed\jetified-activity-ktx-1.5.1\res
-com.sd.sddigiclock.app-drawerlayout-1.1.1-1 C:\Users\great\.gradle\caches\transforms-3\0f3876d718237e4aa54a5f967de1cea1\transformed\drawerlayout-1.1.1\res
-com.sd.sddigiclock.app-navigation-fragment-2.5.3-2 C:\Users\great\.gradle\caches\transforms-3\1dad970047c646c9691a96c5c0c27870\transformed\navigation-fragment-2.5.3\res
-com.sd.sddigiclock.app-jetified-lifecycle-livedata-core-ktx-2.5.1-3 C:\Users\great\.gradle\caches\transforms-3\1e504bf8318d816aacc8163cbee1707d\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\res
-com.sd.sddigiclock.app-navigation-common-2.5.3-4 C:\Users\great\.gradle\caches\transforms-3\2d1fe9c521c2528d03d5f9d478c8a38f\transformed\navigation-common-2.5.3\res
-com.sd.sddigiclock.app-jetified-play-services-ads-21.3.0-5 C:\Users\great\.gradle\caches\transforms-3\2e86b3bb00ea5455b21a586b07ff698a\transformed\jetified-play-services-ads-21.3.0\res
-com.sd.sddigiclock.app-lifecycle-livedata-2.5.1-6 C:\Users\great\.gradle\caches\transforms-3\2ee4d1bef26e465d0351f3b73ead60c7\transformed\lifecycle-livedata-2.5.1\res
-com.sd.sddigiclock.app-constraintlayout-2.1.4-7 C:\Users\great\.gradle\caches\transforms-3\30f4c334bb9586b8299d31214a27cc88\transformed\constraintlayout-2.1.4\res
-com.sd.sddigiclock.app-jetified-activity-1.5.1-8 C:\Users\great\.gradle\caches\transforms-3\328c862bc0080847efea481f3bb99258\transformed\jetified-activity-1.5.1\res
-com.sd.sddigiclock.app-jetified-core-ktx-1.8.0-9 C:\Users\great\.gradle\caches\transforms-3\3fcfd947c6ee35010111210a6911e53a\transformed\jetified-core-ktx-1.8.0\res
-com.sd.sddigiclock.app-jetified-play-services-base-18.1.0-10 C:\Users\great\.gradle\caches\transforms-3\4bec6ff7de487c935a016a4cd35ff388\transformed\jetified-play-services-base-18.1.0\res
-com.sd.sddigiclock.app-jetified-viewpager2-1.0.0-11 C:\Users\great\.gradle\caches\transforms-3\4eda47e8e663d7656d969a0ff6b6a7b6\transformed\jetified-viewpager2-1.0.0\res
-com.sd.sddigiclock.app-jetified-savedstate-ktx-1.2.0-12 C:\Users\great\.gradle\caches\transforms-3\4fdd1585a8879caebaf17c5c41e0bc46\transformed\jetified-savedstate-ktx-1.2.0\res
-com.sd.sddigiclock.app-navigation-ui-2.5.3-13 C:\Users\great\.gradle\caches\transforms-3\52dc22ec7427552ecd6d3b864ea72365\transformed\navigation-ui-2.5.3\res
-com.sd.sddigiclock.app-jetified-fragment-ktx-1.5.4-14 C:\Users\great\.gradle\caches\transforms-3\5a052f57f33d8ef96dce02e5f312d675\transformed\jetified-fragment-ktx-1.5.4\res
-com.sd.sddigiclock.app-jetified-savedstate-1.2.0-15 C:\Users\great\.gradle\caches\transforms-3\5a83152aef83bc4cbff92cd6b56b2c56\transformed\jetified-savedstate-1.2.0\res
-com.sd.sddigiclock.app-transition-1.4.1-16 C:\Users\great\.gradle\caches\transforms-3\5edc14188abc370b44c8dc033e00b0c7\transformed\transition-1.4.1\res
-com.sd.sddigiclock.app-lifecycle-viewmodel-2.5.1-17 C:\Users\great\.gradle\caches\transforms-3\635ca0926e7ae12920cc06583e7e643f\transformed\lifecycle-viewmodel-2.5.1\res
-com.sd.sddigiclock.app-cardview-1.0.0-18 C:\Users\great\.gradle\caches\transforms-3\64a2d392994452577a480e11197fabd6\transformed\cardview-1.0.0\res
-com.sd.sddigiclock.app-coordinatorlayout-1.1.0-19 C:\Users\great\.gradle\caches\transforms-3\671a06b1893081f2c8ad60f3958f34d7\transformed\coordinatorlayout-1.1.0\res
-com.sd.sddigiclock.app-material-1.7.0-20 C:\Users\great\.gradle\caches\transforms-3\6812425476b574ab32b420afe21b14d8\transformed\material-1.7.0\res
-com.sd.sddigiclock.app-jetified-emoji2-1.2.0-21 C:\Users\great\.gradle\caches\transforms-3\69262e6e1ef2f549fc8371faf15c8c5f\transformed\jetified-emoji2-1.2.0\res
-com.sd.sddigiclock.app-jetified-lifecycle-viewmodel-ktx-2.5.1-22 C:\Users\great\.gradle\caches\transforms-3\6eb78df37cf8d29491e41b7fd14d613d\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\res
-com.sd.sddigiclock.app-jetified-play-services-basement-18.1.0-23 C:\Users\great\.gradle\caches\transforms-3\706b0c0c275b3925efc551455191ac2a\transformed\jetified-play-services-basement-18.1.0\res
-com.sd.sddigiclock.app-appcompat-1.5.1-24 C:\Users\great\.gradle\caches\transforms-3\7f2b41caa05b61c01c00ec1c1d36aa4c\transformed\appcompat-1.5.1\res
-com.sd.sddigiclock.app-navigation-runtime-2.5.3-25 C:\Users\great\.gradle\caches\transforms-3\8b24f73718b31f97cbb5b0c00f0fd6fc\transformed\navigation-runtime-2.5.3\res
-com.sd.sddigiclock.app-core-1.8.0-26 C:\Users\great\.gradle\caches\transforms-3\9180f9a840051b3790dbcfec2f96b1c1\transformed\core-1.8.0\res
-com.sd.sddigiclock.app-media-1.0.0-27 C:\Users\great\.gradle\caches\transforms-3\91f1642e2a270776e556d15371f64bf4\transformed\media-1.0.0\res
-com.sd.sddigiclock.app-jetified-startup-runtime-1.1.1-28 C:\Users\great\.gradle\caches\transforms-3\96fc5170b9579d74595c3124b0694230\transformed\jetified-startup-runtime-1.1.1\res
-com.sd.sddigiclock.app-jetified-appcompat-resources-1.5.1-29 C:\Users\great\.gradle\caches\transforms-3\97eb746208aa0a825f74635e1595d468\transformed\jetified-appcompat-resources-1.5.1\res
-com.sd.sddigiclock.app-slidingpanelayout-1.2.0-30 C:\Users\great\.gradle\caches\transforms-3\99628db58b809a9cd5275891ac7d25d3\transformed\slidingpanelayout-1.2.0\res
-com.sd.sddigiclock.app-lifecycle-livedata-core-2.5.1-31 C:\Users\great\.gradle\caches\transforms-3\99ff0d1b0b58f543535c2844bca76b18\transformed\lifecycle-livedata-core-2.5.1\res
-com.sd.sddigiclock.app-recyclerview-1.1.0-32 C:\Users\great\.gradle\caches\transforms-3\9e1d4f8f0375e8e046d4b4131d85e943\transformed\recyclerview-1.1.0\res
-com.sd.sddigiclock.app-lifecycle-runtime-2.5.1-33 C:\Users\great\.gradle\caches\transforms-3\a1711c7657d9e0fdc630daf2a0e3e72b\transformed\lifecycle-runtime-2.5.1\res
-com.sd.sddigiclock.app-jetified-annotation-experimental-1.1.0-34 C:\Users\great\.gradle\caches\transforms-3\a83a03db1daa4314d8622e6d887074b5\transformed\jetified-annotation-experimental-1.1.0\res
-com.sd.sddigiclock.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-35 C:\Users\great\.gradle\caches\transforms-3\aab4cf258d21e1fce3ef058a821fe84f\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
-com.sd.sddigiclock.app-work-runtime-2.7.1-36 C:\Users\great\.gradle\caches\transforms-3\acafdeb0a962e8003a8bb148568cea95\transformed\work-runtime-2.7.1\res
-com.sd.sddigiclock.app-jetified-lifecycle-runtime-ktx-2.5.1-37 C:\Users\great\.gradle\caches\transforms-3\b3f2a5306c484bf1c9adaa718fb16722\transformed\jetified-lifecycle-runtime-ktx-2.5.1\res
-com.sd.sddigiclock.app-jetified-window-1.0.0-38 C:\Users\great\.gradle\caches\transforms-3\bc1d85e009333755628d5c779bd9bd09\transformed\jetified-window-1.0.0\res
-com.sd.sddigiclock.app-browser-1.4.0-39 C:\Users\great\.gradle\caches\transforms-3\c5815c591c098d62eddc0c47210df5dc\transformed\browser-1.4.0\res
-com.sd.sddigiclock.app-fragment-1.5.4-40 C:\Users\great\.gradle\caches\transforms-3\cd0dc94b94a4d9e710c4ba7330c9d12b\transformed\fragment-1.5.4\res
-com.sd.sddigiclock.app-jetified-play-services-ads-lite-21.3.0-41 C:\Users\great\.gradle\caches\transforms-3\cf5d14cf28aa6b67e21919cc5f3a1d4e\transformed\jetified-play-services-ads-lite-21.3.0\res
-com.sd.sddigiclock.app-jetified-lifecycle-livedata-ktx-2.5.1-42 C:\Users\great\.gradle\caches\transforms-3\cfb6d4c8a22bb14c43e936b46994af7b\transformed\jetified-lifecycle-livedata-ktx-2.5.1\res
-com.sd.sddigiclock.app-jetified-lifecycle-process-2.4.1-43 C:\Users\great\.gradle\caches\transforms-3\d792cfc6337e3c8fbac3183f5288f77a\transformed\jetified-lifecycle-process-2.4.1\res
-com.sd.sddigiclock.app-preference-1.2.0-44 C:\Users\great\.gradle\caches\transforms-3\d8bb43a008164b5710d4de368aacf3ab\transformed\preference-1.2.0\res
-com.sd.sddigiclock.app-jetified-emoji2-views-helper-1.2.0-45 C:\Users\great\.gradle\caches\transforms-3\d95efe29377529392251a58c25698356\transformed\jetified-emoji2-views-helper-1.2.0\res
-com.sd.sddigiclock.app-resValues-46 C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\build\generated\res\resValues\release
-com.sd.sddigiclock.app-mergeReleaseResources-47 C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
-com.sd.sddigiclock.app-mergeReleaseResources-48 C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-com.sd.sddigiclock.app-merged_res-49 C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\build\intermediates\merged_res\release
-com.sd.sddigiclock.app-main-50 C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\res
-com.sd.sddigiclock.app-release-51 C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\release\res
+com.sd.sddigiclock.app-jetified-lifecycle-viewmodel-ktx-2.6.2-0 C:\Users\great\.gradle\caches\transforms-3\054c506cf28b37ab7523b4dbf479a95b\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\res
+com.sd.sddigiclock.app-sqlite-framework-2.3.0-1 C:\Users\great\.gradle\caches\transforms-3\0bd13b9546872e7a8a7539a900fbbb69\transformed\sqlite-framework-2.3.0\res
+com.sd.sddigiclock.app-jetified-play-services-ads-lite-22.3.0-2 C:\Users\great\.gradle\caches\transforms-3\0cdcfe7bf5d0845234eb0789ea9afd4d\transformed\jetified-play-services-ads-lite-22.3.0\res
+com.sd.sddigiclock.app-jetified-play-services-ads-22.3.0-3 C:\Users\great\.gradle\caches\transforms-3\0d15345583c3dc646426c35ddf1d6cc9\transformed\jetified-play-services-ads-22.3.0\res
+com.sd.sddigiclock.app-slidingpanelayout-1.2.0-4 C:\Users\great\.gradle\caches\transforms-3\10db35113a8c7b89ccea601f83e6ec4f\transformed\slidingpanelayout-1.2.0\res
+com.sd.sddigiclock.app-navigation-runtime-2.7.2-5 C:\Users\great\.gradle\caches\transforms-3\1374202eab8547d99454564e37e511f1\transformed\navigation-runtime-2.7.2\res
+com.sd.sddigiclock.app-room-runtime-2.5.0-6 C:\Users\great\.gradle\caches\transforms-3\1e514153d858fb0954f37ac1de4e47c3\transformed\room-runtime-2.5.0\res
+com.sd.sddigiclock.app-lifecycle-livedata-core-2.6.2-7 C:\Users\great\.gradle\caches\transforms-3\2669625807e868aa963388bcd04aeb6f\transformed\lifecycle-livedata-core-2.6.2\res
+com.sd.sddigiclock.app-jetified-startup-runtime-1.1.1-8 C:\Users\great\.gradle\caches\transforms-3\27ad9f8620549cf878a9823d1a92824d\transformed\jetified-startup-runtime-1.1.1\res
+com.sd.sddigiclock.app-jetified-annotation-experimental-1.3.0-9 C:\Users\great\.gradle\caches\transforms-3\2904487a1a5e850953446720d7d709cc\transformed\jetified-annotation-experimental-1.3.0\res
+com.sd.sddigiclock.app-navigation-common-2.7.2-10 C:\Users\great\.gradle\caches\transforms-3\2921d902787b452a7fb0606caa0fcb28\transformed\navigation-common-2.7.2\res
+com.sd.sddigiclock.app-core-1.12.0-11 C:\Users\great\.gradle\caches\transforms-3\294cb52a2e5000f1617ba7c15bf9beb9\transformed\core-1.12.0\res
+com.sd.sddigiclock.app-core-runtime-2.2.0-12 C:\Users\great\.gradle\caches\transforms-3\31af9d14fcc674f66d07040a35e83a56\transformed\core-runtime-2.2.0\res
+com.sd.sddigiclock.app-sqlite-2.3.0-13 C:\Users\great\.gradle\caches\transforms-3\363afaec7e13fd00a04cc3ae4241fbef\transformed\sqlite-2.3.0\res
+com.sd.sddigiclock.app-jetified-play-services-basement-18.1.0-14 C:\Users\great\.gradle\caches\transforms-3\3f700256d416c1d445a2e82b86b1a652\transformed\jetified-play-services-basement-18.1.0\res
+com.sd.sddigiclock.app-work-runtime-2.8.1-15 C:\Users\great\.gradle\caches\transforms-3\4126f86676776a3ae784a3e91a7decbe\transformed\work-runtime-2.8.1\res
+com.sd.sddigiclock.app-preference-1.2.1-16 C:\Users\great\.gradle\caches\transforms-3\433b0c34d29a12522539d45eaa9db5a2\transformed\preference-1.2.1\res
+com.sd.sddigiclock.app-jetified-lifecycle-livedata-core-ktx-2.6.2-17 C:\Users\great\.gradle\caches\transforms-3\4a9ac5857c9c2fbf776a4e93048b1fb7\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\res
+com.sd.sddigiclock.app-jetified-viewpager2-1.0.0-18 C:\Users\great\.gradle\caches\transforms-3\4ba1059b46ff72a2880dc95da43253d6\transformed\jetified-viewpager2-1.0.0\res
+com.sd.sddigiclock.app-appcompat-1.6.1-19 C:\Users\great\.gradle\caches\transforms-3\4f67dfc311dd2680d3f0bf628ba34b33\transformed\appcompat-1.6.1\res
+com.sd.sddigiclock.app-jetified-lifecycle-runtime-ktx-2.6.2-20 C:\Users\great\.gradle\caches\transforms-3\543c7357b7deacfb8920264fa16fe406\transformed\jetified-lifecycle-runtime-ktx-2.6.2\res
+com.sd.sddigiclock.app-cardview-1.0.0-21 C:\Users\great\.gradle\caches\transforms-3\54b4db044f2a55128fc06e9fb83ac6f5\transformed\cardview-1.0.0\res
+com.sd.sddigiclock.app-recyclerview-1.1.0-22 C:\Users\great\.gradle\caches\transforms-3\587e31e609e29d9b1d53f291375deebf\transformed\recyclerview-1.1.0\res
+com.sd.sddigiclock.app-lifecycle-livedata-2.6.2-23 C:\Users\great\.gradle\caches\transforms-3\63aa77a3b3b104d9a78fe7ed59db564a\transformed\lifecycle-livedata-2.6.2\res
+com.sd.sddigiclock.app-navigation-fragment-2.7.2-24 C:\Users\great\.gradle\caches\transforms-3\6570da7664dbc78f780765d273c895a7\transformed\navigation-fragment-2.7.2\res
+com.sd.sddigiclock.app-constraintlayout-2.1.4-25 C:\Users\great\.gradle\caches\transforms-3\6f650d68a1b3d373f492e24a9a8ff434\transformed\constraintlayout-2.1.4\res
+com.sd.sddigiclock.app-drawerlayout-1.1.1-26 C:\Users\great\.gradle\caches\transforms-3\73df7b936fff82bfd17ef1ba3948e9a4\transformed\drawerlayout-1.1.1\res
+com.sd.sddigiclock.app-jetified-profileinstaller-1.3.0-27 C:\Users\great\.gradle\caches\transforms-3\75f372b1bd24f68531c06cbaa10f5665\transformed\jetified-profileinstaller-1.3.0\res
+com.sd.sddigiclock.app-jetified-fragment-ktx-1.6.1-28 C:\Users\great\.gradle\caches\transforms-3\87d364eafbfee821f91dd24cecbf4064\transformed\jetified-fragment-ktx-1.6.1\res
+com.sd.sddigiclock.app-jetified-emoji2-views-helper-1.2.0-29 C:\Users\great\.gradle\caches\transforms-3\9c8f4d145780c89f559e09315ad51be9\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.sd.sddigiclock.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-30 C:\Users\great\.gradle\caches\transforms-3\a24c2878fbfca56ee6086fde1331d0ca\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.sd.sddigiclock.app-browser-1.4.0-31 C:\Users\great\.gradle\caches\transforms-3\a9cd525d57c1881dbe4cb9d1063934a9\transformed\browser-1.4.0\res
+com.sd.sddigiclock.app-jetified-lifecycle-livedata-ktx-2.6.2-32 C:\Users\great\.gradle\caches\transforms-3\ab9634d904a269d3f586c6530d4cfbc0\transformed\jetified-lifecycle-livedata-ktx-2.6.2\res
+com.sd.sddigiclock.app-media-1.0.0-33 C:\Users\great\.gradle\caches\transforms-3\b28319d8e33614085f8397b3845c59cf\transformed\media-1.0.0\res
+com.sd.sddigiclock.app-jetified-core-ktx-1.12.0-34 C:\Users\great\.gradle\caches\transforms-3\bc446b1436f4012a9b2267ecc5947d27\transformed\jetified-core-ktx-1.12.0\res
+com.sd.sddigiclock.app-jetified-window-1.0.0-35 C:\Users\great\.gradle\caches\transforms-3\c323c794ca1298eef00f36acc04d830d\transformed\jetified-window-1.0.0\res
+com.sd.sddigiclock.app-coordinatorlayout-1.1.0-36 C:\Users\great\.gradle\caches\transforms-3\cb9e4179a2da163f1fda77918d5a7d2d\transformed\coordinatorlayout-1.1.0\res
+com.sd.sddigiclock.app-fragment-1.6.1-37 C:\Users\great\.gradle\caches\transforms-3\d190d750b5941b162e75be618f3dbf68\transformed\fragment-1.6.1\res
+com.sd.sddigiclock.app-jetified-play-services-base-18.2.0-38 C:\Users\great\.gradle\caches\transforms-3\d3610cbd840133e7a4c19faee86c6f11\transformed\jetified-play-services-base-18.2.0\res
+com.sd.sddigiclock.app-jetified-activity-ktx-1.7.2-39 C:\Users\great\.gradle\caches\transforms-3\d39b92b977ef3324899cab9dacefb104\transformed\jetified-activity-ktx-1.7.2\res
+com.sd.sddigiclock.app-jetified-emoji2-1.2.0-40 C:\Users\great\.gradle\caches\transforms-3\d79248370322701c6054f880a86d73d0\transformed\jetified-emoji2-1.2.0\res
+com.sd.sddigiclock.app-transition-1.4.1-41 C:\Users\great\.gradle\caches\transforms-3\e0aadd11afae2e853223fd66f7c9c259\transformed\transition-1.4.1\res
+com.sd.sddigiclock.app-jetified-savedstate-1.2.1-42 C:\Users\great\.gradle\caches\transforms-3\e38c3ec5dc3154de1e62e9ca0f3a3518\transformed\jetified-savedstate-1.2.1\res
+com.sd.sddigiclock.app-jetified-lifecycle-service-2.6.2-43 C:\Users\great\.gradle\caches\transforms-3\e3ac7168a6e0a48690c9256446165336\transformed\jetified-lifecycle-service-2.6.2\res
+com.sd.sddigiclock.app-jetified-appcompat-resources-1.6.1-44 C:\Users\great\.gradle\caches\transforms-3\e7144b8195b27177976495cafc405834\transformed\jetified-appcompat-resources-1.6.1\res
+com.sd.sddigiclock.app-jetified-savedstate-ktx-1.2.1-45 C:\Users\great\.gradle\caches\transforms-3\e8e5bcf9b0641ff4f57204d506387a12\transformed\jetified-savedstate-ktx-1.2.1\res
+com.sd.sddigiclock.app-lifecycle-runtime-2.6.2-46 C:\Users\great\.gradle\caches\transforms-3\eedc78cae1761b647bf177687b3dee29\transformed\lifecycle-runtime-2.6.2\res
+com.sd.sddigiclock.app-lifecycle-viewmodel-2.6.2-47 C:\Users\great\.gradle\caches\transforms-3\efa812a662dd715a1cfd152bd9c5dc34\transformed\lifecycle-viewmodel-2.6.2\res
+com.sd.sddigiclock.app-jetified-activity-1.7.2-48 C:\Users\great\.gradle\caches\transforms-3\f019dd12fc3466f73651556742a4af3f\transformed\jetified-activity-1.7.2\res
+com.sd.sddigiclock.app-navigation-ui-2.7.2-49 C:\Users\great\.gradle\caches\transforms-3\f028fd5bf6ae4707bba85c3c82e913a7\transformed\navigation-ui-2.7.2\res
+com.sd.sddigiclock.app-material-1.9.0-50 C:\Users\great\.gradle\caches\transforms-3\f0d327b5fa71a05459955de625eeb703\transformed\material-1.9.0\res
+com.sd.sddigiclock.app-jetified-lifecycle-process-2.6.2-51 C:\Users\great\.gradle\caches\transforms-3\f771c7af1177d180e3f894f6741bdfa5\transformed\jetified-lifecycle-process-2.6.2\res
+com.sd.sddigiclock.app-resValues-52 C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\build\generated\res\resValues\release
+com.sd.sddigiclock.app-mergeReleaseResources-53 C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.sd.sddigiclock.app-mergeReleaseResources-54 C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.sd.sddigiclock.app-merged_res-55 C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\build\intermediates\merged_res\release
+com.sd.sddigiclock.app-main-56 C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\res
+com.sd.sddigiclock.app-release-57 C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\release\res

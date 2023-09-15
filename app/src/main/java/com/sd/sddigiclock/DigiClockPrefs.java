@@ -245,14 +245,16 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 			finish();
 		}
 
-		if(!extras.containsKey("Refresh")){
-			Log.d("DCP", "Refresh not found");
-		}
-		String refreshOnly = extras.getString("Refresh", "No");
-		Log.d("DCP", "Check if Refresh Only: " + refreshOnly);
-		if(refreshOnly.equals("Yes")){
-			Log.d("DCP", "Refresh Only");
-			saveAndExit();
+		if(extras!= null) {
+			if (!extras.containsKey("Refresh")) {
+				Log.d("DCP", "Refresh not found");
+			}
+			String refreshOnly = extras.getString("Refresh", "No");
+			Log.d("DCP", "Check if Refresh Only: " + refreshOnly);
+			if (refreshOnly.equals("Yes")) {
+				Log.d("DCP", "Refresh Only");
+				saveAndExit();
+			}
 		}
 		//addPreferencesFromResource(R.xml.dc_prefs);
 
