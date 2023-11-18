@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.sd.sddigiclock.app-mergeDebugResources-54:/values-v16/values-v16.xml",
+            "outputFile": "com.sd.sddigiclock.app-mergeDebugResources-55:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\294cb52a2e5000f1617ba7c15bf9beb9\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\de2440358d325fb567b6c0fd308d9a15\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\4f67dfc311dd2680d3f0bf628ba34b33\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\b98ad1eabf84e74f85d3d6bdb837258b\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,6 +1,9 @@
 package com.sd.sddigiclock;
 
+import static android.app.Activity.RESULT_OK;
+
 import android.annotation.TargetApi;
+import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
@@ -22,15 +25,19 @@ import android.os.Handler;
 import android.util.Log;
 import android.widget.RemoteViews;
 
+import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
+import androidx.core.app.AlarmManagerCompat;
 import androidx.core.content.ContextCompat;
 import androidx.work.ExistingPeriodicWorkPolicy;
 import androidx.work.ExistingWorkPolicy;
 import androidx.work.OneTimeWorkRequest;
+import androidx.work.OutOfQuotaPolicy;
 import androidx.work.PeriodicWorkRequest;
 import androidx.work.WorkManager;
 import androidx.work.WorkRequest;
+import androidx.work.WorkerParameters;
 
 /*
  * Author Brian Kimmel
@@ -45,6 +52,8 @@ public class DigiClockProvider extends AppWidgetProvider {
 	public static final String ClockOnClick = "clockOnClickTag";
 
 	public static final String ACTION_TICK = "CLOCK_TICK";
+
+	public static final String REFRESH_WIDGET = "REFRESH_WIDGET";
 	public static final String SETTINGS_CHANGED = "SETTINGS_CHANGED";
 	public static final String JOB_TICK = "JOB_CLOCK_TICK";
 	private static String clockButtonApp;
@@ -95,7 +104,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 		//runs when all of the first instance of the widget are placed
 		//on the home screen
 
-		/*
+
 
 		AppWidgetManager mgr = AppWidgetManager.getInstance(context);
 		ComponentName cn = new ComponentName(context, DigiClockProvider.class);
@@ -103,10 +112,10 @@ public class DigiClockProvider extends AppWidgetProvider {
 		onUpdate(context, mgr, awids);
 
 		for (int i = 0; i < awids.length; i++){
-			updateWidget(context, mgr, awids[i]);
-			Log.i(LOG, "Enabled ID = " + Integer.toString(awids[i]));
+			onUpdate(context, mgr, awids);
+			Log.i(TAG, "Enabled ID = " + Integer.toString(awids[i]));
 		}
-
+		/*
 		//PackageManager pm = context.getPackageManager();
 		//pm.setComponentEnabledSetting(new ComponentName("com.sd.sddigiclock", ".DigiClockProvider"),
 		//		PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
@@ -152,12 +161,18 @@ public class DigiClockProvider extends AppWidgetProvider {
 			int[] appWidgetIds) {
 		Log.w(TAG, "onUpdate method called");
 
-		for (int appWidgetId : appWidgetIds) {
-			updateAppWidget(context, appWidgetManager, appWidgetId);
+		try{
+			for(int appWidgetId: appWidgetIds){
+				if(appWidgetId != AppWidgetManager.INVALID_APPWIDGET_ID){
+					UpdateWidgetView.updateView(context, appWidgetId);
+					Log.i(TAG, "DigiClockProvider updated widget ID: " + appWidgetId);
+					//Toast.makeText(mContext, "Worker updated widget ID: " + appWidgetId, Toast.LENGTH_SHORT);
+				}
+			}
+		} catch (Exception exception){
+			Log.d(TAG, "onUpdate Exception: "+ exception);
 		}
-
-		UpdateWidgetWorker.scheduleUpdate(context);
-
+		restartAll(context);
 	}
 
 	 @Override
@@ -223,30 +238,31 @@ public class DigiClockProvider extends AppWidgetProvider {
 		 int[] appWidgetIds = appWidgetManager.getAppWidgetIds(thisAppWidget);
 
 		 if (intent.getAction().equals(SETTINGS_CHANGED)) {
-			 //onUpdate(context, appWidgetManager, appWidgetIds);
-			 if (appWidgetIds.length > 0) {
-				 restartAll(context);
-			 }
+			 onUpdate(context, appWidgetManager, appWidgetIds);
+			 //if (appWidgetIds.length > 0) {
+			 restartAll(context);
+			 //}
 			 Log.i(TAG, "Settings Change Action");
 		 }
 
 		 //onUpdate(context, appWidgetManager, appWidgetIds);
 
 		 if (intent.getAction().equals(AppWidgetManager.ACTION_APPWIDGET_UPDATE)
-				 ) {
+				 || intent.getAction().equals(Intent.ACTION_DATE_CHANGED)
+				 || intent.getAction().equals(Intent.ACTION_TIME_CHANGED)
+		 ) {
 			 //restartAll(context);
-			 //onUpdate(context, appWidgetManager, appWidgetIds);
+			 onUpdate(context, appWidgetManager, appWidgetIds);
 			 //UpdateWidgetWorker.scheduleUpdate(context);
 			 Log.i(TAG, "Intent Action = " + intent.getAction());
 		 }
 
+
 		 if (intent.getAction().equals(JOB_TICK) || intent.getAction().equals(ACTION_TICK)
 				 //|| intent.getAction().equals(AppWidgetManager.ACTION_APPWIDGET_UPDATE)
-				 || intent.getAction().equals(Intent.ACTION_DATE_CHANGED)
-				 || intent.getAction().equals(Intent.ACTION_TIME_CHANGED)
-				 || intent.getAction().equals(Intent.ACTION_TIMEZONE_CHANGED)) {
+				 ) {
 			 //restartAll(context);
-			 //onUpdate(context, appWidgetManager, appWidgetIds);
+			 onUpdate(context, appWidgetManager, appWidgetIds);
 			 Log.i(TAG, "Intent Action = " + intent.getAction());
 		 }
 
@@ -282,6 +298,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 				 }
 
 			 }
+
 			 Log.d(TAG, "Package NOT Found - Starting Settings -- WIDGET ID == " + appWidgetId);
 			 ComponentName cnClock = new ComponentName("com.sd.sddigiclock", "com.sd.sddigiclock.DigiClockPrefs");
 			 Intent alarmClockIntent = new Intent();
@@ -313,12 +330,59 @@ public class DigiClockProvider extends AppWidgetProvider {
 	 }
 
 	private void restartAll(Context context){
+		Log.d(TAG, "restartAll method called");
+
+		Intent refreshIntent = new Intent(context, DigiClockBroadcastReceiver.class);
+		refreshIntent.setPackage(context.getPackageName());
+		refreshIntent.setAction(DigiClockBroadcastReceiver.REFRESH_WIDGET);
+		context.sendBroadcast(refreshIntent);
+
+
+		/*
+		try{
+
+			Calendar calendar = Calendar.getInstance();
+			long currentTimeMillis = calendar.getTimeInMillis();
+			int sec = calendar.get(Calendar.SECOND);
+			int millis = calendar.get(Calendar.MILLISECOND);
+			int secsToNextMin = 59-sec;
+			int millisToNextSec = 999-millis;
+			int millisToNextMin = secsToNextMin*1000 + millisToNextSec;
+
+			Intent refreshIntent = new Intent(context, DigiClockProvider.class);
+			refreshIntent.setAction(AppWidgetManager.ACTION_APPWIDGET_UPDATE);
+			int[] ids = AppWidgetManager.getInstance(context).getAppWidgetIds(new ComponentName(context, DigiClockProvider.class));
+			if(ids != null && ids.length > 0) {
+				refreshIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, ids);
+				//context.sendBroadcast(intent);
+			}
+
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+				PendingIntent pendingIntentR = PendingIntent.getBroadcast(context, 0, refreshIntent, PendingIntent.FLAG_IMMUTABLE);
+				AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+				AlarmManagerCompat.setExact(alarmManager, AlarmManager.RTC_WAKEUP, currentTimeMillis + millisToNextMin, pendingIntentR);
+			}else{
+				PendingIntent pendingIntentR = PendingIntent.getService(context, 0, refreshIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+				AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+				AlarmManagerCompat.setExact(alarmManager, AlarmManager.RTC_WAKEUP, currentTimeMillis + millisToNextMin, pendingIntentR);
+			}
+
+		} catch (Exception exception){
+			Log.d(TAG, "restartAll Update Exception: "+ exception);
+		}
+
+		*/
+
+		/*
 		OneTimeWorkRequest.Builder myWorkBuilder =
 				new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
 		OneTimeWorkRequest myWork = myWorkBuilder
 				.build();
 		WorkManager.getInstance(context)
 				.enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.KEEP, myWork);
+		 */
+
+
 		/*
 		SharedPreferences prefs = context.getSharedPreferences("prefs", 0);
 		boolean batterySave = prefs.getBoolean("IgnoreBatterySave", false);

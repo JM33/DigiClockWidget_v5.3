@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.sd.sddigiclock.app-mergeDebugResources-54:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.sd.sddigiclock.app-mergeDebugResources-55:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\f0d327b5fa71a05459955de625eeb703\\transformed\\material-1.9.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\e6d56bc584dc2aa0c05e8de11f3f8f96\\transformed\\material-1.9.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

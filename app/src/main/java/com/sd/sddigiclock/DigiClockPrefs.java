@@ -5,6 +5,7 @@ import android.app.AlarmManager;
 import android.app.Dialog;
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -63,6 +64,8 @@ import com.android.billingclient.api.QueryProductDetailsParams;
 import com.android.billingclient.api.SkuDetails;
 import com.android.billingclient.api.SkuDetailsParams;
 import static com.android.billingclient.api.BillingClient.SkuType.INAPP;
+import static java.util.concurrent.TimeUnit.SECONDS;
+
 import com.android.billingclient.api.SkuDetailsResponseListener;
 
 import com.google.android.gms.ads.AdRequest;
@@ -74,6 +77,8 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.ump.ConsentDebugSettings;
+import com.google.android.ump.ConsentForm;
 import com.google.firebase.crashlytics.buildtools.reloc.com.google.common.collect.ImmutableList;
 
 import java.io.IOException;
@@ -82,7 +87,11 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Locale;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -94,11 +103,18 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.work.ExistingPeriodicWorkPolicy;
 import androidx.work.ExistingWorkPolicy;
 import androidx.work.OneTimeWorkRequest;
+import androidx.work.OutOfQuotaPolicy;
 import androidx.work.PeriodicWorkRequest;
 import androidx.work.WorkManager;
 
 import yuku.ambilwarna.AmbilWarnaDialog;
 import yuku.ambilwarna.AmbilWarnaDialog.OnAmbilWarnaListener;
+
+import com.google.android.ump.ConsentInformation;
+import com.google.android.ump.ConsentRequestParameters;
+import com.google.android.ump.FormError;
+import com.google.android.ump.UserMessagingPlatform;
+
 
 /*
  * Author Brian Kimmel
@@ -107,7 +123,9 @@ import yuku.ambilwarna.AmbilWarnaDialog.OnAmbilWarnaListener;
 public class DigiClockPrefs extends AppCompatActivity implements NavigationBarView.OnItemSelectedListener {
 	private final static String TAG = "DCP";
 
-
+	private ConsentInformation consentInformation;
+	// Use an atomic boolean to initialize the Google Mobile Ads SDK and load ads once.
+	private final AtomicBoolean isMobileAdsInitializeCalled = new AtomicBoolean(false);
 	private static final String DONATE_ONE_ID = "donate_one";
 	private static final String DONATE_TWO_ID = "donate_two";
 	private static final String DONATE_FIVE_ID = "donate_five";
@@ -225,6 +243,8 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 	private AdView mAdView;
 	private Intent resultValue;
 
+
+
 	public void onCreate(Bundle icicle) {
 		super.onCreate(icicle);
 		Intent intent = getIntent();
@@ -260,15 +280,63 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 
 		setContentView(R.layout.digiclock_prefs_layout);
 
-		MobileAds.initialize(this, new OnInitializationCompleteListener() {
-			@Override
-			public void onInitializationComplete(InitializationStatus initializationStatus) {
-			}
-		});
+		/*
+		ConsentDebugSettings debugSettings = new ConsentDebugSettings.Builder(this)
+				.setDebugGeography(ConsentDebugSettings.DebugGeography.DEBUG_GEOGRAPHY_EEA)
+				.addTestDeviceHashedId("B6E2CC5277854FFA228849E4CDC50BB0")
+				.build();
 
-		mAdView = findViewById(R.id.adView);
-		AdRequest adRequest = new AdRequest.Builder().build();
-		mAdView.loadAd(adRequest);
+		ConsentRequestParameters debugparams = new ConsentRequestParameters
+				.Builder()
+				.setConsentDebugSettings(debugSettings)
+				.build();
+
+		 */
+
+		// Set tag for under age of consent. false means users are not under age
+		// of consent.
+		ConsentRequestParameters params = new ConsentRequestParameters
+				.Builder()
+				.setTagForUnderAgeOfConsent(false)
+				.build();
+
+		consentInformation = UserMessagingPlatform.getConsentInformation(this);
+		consentInformation.requestConsentInfoUpdate(
+				this,
+				params,
+				(ConsentInformation.OnConsentInfoUpdateSuccessListener) () -> {
+					UserMessagingPlatform.loadAndShowConsentFormIfRequired(
+							this,
+							(ConsentForm.OnConsentFormDismissedListener) loadAndShowError -> {
+								if (loadAndShowError != null) {
+									// Consent gathering failed.
+									Log.w(TAG, String.format("%s: %s",
+											loadAndShowError.getErrorCode(),
+											loadAndShowError.getMessage()));
+								}
+
+								// Consent has been gathered.
+								if (consentInformation.canRequestAds()) {
+									initializeMobileAdsSdk();
+								}
+							}
+					);;
+				},
+				(ConsentInformation.OnConsentInfoUpdateFailureListener) requestConsentError -> {
+					// Consent gathering failed.
+					Log.w(TAG, String.format("%s: %s",
+							requestConsentError.getErrorCode(),
+							requestConsentError.getMessage()));
+				});
+
+		// Check if you can initialize the Google Mobile Ads SDK in parallel
+		// while checking for new consent information. Consent obtained in
+		// the previous session can be used to request ads.
+		if (consentInformation.canRequestAds()) {
+			initializeMobileAdsSdk();
+		}
+
+
 
 		billingClient = BillingClient.newBuilder(this)
 				.setListener(purchasesUpdatedListener)
@@ -350,7 +418,21 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 
     }
 
+	private void initializeMobileAdsSdk() {
+		if (isMobileAdsInitializeCalled.getAndSet(true)) {
+			return;
+		}
 
+		MobileAds.initialize(this, new OnInitializationCompleteListener() {
+			@Override
+			public void onInitializationComplete(InitializationStatus initializationStatus) {
+			}
+		});
+
+		mAdView = findViewById(R.id.adView);
+		AdRequest adRequest = new AdRequest.Builder().build();
+		mAdView.loadAd(adRequest);
+	}
 	//initiate purchase on button click
 	public void purchase(View view) {
 		//check if service is already connected
@@ -1726,6 +1808,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
         //txt.setTypeface(font);
 	}
 
+
 	private void saveAndExit() {
 		SharedPreferences prefs = this.getSharedPreferences("prefs", 0);
 		SharedPreferences.Editor edit = prefs.edit();
@@ -1783,7 +1866,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		}
 		*/
 
-
+/*
 		OneTimeWorkRequest.Builder myWorkBuilder =
 				new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
 		OneTimeWorkRequest myWork = myWorkBuilder
@@ -1792,13 +1875,32 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		WorkManager.getInstance(getApplicationContext())
 				.enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.KEEP, myWork);
 		Log.d(TAG, "Start OneTimeWorkRequest");
+*/
+
+		try {
+			if (digiClockBroadcastReceiver != null) {
+				digiClockBroadcastReceiver.unregister(getApplicationContext());
+				digiClockBroadcastReceiver = null;
+			}
+			digiClockBroadcastReceiver = new DigiClockBroadcastReceiver();
+			digiClockBroadcastReceiver.register(getApplicationContext());
+		}catch (IllegalArgumentException e) {
+			digiClockBroadcastReceiver = null;
+		}
+
+		Intent refreshIntent = new Intent(DCP, DigiClockBroadcastReceiver.class);
+		refreshIntent.setPackage(DCP.getPackageName());
+		refreshIntent.setAction(DigiClockBroadcastReceiver.REFRESH_WIDGET);
+		getApplicationContext().sendBroadcast(refreshIntent);
+
 
 
 		Intent updateIntent = new Intent(getApplicationContext(), DigiClockProvider.class);
 		updateIntent.setAction(DigiClockProvider.SETTINGS_CHANGED);
 		updateIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
 		setResult(RESULT_OK, updateIntent);
-		//getApplicationContext().sendBroadcast(updateIntent);
+		getApplicationContext().sendBroadcast(updateIntent);
+
 
 
 		//UpdateWidgetView.updateView(getApplicationContext(), appWidgetId);

@@ -1,570 +1,570 @@
 [
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xxhdpi_clock.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xxhdpi/clock.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_nav_header_main.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/nav_header_main.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_ambilwarna_arrow_down.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/ambilwarna_arrow_down.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_selected_color.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/selected_color.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_widget_layout_classic.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/widget_layout_classic.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-anydpi_donate.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-anydpi/donate.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_fragment_date_settings.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/fragment_date_settings.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-ldpi_ambilwarna_target.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-ldpi/ambilwarna_target.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_home.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/home.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_fragment_background_settings.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/fragment_background_settings.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/font_audiowide.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/font/audiowide.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-mdpi_clock.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-mdpi/clock.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-mdpi_donate.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-mdpi/donate.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xxhdpi_clock.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xxhdpi/clock.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_time.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/time.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_bgselect.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/bgselect.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_nav_header_main.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/nav_header_main.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_ambilwarna_cursor.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/ambilwarna_cursor.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_ambilwarna_arrow_down.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/ambilwarna_arrow_down.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/xml_text_clock.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/xml/text_clock.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_backgrounds.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/backgrounds.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xhdpi_clock.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xhdpi/clock.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-mdpi_about.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-mdpi/about.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xxhdpi_home.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xxhdpi/home.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xhdpi_ambilwarna_arrow_right.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xhdpi/ambilwarna_arrow_right.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_ambilwarna_arrow_down.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/ambilwarna_arrow_down.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/font_bubbler_one.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/font/bubbler_one.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_ambilwarna_cursor.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/ambilwarna_cursor.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/font_creepster.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/font/creepster.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_black.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/black.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-anydpi_donate.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-anydpi/donate.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/font_walter_turncoat.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/font/walter_turncoat.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_checkbox.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/checkbox.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_icsblue.9.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/icsblue.9.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/menu_bottom_navigation_menu.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/menu/bottom_navigation_menu.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xhdpi_ambilwarna_cursor.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xhdpi/ambilwarna_cursor.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_help.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/help.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/font_calligraffitti.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/font/calligraffitti.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_widget_preview2.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/widget_preview2.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_clock_prefs.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/clock_prefs.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-ldpi_ic_launcher.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-ldpi/ic_launcher.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/font_ewert.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/font/ewert.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_fragment_font_settings.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/fragment_font_settings.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_stock.9.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/stock.9.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xhdpi_clock.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xhdpi/clock.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xxhdpi_fonts.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xxhdpi/fonts.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_date.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/date.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_mode_select.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/mode_select.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_ambilwarna_arrow_right.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/ambilwarna_arrow_right.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_layout_app_listview.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/layout_app_listview.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-anydpi_clock.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-anydpi/clock.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/font_ewert.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/font/ewert.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_dark_dialog.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/dark_dialog.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-mdpi_ic_launcher.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-mdpi/ic_launcher.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/menu_actionbar_menu.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/menu/actionbar_menu.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/font_walter_turncoat.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/font/walter_turncoat.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xhdpi_help.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xhdpi/help.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_ambilwarna_target.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/ambilwarna_target.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_activity_app_selector.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/activity_app_selector.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_fragment_clock_settings.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/fragment_clock_settings.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_widget_preview2.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/widget_preview2.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_main.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/main.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xhdpi_date.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xhdpi/date.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/menu_drawer_menu.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/menu/drawer_menu.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_help_package_layout.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/help_package_layout.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_ambilwarna_target.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/ambilwarna_target.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/font_slackey.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/font/slackey.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-anydpi_fonts.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-anydpi/fonts.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_fragment_font_settings.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/fragment_font_settings.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-mdpi_help.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-mdpi/help.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xxhdpi_date.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xxhdpi/date.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_activity_app_selector.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/activity_app_selector.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout-land_ambilwarna_dialog.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout-land/ambilwarna_dialog.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_help_dialog.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/help_dialog.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_fragment_about.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/fragment_about.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_about.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/about.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-mdpi_backgrounds.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-mdpi/backgrounds.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-anydpi_backgrounds.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-anydpi/backgrounds.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-mdpi_home.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-mdpi/home.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_app_bar_main.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/app_bar_main.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_ambilwarna_target.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/ambilwarna_target.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_blackbg.9.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/blackbg.9.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_ambilwarna_target.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/ambilwarna_target.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_check.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/check.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/font_trade_winds.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/font/trade_winds.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xhdpi_backgrounds.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xhdpi/backgrounds.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xhdpi_home.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xhdpi/home.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_about_layout.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/about_layout.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_splash2.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/splash2.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_ic_launcher.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/ic_launcher.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_fragment_date_settings.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/fragment_date_settings.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/font_slackey.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/font/slackey.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_home.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/home.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xxhdpi_fonts.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xxhdpi/fonts.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_donate_layout.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/donate_layout.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_widget_preview.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/widget_preview.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_menu_background_color_state.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/menu_background_color_state.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xxhdpi_date.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xxhdpi/date.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_check.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/check.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/color_mtrl_btn_ripple_color.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/color/mtrl_btn_ripple_color.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-mdpi_fonts.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-mdpi/fonts.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_stock.9.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/stock.9.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xhdpi_ambilwarna_arrow_right.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xhdpi/ambilwarna_arrow_right.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-mdpi_fonts.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-mdpi/fonts.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xhdpi_ambilwarna_arrow_down.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xhdpi/ambilwarna_arrow_down.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_clock.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/clock.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_color_sample.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/color_sample.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_fragment_settings_home.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/fragment_settings_home.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_menu_item_background.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/menu_item_background.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/color_menu_item_color_state.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/color/menu_item_color_state.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_logo.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/logo.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xxhdpi_about.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xxhdpi/about.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_about.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/about.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_help_package_layout.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/help_package_layout.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_fonts.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/fonts.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_ambilwarna_cursor.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/ambilwarna_cursor.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-mdpi_help.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-mdpi/help.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_fonts.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/fonts.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/color_mtrl_btn_ripple_color.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/color/mtrl_btn_ripple_color.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/font_trade_winds.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/font/trade_winds.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_checker.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/checker.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-anydpi_clock.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-anydpi/clock.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_ambilwarna_hue.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/ambilwarna_hue.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_ambilwarna_cursor.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/ambilwarna_cursor.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_widget_layout_classic.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/widget_layout_classic.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-mdpi_clock.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-mdpi/clock.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_preview_cell_rectangle.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/preview_cell_rectangle.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-mdpi_home.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-mdpi/home.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout-v31_widget_layout_classic.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout-v31/widget_layout_classic.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-ldpi_ambilwarna_target.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-ldpi/ambilwarna_target.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/color_menu_item_color_state.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/color/menu_item_color_state.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_fragment_about.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/fragment_about.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/menu_drawer_menu.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/menu/drawer_menu.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_splash2.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/splash2.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_help.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/help.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_dark_dialog.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/dark_dialog.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_donate.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/donate.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/navigation_nav_graph.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/navigation/nav_graph.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_digiclock_prefs_layout.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/digiclock_prefs_layout.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/font_happy_monkey.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/font/happy_monkey.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-ldpi_ambilwarna_arrow_right.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-ldpi/ambilwarna_arrow_right.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-anydpi_about.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-anydpi/about.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_help_dialog.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/help_dialog.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_custombg.9.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/custombg.9.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_clock.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/clock.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xxhdpi_backgrounds.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xxhdpi/backgrounds.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/color_mtrl_btn_text_color_selector.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/color/mtrl_btn_text_color_selector.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_clock_prefs.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/clock_prefs.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-anydpi_about.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-anydpi/about.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_date_prefs.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/date_prefs.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_ambilwarna_arrow_down.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/ambilwarna_arrow_down.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_donate_layout.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/donate_layout.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_logo.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/logo.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/font_fugaz_one.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/font/fugaz_one.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_buttons_help.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/buttons_help.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_app_bar_main.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/app_bar_main.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-anydpi_date.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-anydpi/date.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_clearbg.9.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/clearbg.9.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_preview_cell_rectangle.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/preview_cell_rectangle.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/font_architects_daughter.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/font/architects_daughter.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout-v31_widget_layout_classic.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout-v31/widget_layout_classic.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_about_layout.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/about_layout.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xhdpi_about.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xhdpi/about.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/font_happy_monkey.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/font/happy_monkey.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_ambilwarna_dialog.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/ambilwarna_dialog.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_help_select_app_layout.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/help_select_app_layout.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_fragment_help.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/fragment_help.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_buttons_help.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/buttons_help.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xhdpi_home.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xhdpi/home.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_blank.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/blank.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_donate.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/donate.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-mdpi_about.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-mdpi/about.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-ldpi_ambilwarna_arrow_down.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-ldpi/ambilwarna_arrow_down.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-anydpi_backgrounds.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-anydpi/backgrounds.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xhdpi_date.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xhdpi/date.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_time.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/time.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/menu_actionbar_menu.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/menu/actionbar_menu.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xhdpi_backgrounds.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xhdpi/backgrounds.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xxhdpi_donate.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xxhdpi/donate.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_widget_layout.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/widget_layout.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_actionbar_view.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/actionbar_view.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/menu/bottom_navigation_menu.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_widget_layout.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/widget_layout.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_cancel.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/cancel.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_ambilwarna_arrow_right.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/ambilwarna_arrow_right.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/font_calligraffitti.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/font/calligraffitti.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_fragment_clock_settings.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/fragment_clock_settings.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_clearbg.9.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/clearbg.9.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_backgrounds.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/backgrounds.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xhdpi_fonts.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xhdpi/fonts.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/navigation_nav_graph.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/navigation/nav_graph.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xhdpi_ambilwarna_target.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xhdpi/ambilwarna_target.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_checkered.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/checkered.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/font_architects_daughter.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/font/architects_daughter.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_custombg.9.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/custombg.9.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_checker.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/checker.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-mdpi_progress.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-mdpi/progress.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-mdpi_progress.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-mdpi/progress.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xxhdpi_about.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xxhdpi/about.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/color_mtrl_btn_text_color_selector.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/color/mtrl_btn_text_color_selector.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xhdpi_donate.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xhdpi/donate.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_ambilwarna_arrow_right.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/ambilwarna_arrow_right.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_fragment_help.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/fragment_help.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xhdpi_help.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xhdpi/help.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_date_prefs.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/date_prefs.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_bgselect.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/bgselect.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_layout_digiclock_prefs.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/layout_digiclock_prefs.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout-land_ambilwarna_dialog.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout-land/ambilwarna_dialog.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-ldpi_ambilwarna_arrow_down.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-ldpi/ambilwarna_arrow_down.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-mdpi_backgrounds.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-mdpi/backgrounds.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xxhdpi_donate.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xxhdpi/donate.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-ldpi_ambilwarna_cursor.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-ldpi/ambilwarna_cursor.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_main2.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/main2.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_layout_digiclock_prefs.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/layout_digiclock_prefs.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/font_creepster.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/font/creepster.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_grey.9.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/grey.9.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/font_audiowide.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/font/audiowide.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_help_select_app_layout.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/help_select_app_layout.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_sd_white.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/sd_white.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_checkedbox.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/checkedbox.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_ambilwarna_dialog.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/ambilwarna_dialog.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_blank.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/blank.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_widget_preview.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/widget_preview.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/xml_widget_info.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/xml/widget_info.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-ldpi_ic_launcher.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-ldpi/ic_launcher.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_main2.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/main2.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-anydpi_help.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-anydpi/help.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_ambilwarna_hue.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/ambilwarna_hue.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-ldpi_ambilwarna_cursor.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-ldpi/ambilwarna_cursor.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout-v31_widget_layout.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout-v31/widget_layout.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-anydpi_fonts.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-anydpi/fonts.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-anydpi_home.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-anydpi/home.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_checkbox.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/checkbox.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xhdpi_ambilwarna_arrow_down.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xhdpi/ambilwarna_arrow_down.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-anydpi_date.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-anydpi/date.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-mdpi_date.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-mdpi/date.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xxhdpi_backgrounds.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xxhdpi/backgrounds.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-ldpi_ambilwarna_arrow_right.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-ldpi/ambilwarna_arrow_right.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xhdpi_ambilwarna_target.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xhdpi/ambilwarna_target.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_date_format_layout.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/date_format_layout.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xxhdpi_help.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xxhdpi/help.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_menu_background_color_state.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/menu_background_color_state.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xhdpi_fonts.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xhdpi/fonts.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xxhdpi_home.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xxhdpi/home.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_main.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/main.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_color_sample.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/color_sample.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_date.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/date.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_black.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/black.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_date_format_layout.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/date_format_layout.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_selected_color.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/selected_color.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout-v31_widget_layout.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout-v31/widget_layout.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/font_graduate.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/font/graduate.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_actionbar_view.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/actionbar_view.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xhdpi_ic_launcher.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xhdpi/ic_launcher.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-anydpi_home.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-anydpi/home.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-anydpi_help.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-anydpi/help.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_grey.9.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/grey.9.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_menu_item_background.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/menu_item_background.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-mdpi_donate.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-mdpi/donate.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_fragment_background_settings.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/fragment_background_settings.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_blackbg.9.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/blackbg.9.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_digiclock_prefs_layout.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/digiclock_prefs_layout.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/font_graduate.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/font/graduate.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_sd_white.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/sd_white.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-xhdpi_about.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-xhdpi/about.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xhdpi_donate.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xhdpi/donate.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_fragment_settings_home.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/fragment_settings_home.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/layout_mode_select.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/layout/mode_select.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_checkedbox.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/checkedbox.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable_checkered.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable/checkered.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable_ambilwarna_arrow_right.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable/ambilwarna_arrow_right.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-hdpi_icsblue.9.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-hdpi/icsblue.9.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-hdpi_cancel.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-hdpi/cancel.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/font_fugaz_one.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/font/fugaz_one.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/layout_layout_app_listview.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/layout/layout_app_listview.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xxhdpi_help.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xxhdpi/help.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/drawable-mdpi_date.png.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/drawable-mdpi/date.png"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/xml_text_clock.xml.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/xml/text_clock.xml"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/xml_widget_info.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/xml/widget_info.xml"
     },
     {
-        "merged": "com.sd.sddigiclock.app-merged_res-56:/drawable-xhdpi_ambilwarna_cursor.png.flat",
-        "source": "com.sd.sddigiclock.app-main-58:/drawable-xhdpi/ambilwarna_cursor.png"
+        "merged": "com.sd.sddigiclock.app-merged_res-57:/font_bubbler_one.xml.flat",
+        "source": "com.sd.sddigiclock.app-main-59:/font/bubbler_one.xml"
     }
 ]

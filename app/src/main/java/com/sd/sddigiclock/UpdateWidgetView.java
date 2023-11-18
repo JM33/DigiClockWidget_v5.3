@@ -98,11 +98,12 @@ public class UpdateWidgetView {
         prefsIntent.setComponent(cnpref);
         prefsIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         prefsIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
+        //prefsIntent.setAction(android.provider.Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
         prefsIntent.setData(Uri.parse(prefsIntent.toUri(Intent.URI_INTENT_SCHEME)));
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             PendingIntent pendingIntent = PendingIntent.getActivity(context,
-                    appWidgetId, prefsIntent, PendingIntent.FLAG_MUTABLE);
+                    appWidgetId, prefsIntent, PendingIntent.FLAG_IMMUTABLE);
             view.setOnClickPendingIntent(R.id.SettingsButton, pendingIntent);
             //view.setOnClickPendingIntent(R.id.SettingsButton, getPendingSelfIntent(context, ClockOnClick));
         }else{
