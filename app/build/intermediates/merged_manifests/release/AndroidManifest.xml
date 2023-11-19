@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sd.sddigiclock"
-    android:versionCode="13"
-    android:versionName="5.3" >
+    android:versionCode="14"
+    android:versionName="5.3.1" >
 
     <uses-sdk
         android:minSdkVersion="23"
@@ -10,9 +10,11 @@
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
     <!--
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -75,6 +77,7 @@
         android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
+        android:permission="android.permission.RECEIVE_BOOT_COMPLETED                                 |android.permission..REQUEST_IGNORE_BATTERY_OPTIMIZATIONS                                 |android.permission.SCHEDULE_EXACT_ALARM"
         android:theme="@style/Theme.MaterialYouColors" >
         <activity
             android:name="com.sd.sddigiclock.DigiClockPrefs"
@@ -88,33 +91,10 @@
 
         <receiver
             android:name="com.sd.sddigiclock.DigiClockProvider"
-            android:exported="false" >
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED                                 |android.permission..REQUEST_IGNORE_BATTERY_OPTIMIZATIONS                                 |android.permission.SCHEDULE_EXACT_ALARM" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="CLOCK_TICK" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="JOB_CLOCK_TICK" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="SETTINGS_CHANGED" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.TIME_SET" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.DATE_CHANGED" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.os.action.DEVICE_IDLE_MODE_CHANGED" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.ACTION_DREAMING_STOPPED" />
             </intent-filter>
             <intent-filter>
                 <action android:name="clockOnClickTag" />
@@ -148,11 +128,9 @@
             android:name="com.sd.sddigiclock.DigiClockBroadcastReceiver"
             android:enabled="true"
             android:exported="true"
-            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED                                 |android.permission..REQUEST_IGNORE_BATTERY_OPTIMIZATIONS                                 |android.permission.SCHEDULE_EXACT_ALARM" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
-
-                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.CONFIGURATION_CHANGED" />
@@ -161,7 +139,31 @@
                 <action android:name="android.intent.action.SCREEN_ON" />
             </intent-filter>
             <intent-filter>
+                <action android:name="SETTINGS_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_TICK" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.os.action.DEVICE_IDLE_MODE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_DREAMING_STOPPED" />
+            </intent-filter>
+            <intent-filter>
                 <action android:name="REFRESH_WIDGET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
         </receiver>
 

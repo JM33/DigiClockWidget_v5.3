@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.sd.sddigiclock.app-mergeReleaseResources-54:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "com.sd.sddigiclock.app-mergeReleaseResources-55:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\433b0c34d29a12522539d45eaa9db5a2\\transformed\\preference-1.2.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\5800d6f8829a69efb2e16b69e922d8e0\\transformed\\preference-1.2.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

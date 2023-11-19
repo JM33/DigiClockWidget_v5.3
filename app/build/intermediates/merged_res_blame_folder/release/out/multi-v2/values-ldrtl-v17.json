@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.sd.sddigiclock.app-mergeReleaseResources-54:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.sd.sddigiclock.app-mergeReleaseResources-55:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\f0d327b5fa71a05459955de625eeb703\\transformed\\material-1.9.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\e6d56bc584dc2aa0c05e8de11f3f8f96\\transformed\\material-1.9.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
