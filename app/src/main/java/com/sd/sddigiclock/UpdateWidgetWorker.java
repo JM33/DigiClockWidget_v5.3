@@ -25,6 +25,8 @@ public class UpdateWidgetWorker extends Worker {
     int appWidgetId = AppWidgetManager.INVALID_APPWIDGET_ID;
     private final int[] appWidgetIds;
 
+    private DigiClockBroadcastReceiver digiClockBroadcastReceiver;
+
     public UpdateWidgetWorker(
             @NonNull Context context,
             @NonNull WorkerParameters params) {
@@ -47,11 +49,20 @@ public class UpdateWidgetWorker extends Worker {
                 UpdateWidgetView.updateView(mContext, appWidgetId);
                 Log.i(TAG, "Worker updated widget ID: " + appWidgetId);
             }
-
-
         }
         catch(Exception e){
             Log.e(TAG, e.getMessage());
+        }
+
+        try {
+            if (digiClockBroadcastReceiver != null) {
+                digiClockBroadcastReceiver.unregister(getApplicationContext());
+                digiClockBroadcastReceiver = null;
+            }
+            digiClockBroadcastReceiver = new DigiClockBroadcastReceiver();
+            digiClockBroadcastReceiver.register(getApplicationContext());
+        }catch (IllegalArgumentException e) {
+            digiClockBroadcastReceiver = null;
         }
 
         if(!WidgetBackgroundService.isMyServiceRunning(mContext, WidgetBackgroundService.class)){
