@@ -860,7 +860,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		clockapp = prefs.getString("ClockButtonApp"+appWidgetId, "NONE");
 		//Log.d("SDDC", "clock app = "+ clockapp);
 		classicMode = false;
-		batterySave = prefs.getBoolean("IgnoreBatterySave", false);
+		batterySave = prefs.getBoolean("IgnoreBatterySave", true);
 	}
 
 	/*
@@ -1017,7 +1017,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		btsave = (ImageButton)DCP.findViewById(R.id.btSave);
 		btcancel = (ImageButton)DCP.findViewById(R.id.btCancel);
 
-		/*
+
 		if(isMyServiceRunning(WidgetBackgroundService.class)){
 			btstartbgservice.setText(R.string.p_bg_service_running_summary);
 			btstartbgservice.setCompoundDrawablesWithIntrinsicBounds(0,0,R.drawable.checkedbox,0);
@@ -1026,7 +1026,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 			btstartbgservice.setCompoundDrawablesWithIntrinsicBounds(0,0,R.drawable.checkbox,0);
 		}
 
-		 */
+
 		saveLinearLayout = (LinearLayout)DCP.findViewById(R.id.saveLinearLayout);
 		cancelLinearLayout = (LinearLayout)DCP.findViewById(R.id.cancelLinearLayout);
 		//mDateFormatFrameLayout = (FrameLayout)DCP.findViewById(R.id.DateFormatFrameLayout);
@@ -1838,9 +1838,9 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		getApplicationContext().startService(intent);
 */
 		Intent serviceBG = new Intent(getApplicationContext(), WidgetBackgroundService.class);
-		if(batterySave) {
+		//if(batterySave) {
 			serviceBG.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
-		}
+		//}
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
 			try {
 				getApplicationContext().startForegroundService(serviceBG);
@@ -1868,35 +1868,9 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		setResult(RESULT_OK, updateIntent);
 		getApplicationContext().sendBroadcast(updateIntent);
 
-		/*
-		Intent serviceBG = new Intent(getApplicationContext(), WidgetBackgroundService.class);
-		if(batterySave) {
-			//serviceBG.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
-		}
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-			try {
-				getApplicationContext().startForegroundService(serviceBG);
-				Log.d("DigiClockProvider", "Start service android 12");
 
-			}catch(android.app.ForegroundServiceStartNotAllowedException e){
-				Log.d(TAG, e.getMessage());
-			}
-		} else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-			// for Android 8 start the service in foreground
-			getApplicationContext().startForegroundService(serviceBG);
 
-		} else {
-			getApplicationContext().startService(serviceBG);
-		}
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-			DigiClockProvider.scheduleJob(getApplicationContext());
-		} else {
-			AppWidgetAlarm appWidgetAlarm = new AppWidgetAlarm(getApplicationContext());
-			appWidgetAlarm.startAlarm();
-		}
-		*/
 
-/*
 		OneTimeWorkRequest.Builder myWorkBuilder =
 				new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
 		OneTimeWorkRequest myWork = myWorkBuilder
@@ -1905,7 +1879,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		WorkManager.getInstance(getApplicationContext())
 				.enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.KEEP, myWork);
 		Log.d(TAG, "Start OneTimeWorkRequest");
-*/
+
 
 		try {
 			if (digiClockBroadcastReceiver != null) {

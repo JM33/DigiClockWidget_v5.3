@@ -3,6 +3,7 @@ package com.sd.sddigiclock;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
+import android.app.ActivityManager;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -104,7 +105,7 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
 
         /*
         SharedPreferences prefs = context.getSharedPreferences("prefs", 0);
-        boolean batterySave = prefs.getBoolean("IgnoreBatterySave", false);
+        boolean batterySave = prefs.getBoolean("IgnoreBatterySave", true);
 
         AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
 
@@ -168,7 +169,7 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
             intentFilter.addAction("android.intent.action.SCREEN_ON");
             intentFilter.addAction("android.intent.action.CONFIGURATION_CHANGED");
             intentFilter.addAction("android.intent.action.TIME_SET");
-            intentFilter.addAction("android.intent.action.TIME_TICK");
+            //intentFilter.addAction("android.intent.action.TIME_TICK");
             intentFilter.addAction("android.intent.action.TIMEZONE_CHANGED");
             intentFilter.addAction("android.intent.action.DATE_CHANGED");
             intentFilter.addAction("android.intent.action.DEVICE_IDLE_MODE_CHANGED");
@@ -198,4 +199,6 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
             isRegistered = false;
         }
     }
+
+
 }

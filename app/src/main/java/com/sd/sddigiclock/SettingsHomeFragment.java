@@ -227,7 +227,7 @@ public class SettingsHomeFragment extends Fragment {
         useHomeColors = prefs.getBoolean("UseHomeColors"+appWidgetId, false);
         cornerRadius = prefs.getInt("CornerRadius"+appWidgetId, 25);
         darkMode = prefs.getInt("DarkMode"+appWidgetId, 0);
-        batterySave = prefs.getBoolean("IgnoreBatterySave", false);
+        batterySave = prefs.getBoolean("IgnoreBatterySave", true);
     }
 
     private void setButtons() {
@@ -249,7 +249,7 @@ public class SettingsHomeFragment extends Fragment {
         darkThemeLayout = (LinearLayout) mView.findViewById(R.id.LinearLayoutDarkTheme);
         btdarktheme = (TextView)mView.findViewById(R.id.buttonDarkTheme);
 
-        /*
+
         if(isMyServiceRunning(WidgetBackgroundService.class)){
             serviceRunningSummary.setText(R.string.p_bg_service_running_summary);
             serviceRunningButton.setChecked(true);
@@ -261,7 +261,7 @@ public class SettingsHomeFragment extends Fragment {
         setServiceRunningListener(serviceRunningButton);
         setServiceRunningListener(serviceRunningLinearLayout);
 
-         */
+
 
         homeClockSeekBar.setProgress(clocktextsize);
         homeClockSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
@@ -461,7 +461,7 @@ public class SettingsHomeFragment extends Fragment {
         view.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Log.i("HomeSettings", "View clicked = "+view.getId());
-                /*
+
                 if(isMyServiceRunning(WidgetBackgroundService.class)){
                     //stop service
                     serviceRunningSummary.setText(R.string.p_bg_service_stopped_summary);
@@ -473,9 +473,10 @@ public class SettingsHomeFragment extends Fragment {
                     //run service
                     serviceRunningSummary.setText(R.string.p_bg_service_running_summary);
                     serviceRunningButton.setChecked(true);
-                    //Intent serviceBG = new Intent(getActivity().getApplicationContext(), WidgetBackgroundService.class);
+                    Intent serviceBG = new Intent(getActivity().getApplicationContext(), WidgetBackgroundService.class);
+                    serviceBG.setPackage(mContext.getPackageName());
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-                        //getActivity().startForegroundService(serviceBG);
+                        getActivity().startForegroundService(serviceBG);
                         OneTimeWorkRequest.Builder myWorkBuilder =
                                 new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
                         OneTimeWorkRequest myWork = myWorkBuilder
@@ -485,7 +486,7 @@ public class SettingsHomeFragment extends Fragment {
                         Log.d("DigiClockProvider", "Start service android 12");
                     } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                         // for Android 8 start the service in foreground
-                        //getActivity().startForegroundService(serviceBG);
+                        getActivity().startForegroundService(serviceBG);
                         OneTimeWorkRequest.Builder myWorkBuilder =
                                 new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
                         OneTimeWorkRequest myWork = myWorkBuilder
@@ -493,7 +494,7 @@ public class SettingsHomeFragment extends Fragment {
                         WorkManager.getInstance(mContext)
                                 .enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.REPLACE, myWork);
                     } else {
-                        //getActivity().startService(serviceBG);
+                        getActivity().startService(serviceBG);
                     }
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                         DigiClockProvider.scheduleJob(getActivity().getApplicationContext());
@@ -504,7 +505,7 @@ public class SettingsHomeFragment extends Fragment {
                     Log.i("DigiClockPrefs", "Start BG Service");
                 }
 
-                 */
+
             }
         });
     }

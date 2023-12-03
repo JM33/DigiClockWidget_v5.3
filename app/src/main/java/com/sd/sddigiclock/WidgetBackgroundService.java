@@ -1,5 +1,9 @@
 package com.sd.sddigiclock;
 
+import static android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE;
+import static android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_SYSTEM_EXEMPTED;
+
+import android.app.ActivityManager;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -20,6 +24,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
 import androidx.core.app.NotificationCompat;
+import androidx.core.app.ServiceCompat;
+
 import android.util.Log;
 
 import java.util.List;
@@ -92,6 +98,7 @@ public class WidgetBackgroundService extends Service {
         }
 
         if(mMinuteTickReceiver==null) {
+            //Log.i(TAG, "mMinuteTickReceiver is null, attempting to register");
             registerOnTickReceiver();
         }
         // We want this service to continue running until it is explicitly
@@ -103,7 +110,7 @@ public class WidgetBackgroundService extends Service {
         String NOTIFICATION_CHANNEL_ID = "com.sd.digiclockwidget";
         String channelName = "DigiClock Background Service";
         NotificationChannel chan = null;
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             chan = new NotificationChannel(NOTIFICATION_CHANNEL_ID, channelName, NotificationManager.IMPORTANCE_NONE);
             chan.setLightColor(Color.BLUE);
             chan.setLockscreenVisibility(Notification.VISIBILITY_PRIVATE);
@@ -119,7 +126,10 @@ public class WidgetBackgroundService extends Service {
                     .setPriority(NotificationManager.IMPORTANCE_MIN)
                     .setCategory(Notification.CATEGORY_SERVICE)
                     .build();
-            startForeground(2, notification);
+            //startForeground(2, notification);
+            ServiceCompat.startForeground(this, 2, notification, FOREGROUND_SERVICE_TYPE_SYSTEM_EXEMPTED);
+
+            Log.d(TAG, "startMyOwnForeground complete");
         }
     }
 
@@ -129,6 +139,7 @@ public class WidgetBackgroundService extends Service {
                 .setContentTitle("SD DigiClockWidget")
                 .setContentText("Running in the background")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT);
+        Log.d(TAG, "buildForegroundNotification complete");
         return builder.build();
     }
 
@@ -161,12 +172,14 @@ public class WidgetBackgroundService extends Service {
                     sendImplicitBroadcast(context, timeTick);
                 else
                     sendBroadcast(timeTick);
+                Log.i(TAG, "OnTickReceiver Sent Broadcast");
             }
         };
         IntentFilter filter = new IntentFilter();
         filter.addAction(Intent.ACTION_TIME_TICK);
         filter.addAction(Intent.ACTION_SCREEN_ON);
         registerReceiver(mMinuteTickReceiver, filter);
+        Log.i(TAG, "registerOnTickReceiver Complete");
     }
 
     private static void sendImplicitBroadcast(Context ctxt, Intent i) {
@@ -220,4 +233,14 @@ public class WidgetBackgroundService extends Service {
     }
 
 
+    public static boolean isMyServiceRunning(Context context, Class<?> serviceClass) {
+        ActivityManager manager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
+        for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
+            if (serviceClass.getName().equals(service.service.getClassName())) {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }

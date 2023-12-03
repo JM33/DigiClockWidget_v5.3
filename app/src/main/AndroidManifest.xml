@@ -11,6 +11,7 @@
     <uses-permission android:name="android.permission.USE_EXACT_ALARM"/>
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED" />
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="com.android.vending.BILLING"/>
@@ -72,6 +73,31 @@
             </intent-filter>
 
             <intent-filter>
+                <action android:name="CLOCK_TICK" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="JOB_CLOCK_TICK" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="SETTINGS_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.os.action.DEVICE_IDLE_MODE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_DREAMING_STOPPED" />
+            </intent-filter>
+
+            <intent-filter>
                 <action android:name="clockOnClickTag" />
             </intent-filter>
             <meta-data android:name="android.appwidget.provider"
@@ -85,9 +111,13 @@
             android:permission="android.permission.BIND_JOB_SERVICE"
             android:exported="true"/>
 
-        <service android:name=".WidgetBackgroundService"/>
+        <service android:name=".WidgetBackgroundService"
+            android:foregroundServiceType="systemExempted"/>
 
-        <service android:name=".UpdateWidgetService"/>
+        <service android:name=".UpdateWidgetService"
+            android:foregroundServiceType="systemExempted">
+        </service>
+
 
         <service
             android:name=".ClockJobScheduler"

@@ -12,11 +12,8 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
-    <!--
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="com.android.vending.BILLING" />
     <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
@@ -63,7 +60,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <permission
         android:name="com.sd.sddigiclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -98,6 +94,30 @@
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
             <intent-filter>
+                <action android:name="CLOCK_TICK" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="JOB_CLOCK_TICK" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="SETTINGS_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.os.action.DEVICE_IDLE_MODE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_DREAMING_STOPPED" />
+            </intent-filter>
+            <intent-filter>
                 <action android:name="clockOnClickTag" />
             </intent-filter>
 
@@ -106,20 +126,20 @@
                 android:resource="@xml/widget_info" />
         </receiver>
 
-        <!--
         <service
-            android:name=".RepeatingJob"
-            android:permission="android.permission.BIND_JOB_SERVICE"
-            android:exported="true"/>
-
-        <service android:name=".WidgetBackgroundService"/>
-
-        <service android:name=".UpdateWidgetService"/>
-
+            android:name="com.sd.sddigiclock.RepeatingJob"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
         <service
-            android:name=".ClockJobScheduler"
-            android:permission="android.permission.BIND_JOB_SERVICE"/>
-        -->
+            android:name="com.sd.sddigiclock.WidgetBackgroundService"
+            android:foregroundServiceType="systemExempted" />
+        <service
+            android:name="com.sd.sddigiclock.UpdateWidgetService"
+            android:foregroundServiceType="systemExempted" >
+        </service>
+        <service
+            android:name="com.sd.sddigiclock.ClockJobScheduler"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <activity
             android:name="com.sd.sddigiclock.AppSelector"

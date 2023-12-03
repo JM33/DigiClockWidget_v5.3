@@ -197,7 +197,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 			//		PackageManager.DONT_KILL_APP);
 			*/
 
-			/*
+
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 				JobScheduler jobScheduler = (JobScheduler) context.getSystemService(Context.JOB_SCHEDULER_SERVICE);
 				jobScheduler.cancelAll();
@@ -207,12 +207,13 @@ public class DigiClockProvider extends AppWidgetProvider {
 				appWidgetAlarm.stopAlarm();
 			}
 
-			 */
 
-			//Intent serviceBG = new Intent(context.getApplicationContext(), WidgetBackgroundService.class);
-			//serviceBG.putExtra("SHUTDOWN", true);
-			//context.getApplicationContext().startService(serviceBG);
-			//context.getApplicationContext().stopService(serviceBG);
+
+			Intent serviceBG = new Intent(context.getApplicationContext(), WidgetBackgroundService.class);
+			serviceBG.setPackage(context.getPackageName());
+			serviceBG.putExtra("SHUTDOWN", true);
+			context.getApplicationContext().startService(serviceBG);
+			context.getApplicationContext().stopService(serviceBG);
 
 			//digiClockBroadcastReceiver.unregister(context);
 	    }  
@@ -239,9 +240,9 @@ public class DigiClockProvider extends AppWidgetProvider {
 
 		 if (intent.getAction().equals(SETTINGS_CHANGED)) {
 			 onUpdate(context, appWidgetManager, appWidgetIds);
-			 //if (appWidgetIds.length > 0) {
+			 if (appWidgetIds.length > 0) {
 			 restartAll(context);
-			 //}
+			 }
 			 Log.i(TAG, "Settings Change Action");
 		 }
 
@@ -259,9 +260,9 @@ public class DigiClockProvider extends AppWidgetProvider {
 
 
 		 if (intent.getAction().equals(JOB_TICK) || intent.getAction().equals(ACTION_TICK)
-				 //|| intent.getAction().equals(AppWidgetManager.ACTION_APPWIDGET_UPDATE)
+				 || intent.getAction().equals(AppWidgetManager.ACTION_APPWIDGET_UPDATE)
 				 ) {
-			 //restartAll(context);
+			 restartAll(context);
 			 onUpdate(context, appWidgetManager, appWidgetIds);
 			 Log.i(TAG, "Intent Action = " + intent.getAction());
 		 }
@@ -332,13 +333,14 @@ public class DigiClockProvider extends AppWidgetProvider {
 	private void restartAll(Context context){
 		Log.d(TAG, "restartAll method called");
 
+		/*
 		Intent refreshIntent = new Intent(context, DigiClockBroadcastReceiver.class);
 		refreshIntent.setPackage(context.getPackageName());
 		refreshIntent.setAction(DigiClockBroadcastReceiver.REFRESH_WIDGET);
 		context.sendBroadcast(refreshIntent);
 
 
-		/*
+
 		try{
 
 			Calendar calendar = Calendar.getInstance();
@@ -382,25 +384,23 @@ public class DigiClockProvider extends AppWidgetProvider {
 				.enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.KEEP, myWork);
 		 */
 
-
-		/*
 		SharedPreferences prefs = context.getSharedPreferences("prefs", 0);
-		boolean batterySave = prefs.getBoolean("IgnoreBatterySave", false);
+		boolean batterySave = prefs.getBoolean("IgnoreBatterySave", true);
+		boolean useBGService = prefs.getBoolean("USE", true);
 
-		//Intent serviceBG = new Intent(context.getApplicationContext(), WidgetBackgroundService.class);
-		if(batterySave) {
-			//serviceBG.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
-		}
+		Intent serviceBG = new Intent(context.getApplicationContext(), WidgetBackgroundService.class);
+		serviceBG.setPackage(context.getPackageName());
+		//if(batterySave) {
+		serviceBG.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
+		//}
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
 			try {
-				//ContextCompat.startForegroundService(context, serviceBG);
-				OneTimeWorkRequest.Builder myWorkBuilder =
-						new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
-				OneTimeWorkRequest myWork = myWorkBuilder
-						.build();
-				WorkManager.getInstance(context)
-						.enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.REPLACE, myWork);
-			}catch(android.app.ForegroundServiceStartNotAllowedException e){
+				if(!WidgetBackgroundService.isMyServiceRunning(context, WidgetBackgroundService.class)) {
+					ContextCompat.startForegroundService(context, serviceBG);
+				}else{
+					Log.d(TAG, "BG Service is already running");
+				}
+			} catch (android.app.ForegroundServiceStartNotAllowedException e) {
 				Log.d(TAG, e.getMessage());
 			}
 			Log.i(TAG, "restartAll");
@@ -408,13 +408,11 @@ public class DigiClockProvider extends AppWidgetProvider {
 		} else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
 			// for Android 8 start the service in foreground
 			//context.startForegroundService(serviceBG);
-			//ContextCompat.startForegroundService(context, serviceBG);
-			OneTimeWorkRequest.Builder myWorkBuilder =
-					new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
-			OneTimeWorkRequest myWork = myWorkBuilder
-					.build();
-			WorkManager.getInstance(context)
-					.enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.REPLACE, myWork);
+			if(!WidgetBackgroundService.isMyServiceRunning(context, WidgetBackgroundService.class)) {
+				ContextCompat.startForegroundService(context, serviceBG);
+			}else{
+				Log.d(TAG, "BG Service is already running");
+			}
 		} else {
 			//context.startService(serviceBG);
 		}
@@ -425,7 +423,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 			appWidgetAlarm.startAlarm();
 		}
 
-		 */
+
 
 
 	}
@@ -455,7 +453,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 		*/
 
 
-		/*
+
 		new Thread(new Runnable() {
 			public void run() {
 				ComponentName serviceComponent = new ComponentName(context.getPackageName(), RepeatingJob.class.getName());
@@ -471,25 +469,27 @@ public class DigiClockProvider extends AppWidgetProvider {
 			}
 		}).start();
 
-		*/
+
 	}
 	 
 	 static void updateAppWidget(Context context, AppWidgetManager appwidgetmanager, int appWidgetId) {
 		 SharedPreferences prefs = context.getSharedPreferences("prefs", 0);
-		 boolean batterySave = prefs.getBoolean("IgnoreBatterySave", false);
+		 boolean batterySave = prefs.getBoolean("IgnoreBatterySave", true);
 
 
 		 UpdateWidgetView.updateView(context, appWidgetId);
-		 /*
+
+
 		 Intent intent = new Intent(context, UpdateWidgetService.class);
+		 intent.setPackage(context.getPackageName());
 		 intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
-		 if(batterySave) {
+		 //if(batterySave) {
 			 intent.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
-		 }
+		 //}
 		 intent.setData(Uri.parse(intent.toUri(Intent.URI_INTENT_SCHEME)));
 		 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
 			 try {
-				 //ContextCompat.startForegroundService(context, intent);
+				 ContextCompat.startForegroundService(context, intent);
 				 OneTimeWorkRequest.Builder myWorkBuilder =
 						 new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
 				 OneTimeWorkRequest myWork = myWorkBuilder
@@ -502,7 +502,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 			 }
 		 } else {
 			 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-				 //ContextCompat.startForegroundService(context, intent);
+				 ContextCompat.startForegroundService(context, intent);
 				 OneTimeWorkRequest.Builder myWorkBuilder =
 						 new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
 				 OneTimeWorkRequest myWork = myWorkBuilder
@@ -516,7 +516,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 
 		 }
 
-
+		/*
 		 OneTimeWorkRequest.Builder myWorkBuilder =
 				 new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
 		 OneTimeWorkRequest myWork = myWorkBuilder

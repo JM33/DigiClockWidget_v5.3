@@ -175,34 +175,36 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:orientation="vertical"
-                android:visibility="gone">
+                android:visibility="visible">
+
                 <com.google.android.material.switchmaterial.SwitchMaterial
                     android:id="@+id/buttonStartBGService"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawablePadding="10dp"
-                    android:paddingTop="10dp"
                     android:paddingStart="25dp"
-                    android:paddingBottom="5dp"
+                    android:paddingTop="10dp"
                     android:paddingEnd="20dp"
+                    android:paddingBottom="5dp"
                     android:text="@string/p_bg_service_running_title"
+                    android:textAllCaps="false"
                     android:textColor="?android:attr/textColorPrimary"
                     android:textSize="25dp"
                     android:textStyle="bold"
-                    android:textAllCaps="false"
-                    android:theme="@style/Theme.MaterialYouColors"/>
+                    android:theme="@style/Theme.MaterialYouColors" />
+
                 <TextView
                     android:id="@+id/textViewSummaryServiceRunning"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingTop="0dp"
                     android:paddingLeft="25dp"
-                    android:paddingBottom="5dp"
+                    android:paddingTop="0dp"
                     android:paddingRight="50dp"
+                    android:paddingBottom="5dp"
                     android:text="@string/p_bg_service_running_summary"
-                    android:textColor="?android:attr/textColorPrimary"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="20dp"/>
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="20dp" />
             </LinearLayout>
 
             <LinearLayout
