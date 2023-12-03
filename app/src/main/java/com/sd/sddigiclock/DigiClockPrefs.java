@@ -1837,6 +1837,36 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		setResult(RESULT_OK, intent);
 		getApplicationContext().startService(intent);
 */
+		Intent serviceBG = new Intent(getApplicationContext(), WidgetBackgroundService.class);
+		if(batterySave) {
+			serviceBG.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
+		}
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+			try {
+				getApplicationContext().startForegroundService(serviceBG);
+				Log.d("DigiClockProvider", "Start service android 12");
+			}catch(android.app.ForegroundServiceStartNotAllowedException e){
+				Log.d(TAG, e.getMessage());
+			}
+		} else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+			// for Android 8 start the service in foreground
+			getApplicationContext().startForegroundService(serviceBG);
+		} else {
+			getApplicationContext().startService(serviceBG);
+		}
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+			DigiClockProvider.scheduleJob(getApplicationContext());
+		} else {
+			AppWidgetAlarm appWidgetAlarm = new AppWidgetAlarm(getApplicationContext());
+			appWidgetAlarm.startAlarm();
+		}
+
+
+		Intent updateIntent = new Intent(getApplicationContext(), DigiClockProvider.class);
+		updateIntent.setAction(DigiClockProvider.SETTINGS_CHANGED);
+		updateIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
+		setResult(RESULT_OK, updateIntent);
+		getApplicationContext().sendBroadcast(updateIntent);
 
 		/*
 		Intent serviceBG = new Intent(getApplicationContext(), WidgetBackgroundService.class);
@@ -1894,13 +1924,13 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		getApplicationContext().sendBroadcast(refreshIntent);
 
 
-
-		Intent updateIntent = new Intent(getApplicationContext(), DigiClockProvider.class);
-		updateIntent.setAction(DigiClockProvider.SETTINGS_CHANGED);
-		updateIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
-		setResult(RESULT_OK, updateIntent);
-		getApplicationContext().sendBroadcast(updateIntent);
-
+		/*
+		Intent updateIntent2 = new Intent(getApplicationContext(), DigiClockProvider.class);
+		updateIntent2.setAction(DigiClockProvider.SETTINGS_CHANGED);
+		updateIntent2.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
+		setResult(RESULT_OK, updateIntent2);
+		getApplicationContext().sendBroadcast(updateIntent2);
+		*/
 
 
 		//UpdateWidgetView.updateView(getApplicationContext(), appWidgetId);
