@@ -165,7 +165,7 @@ public class UpdateWidgetView {
             PendingIntent pendingIntentR = PendingIntent.getBroadcast(context, appWidgetId, refreshIntent, PendingIntent.FLAG_IMMUTABLE);
             view.setOnClickPendingIntent(R.id.refreshButton, pendingIntentR);
         }else{
-            PendingIntent pendingIntentR = PendingIntent.getService(context, 0, refreshIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+            PendingIntent pendingIntentR = PendingIntent.getService(context, appWidgetId, refreshIntent, PendingIntent.FLAG_UPDATE_CURRENT);
             view.setOnClickPendingIntent(R.id.refreshButton, pendingIntentR);
         }
 

@@ -369,7 +369,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		////		toolbar, navController, appBarConfiguration);
 
 		// This will display an Up icon (<-), we will replace it with hamburger later
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		this.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		// Find our drawer view
 		mDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 		drawerToggle = setupDrawerToggle();
