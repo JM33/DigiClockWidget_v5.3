@@ -175,7 +175,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:orientation="vertical"
-                android:visibility="visible">
+                android:visibility="gone">
 
                 <com.google.android.material.switchmaterial.SwitchMaterial
                     android:id="@+id/buttonStartBGService"

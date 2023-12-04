@@ -91,7 +91,7 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
             Log.d(TAG, "OnReceive Exception: "+ exception);
         }
 
-        /*
+
         OneTimeWorkRequest.Builder myWorkBuilder =
                 new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
         OneTimeWorkRequest myWork = myWorkBuilder
@@ -99,64 +99,40 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
         WorkManager.getInstance(context)
                 .enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.KEEP, myWork);
 
+        if(!WidgetBackgroundService.isMyServiceRunning(context, WidgetBackgroundService.class)){
 
-        Log.i(TAG, "Broadcast Received");
-        */
+            Intent serviceBG = new Intent(context, WidgetBackgroundService.class);
+            //if(batterySave) {
+            serviceBG.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
+            //}
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                try {
+                    if(!WidgetBackgroundService.isMyServiceRunning(context, WidgetBackgroundService.class)){
+                        ContextCompat.startForegroundService(context, serviceBG);
+                    }else{
+                        Log.d(TAG, " BG Service Already Running");
+                    }
 
-        /*
-        SharedPreferences prefs = context.getSharedPreferences("prefs", 0);
-        boolean batterySave = prefs.getBoolean("IgnoreBatterySave", true);
-
-        AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
-
-        ComponentName thisAppWidget = new ComponentName(context.getPackageName(), DigiClockProvider.class.getName());
-        int[] appWidgetIds = appWidgetManager.getAppWidgetIds(thisAppWidget);
-        if(appWidgetIds.length > 0) {
-            new DigiClockProvider().onUpdate(context, appWidgetManager, appWidgetIds);
-            Log.i(TAG, "Updating all widgets via Provider");
-        }
-
-        //Intent serviceBG = new Intent(context, WidgetBackgroundService.class);
-        if(batterySave) {
-            //serviceBG.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
-        }
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-            try {
-                //context.startForegroundService(serviceBG);
-                //Log.d("DigiClockProvider", "Start service android 31+");
-                OneTimeWorkRequest.Builder myWorkBuilder =
-                        new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
-                OneTimeWorkRequest myWork = myWorkBuilder
-                        .build();
-                WorkManager.getInstance(context)
-                        .enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.REPLACE, myWork);
-                Log.d(TAG, "Start OneTimeWorkRequest");
-
-            } catch (android.app.ForegroundServiceStartNotAllowedException e) {
-                Log.d(TAG, e.getMessage());
+                }catch(android.app.ForegroundServiceStartNotAllowedException e){
+                    Log.d(TAG, e.getMessage());
+                }
+            } else {
+                if(!WidgetBackgroundService.isMyServiceRunning(context, WidgetBackgroundService.class)){
+                    ContextCompat.startForegroundService(context, serviceBG);
+                }else{
+                    Log.d(TAG, " BG Service Already Running");
+                }
             }
-
-        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            // for Android 8 start the service in foreground
-            //context.startForegroundService(serviceBG);
-            OneTimeWorkRequest.Builder myWorkBuilder =
-                    new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
-            OneTimeWorkRequest myWork = myWorkBuilder
-                    .build();
-            WorkManager.getInstance(context)
-                    .enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.REPLACE, myWork);
-            Log.d("DigiClockProvider", "Start service android 26-31");
-        } else {
-            //context.startService(serviceBG);
-            Log.d("DigiClockProvider", "Start service android -26");
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                DigiClockProvider.scheduleJob(context);
+            } else {
+                AppWidgetAlarm appWidgetAlarm = new AppWidgetAlarm(context);
+                appWidgetAlarm.startAlarm();
+            }
+            Log.d(TAG, "UpdateWidgetWorker Started BG Service");
+        }else{
+            Log.d(TAG, "BG Service already running");
         }
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            DigiClockProvider.scheduleJob(context);
-        } else {
-            AppWidgetAlarm appWidgetAlarm = new AppWidgetAlarm(context);
-            appWidgetAlarm.startAlarm();
-        }
-        */
 
     }
 

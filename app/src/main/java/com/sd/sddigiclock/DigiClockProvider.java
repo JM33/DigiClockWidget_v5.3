@@ -252,7 +252,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 				 || intent.getAction().equals(Intent.ACTION_DATE_CHANGED)
 				 || intent.getAction().equals(Intent.ACTION_TIME_CHANGED)
 		 ) {
-			 //restartAll(context);
+			 restartAll(context);
 			 onUpdate(context, appWidgetManager, appWidgetIds);
 			 //UpdateWidgetWorker.scheduleUpdate(context);
 			 Log.i(TAG, "Intent Action = " + intent.getAction());
@@ -375,14 +375,14 @@ public class DigiClockProvider extends AppWidgetProvider {
 
 		*/
 
-		/*
+
 		OneTimeWorkRequest.Builder myWorkBuilder =
 				new OneTimeWorkRequest.Builder(UpdateWidgetWorker.class);
 		OneTimeWorkRequest myWork = myWorkBuilder
 				.build();
 		WorkManager.getInstance(context)
 				.enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.KEEP, myWork);
-		 */
+
 
 		SharedPreferences prefs = context.getSharedPreferences("prefs", 0);
 		boolean batterySave = prefs.getBoolean("IgnoreBatterySave", true);
