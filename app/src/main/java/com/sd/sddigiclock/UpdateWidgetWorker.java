@@ -28,7 +28,7 @@ public class UpdateWidgetWorker extends Worker {
     int appWidgetId = AppWidgetManager.INVALID_APPWIDGET_ID;
     private final int[] appWidgetIds;
 
-    private DigiClockBroadcastReceiver digiClockBroadcastReceiver;
+
 
     public UpdateWidgetWorker(
             @NonNull Context context,
@@ -47,14 +47,14 @@ public class UpdateWidgetWorker extends Worker {
 
         // Do the work here
         try {
-            if (digiClockBroadcastReceiver != null) {
-                digiClockBroadcastReceiver.unregister(getApplicationContext());
-                digiClockBroadcastReceiver = null;
+            if (DigiClockProvider.digiClockBroadcastReceiver != null) {
+                DigiClockProvider.digiClockBroadcastReceiver.unregister(getApplicationContext());
+                DigiClockProvider.digiClockBroadcastReceiver = null;
             }
-            digiClockBroadcastReceiver = new DigiClockBroadcastReceiver();
-            digiClockBroadcastReceiver.register(getApplicationContext());
+            DigiClockProvider.digiClockBroadcastReceiver = new DigiClockBroadcastReceiver();
+            DigiClockProvider.digiClockBroadcastReceiver.register(getApplicationContext());
         }catch (IllegalArgumentException e) {
-            digiClockBroadcastReceiver = null;
+            DigiClockProvider.digiClockBroadcastReceiver = null;
         }
 
         try {

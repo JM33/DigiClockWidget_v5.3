@@ -126,7 +126,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 
 		restartAll(context);
 
-		//digiClockBroadcastReceiver.register(context);
+		digiClockBroadcastReceiver.register(context);
 
 
 	}

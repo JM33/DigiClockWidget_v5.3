@@ -17,30 +17,6 @@
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "outputFile": "../../extracted_apks/debug/base-es.apk"
-    },
-    {
-      "type": "SINGLE",
-      "filters": [],
-      "attributes": [],
-      "outputFile": "../../extracted_apks/debug/base-fr.apk"
-    },
-    {
-      "type": "SINGLE",
-      "filters": [],
-      "attributes": [],
-      "outputFile": "../../extracted_apks/debug/base-it.apk"
-    },
-    {
-      "type": "SINGLE",
-      "filters": [],
-      "attributes": [],
-      "outputFile": "../../extracted_apks/debug/base-ja.apk"
-    },
-    {
-      "type": "SINGLE",
-      "filters": [],
-      "attributes": [],
       "outputFile": "../../extracted_apks/debug/base-master_2.apk"
     },
     {

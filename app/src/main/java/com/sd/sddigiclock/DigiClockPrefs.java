@@ -238,7 +238,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 	private Dialog donateDialog;
 	private Dialog helpDialog;
 	private Dialog aboutDialog;
-	private DigiClockBroadcastReceiver digiClockBroadcastReceiver;
+
 	private boolean batterySave;
 	private AdView mAdView;
 	private Intent resultValue;
@@ -1882,14 +1882,14 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 
 
 		try {
-			if (digiClockBroadcastReceiver != null) {
-				digiClockBroadcastReceiver.unregister(getApplicationContext());
-				digiClockBroadcastReceiver = null;
+			if (DigiClockProvider.digiClockBroadcastReceiver != null) {
+				DigiClockProvider.digiClockBroadcastReceiver.unregister(getApplicationContext());
+				DigiClockProvider.digiClockBroadcastReceiver = null;
 			}
-			digiClockBroadcastReceiver = new DigiClockBroadcastReceiver();
-			digiClockBroadcastReceiver.register(getApplicationContext());
+			DigiClockProvider.digiClockBroadcastReceiver = new DigiClockBroadcastReceiver();
+			DigiClockProvider.digiClockBroadcastReceiver.register(getApplicationContext());
 		}catch (IllegalArgumentException e) {
-			digiClockBroadcastReceiver = null;
+			DigiClockProvider.digiClockBroadcastReceiver = null;
 		}
 
 		Intent refreshIntent = new Intent(DCP, DigiClockBroadcastReceiver.class);
