@@ -62,7 +62,7 @@ public class ScheduleUpdateWorker extends Worker {
             AlarmManager alarmManager = (AlarmManager) mContext.getSystemService(Context.ALARM_SERVICE);
             AlarmManagerCompat.setExact(alarmManager, AlarmManager.RTC_WAKEUP, currentTimeMillis + millisToNextMin, pendingIntentR);
         }else{
-            PendingIntent pendingIntentR = PendingIntent.getService(mContext, 0, refreshIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+            PendingIntent pendingIntentR = PendingIntent.getBroadcast(mContext, 0, refreshIntent, PendingIntent.FLAG_UPDATE_CURRENT);
             AlarmManager alarmManager = (AlarmManager) mContext.getSystemService(Context.ALARM_SERVICE);
             AlarmManagerCompat.setExact(alarmManager, AlarmManager.RTC_WAKEUP, currentTimeMillis + millisToNextMin, pendingIntentR);
         }
@@ -78,6 +78,7 @@ public class ScheduleUpdateWorker extends Worker {
         WorkManager.getInstance(getApplicationContext())
                 .enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.KEEP, myWork);
         Log.d(TAG, "ScheduleUpdateWorker Work Complete");
+
 
         // Indicate whether the work finished successfully with the Result
         return Result.success();

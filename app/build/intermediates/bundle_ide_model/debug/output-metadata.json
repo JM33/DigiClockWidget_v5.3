@@ -1,18 +1,3 @@
-{
-  "version": 3,
-  "artifactType": {
-    "type": "BUNDLE",
-    "kind": "RegularFile"
-  },
-  "applicationId": "com.sd.sddigiclock",
-  "variantName": "debug",
-  "elements": [
-    {
-      "type": "SINGLE",
-      "filters": [],
-      "attributes": [],
-      "outputFile": "../../../outputs/bundle/debug/app-debug.aab"
-    }
-  ],
-  "elementType": "File"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7453072a364d825591a41cb9d5f268b422bca5e1639d17ffc66044fca99f378b
+size 351

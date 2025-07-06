@@ -1,20 +1,3 @@
-{
-  "version": 3,
-  "artifactType": {
-    "type": "MERGED_MANIFESTS",
-    "kind": "Directory"
-  },
-  "applicationId": "com.sd.sddigiclock",
-  "variantName": "release",
-  "elements": [
-    {
-      "type": "SINGLE",
-      "filters": [],
-      "attributes": [],
-      "versionCode": 14,
-      "versionName": "5.3.1",
-      "outputFile": "AndroidManifest.xml"
-    }
-  ],
-  "elementType": "File"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2a5c3effec32cda94b351c0793cfea9dfb5f8a2d167f3b02e44153d647984c6
+size 390

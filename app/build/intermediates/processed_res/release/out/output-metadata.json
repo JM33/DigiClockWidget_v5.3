@@ -1,20 +1,3 @@
-{
-  "version": 3,
-  "artifactType": {
-    "type": "PROCESSED_RES",
-    "kind": "Directory"
-  },
-  "applicationId": "com.sd.sddigiclock",
-  "variantName": "release",
-  "elements": [
-    {
-      "type": "SINGLE",
-      "filters": [],
-      "attributes": [],
-      "versionCode": 14,
-      "versionName": "5.3.1",
-      "outputFile": "resources-release.ap_"
-    }
-  ],
-  "elementType": "File"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5151998228fb9c4b99b04738d13d35b3dab31b417b1edb66b85c2f51d4cb4bfb
+size 389

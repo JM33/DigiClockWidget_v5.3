@@ -1,20 +1,3 @@
-{
-    "logs": [
-        {
-            "outputFile": "com.sd.sddigiclock.app-mergeReleaseResources-55:/values-hdpi-v4/values-hdpi-v4.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\b98ad1eabf84e74f85d3d6bdb837258b\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "13",
-                        "endOffsets": "327"
-                    }
-                }
-            ]
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1e5093e5eda4893bb4912b0b87e17e9a61640597afdc47174bf12cfe0904e7c
+size 727

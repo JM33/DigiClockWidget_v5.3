@@ -1,12 +1,12 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.sd.sddigiclock"
-4    android:versionCode="14"
-5    android:versionName="5.3.1" >
+4    android:versionCode="17"
+5    android:versionName="5.5" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-9        android:targetSdkVersion="34" />
+9        android:targetSdkVersion="35" />
 10
 11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 11-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:8:5-81
@@ -20,84 +20,91 @@
 14    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
 14-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:11:5-73
 14-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:11:22-71
-15    <!--
-16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-17
-18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-19    -->
-20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-20-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:8:5-81
-20-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:8:22-78
-21    <uses-permission android:name="com.android.vending.BILLING" />
-21-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:17:5-66
-21-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:17:22-64
-22    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
-22-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:18:5-94
-22-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:18:22-92
-23    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-23-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:19:5-78
-23-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:19:22-76
-24
-25    <queries>
-25-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:22:5-45:15
-26        <package android:name="com.google.android.deskclock" />
-26-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:23:9-64
-26-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:23:18-61
-27        <package android:name="com.sec.android.app.clockpackage" />
-27-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:24:9-68
-27-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:24:18-65
-28        <package android:name="com.motorola.blur.alarmclock" />
-28-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:25:9-64
-28-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:25:18-61
-29        <package android:name="com.htc.android.worldclock" />
-29-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:26:9-62
-29-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:26:18-59
-30        <package android:name="com.sonyericsson.alarm" />
-30-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:27:9-58
-30-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:27:18-55
-31        <package android:name="zte.com.cn.alarmclock" />
-31-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:28:9-57
-31-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:28:18-54
-32        <package android:name="com.lge.alarm.alarmclocknew" />
-32-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:29:9-63
-32-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:29:18-60
-33        <package android:name="com.lge.clock" />
-33-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:30:9-49
-33-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:30:18-46
-34        <package android:name="com.sonyericsson.organizer" />
-34-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:31:9-62
-34-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:31:18-59
-35        <package android:name="com.oneplus.deskclock" />
-35-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:32:9-57
-35-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:32:18-54
-36        <package android:name="com.simplemobiletools.clock" />
-36-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:34:9-63
-36-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:34:18-60
-37        <package android:name="com.alarmclock.xtreme.free" />
-37-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:35:9-62
-37-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:35:18-59
-38        <package android:name="hdesign.theclock" />
-38-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:36:9-52
-38-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:36:18-49
-39        <package android:name="com.mad.zenflipclock" />
-39-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:37:9-56
-39-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:37:18-53
-40        <package android:name="com.cama.app.huge80sclock" />
-40-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:38:9-61
-40-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:38:18-58
-41        <package android:name="com.apalon.myclockfree" />
-41-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:39:9-58
-41-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:39:18-55
-42        <package android:name="com.panagola.app.digitalclock" />
-42-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:40:9-65
-42-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:40:18-62
-43        <package android:name="com.maxwen.deskclock" />
-43-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:41:9-56
-43-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:41:18-53
-44        <package android:name="com.google.android.calendar" />
-44-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:44:9-63
-44-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:44:18-60
-45        <!-- For browser content -->
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:13:5-77
+15-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:13:22-74
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED" />
+16-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:14:5-93
+16-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:14:22-90
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:8:5-81
+17-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:8:22-78
+18    <uses-permission android:name="com.android.vending.BILLING" />
+18-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:17:5-66
+18-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:17:22-64
+19    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+19-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:18:5-94
+19-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:18:22-92
+20    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+20-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:19:5-78
+20-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:19:22-76
+21
+22    <queries>
+22-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:22:5-45:15
+23        <package android:name="com.google.android.deskclock" />
+23-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:23:9-64
+23-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:23:18-61
+24        <package android:name="com.sec.android.app.clockpackage" />
+24-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:24:9-68
+24-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:24:18-65
+25        <package android:name="com.motorola.blur.alarmclock" />
+25-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:25:9-64
+25-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:25:18-61
+26        <package android:name="com.htc.android.worldclock" />
+26-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:26:9-62
+26-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:26:18-59
+27        <package android:name="com.sonyericsson.alarm" />
+27-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:27:9-58
+27-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:27:18-55
+28        <package android:name="zte.com.cn.alarmclock" />
+28-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:28:9-57
+28-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:28:18-54
+29        <package android:name="com.lge.alarm.alarmclocknew" />
+29-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:29:9-63
+29-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:29:18-60
+30        <package android:name="com.lge.clock" />
+30-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:30:9-49
+30-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:30:18-46
+31        <package android:name="com.sonyericsson.organizer" />
+31-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:31:9-62
+31-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:31:18-59
+32        <package android:name="com.oneplus.deskclock" />
+32-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:32:9-57
+32-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:32:18-54
+33        <package android:name="com.simplemobiletools.clock" />
+33-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:34:9-63
+33-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:34:18-60
+34        <package android:name="com.alarmclock.xtreme.free" />
+34-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:35:9-62
+34-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:35:18-59
+35        <package android:name="hdesign.theclock" />
+35-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:36:9-52
+35-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:36:18-49
+36        <package android:name="com.mad.zenflipclock" />
+36-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:37:9-56
+36-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:37:18-53
+37        <package android:name="com.cama.app.huge80sclock" />
+37-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:38:9-61
+37-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:38:18-58
+38        <package android:name="com.apalon.myclockfree" />
+38-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:39:9-58
+38-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:39:18-55
+39        <package android:name="com.panagola.app.digitalclock" />
+39-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:40:9-65
+39-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:40:18-62
+40        <package android:name="com.maxwen.deskclock" />
+40-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:41:9-56
+40-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:41:18-53
+41        <package android:name="com.google.android.calendar" />
+41-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:44:9-63
+41-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:44:18-60
+42
+43        <intent>
+43-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:13:9-15:18
+44            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+44-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:14:13-91
+44-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:14:21-88
+45        </intent> <!-- For browser content -->
 46        <intent>
 46-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:35:9-41:18
 47            <action android:name="android.intent.action.VIEW" />
@@ -119,595 +126,656 @@
 55-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:45:13-90
 55-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:45:21-87
 56        </intent>
-57        <intent>
-57-->[com.android.billingclient:billing:6.0.1] C:\Users\great\.gradle\caches\transforms-3\0af1b0e80fb6051b3a2f43eb6c90c6a4\transformed\jetified-billing-6.0.1\AndroidManifest.xml:13:9-15:18
-58            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
-58-->[com.android.billingclient:billing:6.0.1] C:\Users\great\.gradle\caches\transforms-3\0af1b0e80fb6051b3a2f43eb6c90c6a4\transformed\jetified-billing-6.0.1\AndroidManifest.xml:14:13-91
-58-->[com.android.billingclient:billing:6.0.1] C:\Users\great\.gradle\caches\transforms-3\0af1b0e80fb6051b3a2f43eb6c90c6a4\transformed\jetified-billing-6.0.1\AndroidManifest.xml:14:21-88
-59        </intent>
-60    </queries>
-61
-62    <!-- Include required permissions for Google Mobile Ads to run -->
-63    <uses-permission android:name="android.permission.INTERNET" />
-63-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:24:5-67
-63-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:24:22-64
-64    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-64-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:25:5-79
-64-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:25:22-76
-65    <uses-permission android:name="android.permission.WAKE_LOCK" />
-65-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\great\.gradle\caches\transforms-3\ad12e6fe209b049f0c1d9bc848a9aae0\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:5-68
-65-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\great\.gradle\caches\transforms-3\ad12e6fe209b049f0c1d9bc848a9aae0\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:22-65
-66    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-66-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:26:5-77
-66-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:26:22-74
+57    </queries>
+58
+59    <!-- Include required permissions for Google Mobile Ads to run -->
+60    <uses-permission android:name="android.permission.INTERNET" />
+60-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:24:5-67
+60-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:24:22-64
+61    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+61-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:25:5-79
+61-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:25:22-76
+62    <uses-permission android:name="android.permission.WAKE_LOCK" />
+62-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\great\.gradle\caches\transforms-3\ad12e6fe209b049f0c1d9bc848a9aae0\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:5-68
+62-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\great\.gradle\caches\transforms-3\ad12e6fe209b049f0c1d9bc848a9aae0\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:22-65
+63
+64    <permission
+64-->[androidx.core:core:1.12.0] C:\Users\great\.gradle\caches\transforms-3\de2440358d325fb567b6c0fd308d9a15\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+65        android:name="com.sd.sddigiclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+65-->[androidx.core:core:1.12.0] C:\Users\great\.gradle\caches\transforms-3\de2440358d325fb567b6c0fd308d9a15\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+66        android:protectionLevel="signature" />
+66-->[androidx.core:core:1.12.0] C:\Users\great\.gradle\caches\transforms-3\de2440358d325fb567b6c0fd308d9a15\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 67
-68    <permission
-68-->[androidx.core:core:1.12.0] C:\Users\great\.gradle\caches\transforms-3\de2440358d325fb567b6c0fd308d9a15\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-69        android:name="com.sd.sddigiclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-69-->[androidx.core:core:1.12.0] C:\Users\great\.gradle\caches\transforms-3\de2440358d325fb567b6c0fd308d9a15\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-70        android:protectionLevel="signature" />
-70-->[androidx.core:core:1.12.0] C:\Users\great\.gradle\caches\transforms-3\de2440358d325fb567b6c0fd308d9a15\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
-71
-72    <uses-permission android:name="com.sd.sddigiclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-72-->[androidx.core:core:1.12.0] C:\Users\great\.gradle\caches\transforms-3\de2440358d325fb567b6c0fd308d9a15\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-72-->[androidx.core:core:1.12.0] C:\Users\great\.gradle\caches\transforms-3\de2440358d325fb567b6c0fd308d9a15\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-73
-74    <application
-74-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:47:5-160:19
-75        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-75-->[androidx.core:core:1.12.0] C:\Users\great\.gradle\caches\transforms-3\de2440358d325fb567b6c0fd308d9a15\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
-76        android:extractNativeLibs="false"
-77        android:hardwareAccelerated="true"
-77-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:54:9-43
-78        android:icon="@drawable/ic_launcher"
-78-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:48:9-45
-79        android:label="@string/app_name"
-79-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:49:9-41
-80        android:permission="android.permission.RECEIVE_BOOT_COMPLETED                                 |android.permission..REQUEST_IGNORE_BATTERY_OPTIMIZATIONS                                 |android.permission.SCHEDULE_EXACT_ALARM"
-80-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:86:13-69
-81        android:theme="@style/Theme.MaterialYouColors" >
-81-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:50:9-55
-82        <activity
-82-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:55:9-63:20
-83            android:name="com.sd.sddigiclock.DigiClockPrefs"
-83-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:56:13-43
-84            android:exported="false"
-84-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:57:13-37
-85            android:hardwareAccelerated="true"
-85-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:59:13-47
-86            android:theme="@style/Theme.MaterialYouColors" >
-86-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:58:13-59
-87            <intent-filter>
-87-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:60:13-62:29
-88                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
-88-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:61:17-87
-88-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:61:25-84
-89            </intent-filter>
-90        </activity>
-91
-92        <receiver
-92-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:65:9-80:20
-93            android:name="com.sd.sddigiclock.DigiClockProvider"
-93-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:66:13-46
-94            android:exported="true"
-94-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:70:13-36
-95            android:permission="android.permission.RECEIVE_BOOT_COMPLETED                                 |android.permission..REQUEST_IGNORE_BATTERY_OPTIMIZATIONS                                 |android.permission.SCHEDULE_EXACT_ALARM" >
-95-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:65:9-80:20
-96            <intent-filter>
-96-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:71:13-73:29
-97                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-97-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:72:17-84
-97-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:72:25-81
-98            </intent-filter>
-99            <intent-filter>
-99-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:75:13-77:29
-100                <action android:name="clockOnClickTag" />
-100-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:76:17-58
-100-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:76:25-55
-101            </intent-filter>
-102
-103            <meta-data
-103-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:78:13-79:54
-104                android:name="android.appwidget.provider"
-104-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:78:24-65
-105                android:resource="@xml/widget_info" />
-105-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:79:17-52
-106        </receiver>
-107
-108        <!--
-109        <service
-110            android:name=".RepeatingJob"
-111            android:permission="android.permission.BIND_JOB_SERVICE"
-112            android:exported="true"/>
-113
-114        <service android:name=".WidgetBackgroundService"/>
-115
-116        <service android:name=".UpdateWidgetService"/>
-117
-118        <service
-119            android:name=".ClockJobScheduler"
-120            android:permission="android.permission.BIND_JOB_SERVICE"/>
-121        -->
+68    <uses-permission android:name="com.sd.sddigiclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+68-->[androidx.core:core:1.12.0] C:\Users\great\.gradle\caches\transforms-3\de2440358d325fb567b6c0fd308d9a15\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+68-->[androidx.core:core:1.12.0] C:\Users\great\.gradle\caches\transforms-3\de2440358d325fb567b6c0fd308d9a15\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+69
+70    <application
+70-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:47:5-189:19
+71        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+71-->[androidx.core:core:1.12.0] C:\Users\great\.gradle\caches\transforms-3\de2440358d325fb567b6c0fd308d9a15\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+72        android:extractNativeLibs="false"
+73        android:hardwareAccelerated="true"
+73-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:54:9-43
+74        android:icon="@drawable/ic_launcher"
+74-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:48:9-45
+75        android:label="@string/app_name"
+75-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:49:9-41
+76        android:permission="android.permission.RECEIVE_BOOT_COMPLETED                                 |android.permission..REQUEST_IGNORE_BATTERY_OPTIMIZATIONS                                 |android.permission.SCHEDULE_EXACT_ALARM"
+76-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:111:13-69
+77        android:theme="@style/Theme.MaterialYouColors" >
+77-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:50:9-55
+78        <activity
+78-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:55:9-63:20
+79            android:name="com.sd.sddigiclock.DigiClockPrefs"
+79-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:56:13-43
+80            android:exported="false"
+80-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:57:13-37
+81            android:hardwareAccelerated="true"
+81-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:59:13-47
+82            android:theme="@style/Theme.MaterialYouColors" >
+82-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:58:13-59
+83            <intent-filter>
+83-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:60:13-62:29
+84                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+84-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:61:17-87
+84-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:61:25-84
+85            </intent-filter>
+86        </activity>
+87
+88        <receiver
+88-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:65:9-105:20
+89            android:name="com.sd.sddigiclock.DigiClockProvider"
+89-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:66:13-46
+90            android:exported="true"
+90-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:70:13-36
+91            android:permission="android.permission.RECEIVE_BOOT_COMPLETED                                 |android.permission..REQUEST_IGNORE_BATTERY_OPTIMIZATIONS                                 |android.permission.SCHEDULE_EXACT_ALARM" >
+91-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:65:9-105:20
+92            <intent-filter>
+92-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:71:13-73:29
+93                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+93-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:72:17-84
+93-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:72:25-81
+94            </intent-filter>
+95            <intent-filter>
+95-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:75:13-77:29
+96                <action android:name="CLOCK_TICK" />
+96-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:76:17-53
+96-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:76:25-50
+97            </intent-filter>
+98            <intent-filter>
+98-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:78:13-80:29
+99                <action android:name="JOB_CLOCK_TICK" />
+99-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:79:17-57
+99-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:79:25-54
+100            </intent-filter>
+101            <intent-filter>
+101-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:81:13-83:29
+102                <action android:name="SETTINGS_CHANGED" />
+102-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:82:17-59
+102-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:82:25-56
+103            </intent-filter>
+104            <intent-filter>
+104-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:84:13-86:29
+105                <action android:name="android.intent.action.TIME_SET" />
+105-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:85:17-73
+105-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:85:25-70
+106            </intent-filter>
+107            <intent-filter>
+107-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:87:13-89:29
+108                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+108-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:88:17-81
+108-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:88:25-78
+109            </intent-filter>
+110            <intent-filter>
+110-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:90:13-92:29
+111                <action android:name="android.intent.action.DATE_CHANGED" />
+111-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:91:17-77
+111-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:91:25-74
+112            </intent-filter>
+113            <intent-filter>
+113-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:93:13-95:29
+114                <action android:name="android.os.action.DEVICE_IDLE_MODE_CHANGED" />
+114-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:94:17-84
+114-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:94:25-82
+115            </intent-filter>
+116            <intent-filter>
+116-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:96:13-98:29
+117                <action android:name="android.intent.action.ACTION_DREAMING_STOPPED" />
+117-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:97:17-88
+117-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:97:25-85
+118            </intent-filter>
+119            <intent-filter>
+119-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:100:13-102:29
+120                <action android:name="clockOnClickTag" />
+120-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:101:17-58
+120-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:101:25-55
+121            </intent-filter>
 122
-123        <activity
-123-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:98:9-100:53
-124            android:name="com.sd.sddigiclock.AppSelector"
-124-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:99:13-40
-125            android:theme="@style/AppThemeDialog" />
-125-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:100:13-50
-126
-127        <receiver
-127-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:102:9-146:20
-128            android:name="com.sd.sddigiclock.DigiClockBroadcastReceiver"
-128-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:102:42-84
-129            android:enabled="true"
-129-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:102:19-41
+123            <meta-data
+123-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:103:13-104:54
+124                android:name="android.appwidget.provider"
+124-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:103:24-65
+125                android:resource="@xml/widget_info" />
+125-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:104:17-52
+126        </receiver>
+127
+128        <service
+128-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:109:9-112:38
+129            android:name="com.sd.sddigiclock.RepeatingJob"
+129-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:110:13-41
 130            android:exported="true"
-130-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:106:13-36
-131            android:permission="android.permission.RECEIVE_BOOT_COMPLETED                                 |android.permission..REQUEST_IGNORE_BATTERY_OPTIMIZATIONS                                 |android.permission.SCHEDULE_EXACT_ALARM" >
-131-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:102:9-146:20
-132            <intent-filter>
-132-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:108:13-110:29
-133                <action android:name="android.intent.action.BOOT_COMPLETED" />
-133-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:109:17-79
-133-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:109:25-76
-134            </intent-filter>
-135            <intent-filter>
-135-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:111:13-113:29
-136                <action android:name="android.intent.action.CONFIGURATION_CHANGED" />
-136-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:112:17-86
-136-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:112:25-83
-137            </intent-filter>
-138            <intent-filter>
-138-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:114:13-116:29
-139                <action android:name="android.intent.action.SCREEN_ON" />
-139-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:115:17-74
-139-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:115:25-71
-140            </intent-filter>
-141            <intent-filter>
-141-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:118:13-120:29
-142                <action android:name="SETTINGS_CHANGED" />
-142-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:119:17-59
-142-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:119:25-56
-143            </intent-filter>
-144            <intent-filter>
-144-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:121:13-123:29
-145                <action android:name="android.intent.action.TIME_SET" />
-145-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:122:17-73
-145-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:122:25-70
-146            </intent-filter>
-147            <intent-filter>
-147-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:124:13-126:29
-148                <action android:name="android.intent.action.TIME_TICK" />
-148-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:125:17-74
-148-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:125:25-71
-149            </intent-filter>
-150            <intent-filter>
-150-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:127:13-129:29
-151                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-151-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:128:17-81
-151-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:128:25-78
-152            </intent-filter>
-153            <intent-filter>
-153-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:130:13-132:29
-154                <action android:name="android.intent.action.DATE_CHANGED" />
-154-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:131:17-77
-154-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:131:25-74
-155            </intent-filter>
-156            <intent-filter>
-156-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:133:13-135:29
-157                <action android:name="android.os.action.DEVICE_IDLE_MODE_CHANGED" />
-157-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:134:17-84
-157-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:134:25-82
-158            </intent-filter>
-159            <intent-filter>
-159-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:136:13-138:29
-160                <action android:name="android.intent.action.ACTION_DREAMING_STOPPED" />
-160-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:137:17-88
-160-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:137:25-85
-161            </intent-filter>
-162            <intent-filter>
-162-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:140:13-142:29
-163                <action android:name="REFRESH_WIDGET" />
-163-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:141:17-57
-163-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:141:25-54
-164            </intent-filter>
-165            <intent-filter>
-165-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:71:13-73:29
-166                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-166-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:72:17-84
-166-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:72:25-81
-167            </intent-filter>
-168        </receiver>
-169
-170        <meta-data
-170-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:150:9-152:57
-171            android:name="preloaded_fonts"
-171-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:151:13-43
-172            android:resource="@array/preloaded_fonts" />
-172-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:152:13-54
-173        <meta-data
-173-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:154:9-156:51
-174            android:name="com.google.android.gms.ads.APPLICATION_ID"
-174-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:155:13-69
-175            android:value="@string/p_ads_app_id" />
-175-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:156:13-49
-176
-177        <activity
-177-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\great\.gradle\caches\transforms-3\3712c264ef9449163c34067eb25f83d6\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:9-22:45
-178            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-178-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\great\.gradle\caches\transforms-3\3712c264ef9449163c34067eb25f83d6\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:19-85
-179            android:exported="false"
-179-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\great\.gradle\caches\transforms-3\3712c264ef9449163c34067eb25f83d6\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:22:19-43
-180            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-180-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\great\.gradle\caches\transforms-3\3712c264ef9449163c34067eb25f83d6\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:21:19-78
-181        <activity
-181-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:53:9-58:43
-182            android:name="com.google.android.gms.ads.AdActivity"
-182-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:54:13-65
-183            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-183-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:55:13-122
-184            android:exported="false"
-184-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:56:13-37
-185            android:theme="@android:style/Theme.Translucent" />
-185-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:57:13-61
-186
-187        <provider
-187-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:60:9-65:43
-188            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-188-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:61:13-76
-189            android:authorities="com.sd.sddigiclock.mobileadsinitprovider"
-189-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:62:13-73
-190            android:exported="false"
-190-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:63:13-37
-191            android:initOrder="100" />
-191-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:64:13-36
-192
-193        <service
-193-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:67:9-71:43
-194            android:name="com.google.android.gms.ads.AdService"
-194-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:68:13-64
-195            android:enabled="true"
-195-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:69:13-35
-196            android:exported="false" />
-196-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:70:13-37
-197
-198        <activity
-198-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:73:9-77:43
-199            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
-199-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:74:13-82
-200            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-200-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:75:13-122
-201            android:exported="false" />
-201-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:76:13-37
-202
-203        <meta-data
-203-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\great\.gradle\caches\transforms-3\77e6cee497c9e45d6b8d704b46f204ec\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-204            android:name="com.google.android.gms.version"
-204-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\great\.gradle\caches\transforms-3\77e6cee497c9e45d6b8d704b46f204ec\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-205            android:value="@integer/google_play_services_version" />
-205-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\great\.gradle\caches\transforms-3\77e6cee497c9e45d6b8d704b46f204ec\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-206        <meta-data
-206-->[com.android.billingclient:billing:6.0.1] C:\Users\great\.gradle\caches\transforms-3\0af1b0e80fb6051b3a2f43eb6c90c6a4\transformed\jetified-billing-6.0.1\AndroidManifest.xml:19:9-21:37
-207            android:name="com.google.android.play.billingclient.version"
-207-->[com.android.billingclient:billing:6.0.1] C:\Users\great\.gradle\caches\transforms-3\0af1b0e80fb6051b3a2f43eb6c90c6a4\transformed\jetified-billing-6.0.1\AndroidManifest.xml:20:13-73
-208            android:value="6.0.1" />
-208-->[com.android.billingclient:billing:6.0.1] C:\Users\great\.gradle\caches\transforms-3\0af1b0e80fb6051b3a2f43eb6c90c6a4\transformed\jetified-billing-6.0.1\AndroidManifest.xml:21:13-34
-209
+130-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:112:13-36
+131            android:permission="android.permission.BIND_JOB_SERVICE" />
+131-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:111:13-69
+132        <service
+132-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:114:9-115:61
+133            android:name="com.sd.sddigiclock.WidgetBackgroundService"
+133-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:114:18-57
+134            android:foregroundServiceType="systemExempted" />
+134-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:115:13-59
+135        <service
+135-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:117:9-119:19
+136            android:name="com.sd.sddigiclock.UpdateWidgetService"
+136-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:117:18-53
+137            android:foregroundServiceType="systemExempted" >
+137-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:118:13-59
+138        </service>
+139        <service
+139-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:122:9-124:71
+140            android:name="com.sd.sddigiclock.ClockJobScheduler"
+140-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:123:13-46
+141            android:permission="android.permission.BIND_JOB_SERVICE" />
+141-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:124:13-69
+142
+143        <activity
+143-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:127:9-129:53
+144            android:name="com.sd.sddigiclock.AppSelector"
+144-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:128:13-40
+145            android:theme="@style/AppThemeDialog" />
+145-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:129:13-50
+146
+147        <receiver
+147-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:131:9-175:20
+148            android:name="com.sd.sddigiclock.DigiClockBroadcastReceiver"
+148-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:131:42-84
+149            android:enabled="true"
+149-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:131:19-41
+150            android:exported="true"
+150-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:135:13-36
+151            android:permission="android.permission.RECEIVE_BOOT_COMPLETED                                 |android.permission..REQUEST_IGNORE_BATTERY_OPTIMIZATIONS                                 |android.permission.SCHEDULE_EXACT_ALARM" >
+151-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:131:9-175:20
+152            <intent-filter>
+152-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:137:13-139:29
+153                <action android:name="android.intent.action.BOOT_COMPLETED" />
+153-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:138:17-79
+153-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:138:25-76
+154            </intent-filter>
+155            <intent-filter>
+155-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:140:13-142:29
+156                <action android:name="android.intent.action.CONFIGURATION_CHANGED" />
+156-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:141:17-86
+156-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:141:25-83
+157            </intent-filter>
+158            <intent-filter>
+158-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:143:13-145:29
+159                <action android:name="android.intent.action.SCREEN_ON" />
+159-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:144:17-74
+159-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:144:25-71
+160            </intent-filter>
+161            <intent-filter>
+161-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:81:13-83:29
+162                <action android:name="SETTINGS_CHANGED" />
+162-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:82:17-59
+162-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:82:25-56
+163            </intent-filter>
+164            <intent-filter>
+164-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:84:13-86:29
+165                <action android:name="android.intent.action.TIME_SET" />
+165-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:85:17-73
+165-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:85:25-70
+166            </intent-filter>
+167            <intent-filter>
+167-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:153:13-155:29
+168                <action android:name="android.intent.action.TIME_TICK" />
+168-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:154:17-74
+168-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:154:25-71
+169            </intent-filter>
+170            <intent-filter>
+170-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:87:13-89:29
+171                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+171-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:88:17-81
+171-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:88:25-78
+172            </intent-filter>
+173            <intent-filter>
+173-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:90:13-92:29
+174                <action android:name="android.intent.action.DATE_CHANGED" />
+174-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:91:17-77
+174-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:91:25-74
+175            </intent-filter>
+176            <intent-filter>
+176-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:93:13-95:29
+177                <action android:name="android.os.action.DEVICE_IDLE_MODE_CHANGED" />
+177-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:94:17-84
+177-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:94:25-82
+178            </intent-filter>
+179            <intent-filter>
+179-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:96:13-98:29
+180                <action android:name="android.intent.action.ACTION_DREAMING_STOPPED" />
+180-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:97:17-88
+180-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:97:25-85
+181            </intent-filter>
+182            <intent-filter>
+182-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:169:13-171:29
+183                <action android:name="REFRESH_WIDGET" />
+183-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:170:17-57
+183-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:170:25-54
+184            </intent-filter>
+185            <intent-filter>
+185-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:71:13-73:29
+186                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+186-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:72:17-84
+186-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:72:25-81
+187            </intent-filter>
+188        </receiver>
+189
+190        <meta-data
+190-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:179:9-181:57
+191            android:name="preloaded_fonts"
+191-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:180:13-43
+192            android:resource="@array/preloaded_fonts" />
+192-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:181:13-54
+193        <meta-data
+193-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:183:9-185:51
+194            android:name="com.google.android.gms.ads.APPLICATION_ID"
+194-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:184:13-69
+195            android:value="@string/p_ads_app_id" />
+195-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:185:13-49
+196        <meta-data
+196-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:19:9-21:37
+197            android:name="com.google.android.play.billingclient.version"
+197-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:20:13-73
+198            android:value="7.0.0" />
+198-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:21:13-34
+199
+200        <activity
+200-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:23:9-27:75
+201            android:name="com.android.billingclient.api.ProxyBillingActivity"
+201-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:24:13-78
+202            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+202-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:25:13-96
+203            android:exported="false"
+203-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:26:13-37
+204            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+204-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:27:13-72
+205        <activity
+205-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:28:9-32:75
+206            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+206-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:29:13-80
+207            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+207-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:30:13-96
+208            android:exported="false"
+208-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:31:13-37
+209            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+209-->[com.android.billingclient:billing:7.0.0] C:\Users\great\.gradle\caches\transforms-3\bc9705e0ae432a7e6787ed1b6d10e03e\transformed\jetified-billing-7.0.0\AndroidManifest.xml:32:13-72
 210        <activity
-210-->[com.android.billingclient:billing:6.0.1] C:\Users\great\.gradle\caches\transforms-3\0af1b0e80fb6051b3a2f43eb6c90c6a4\transformed\jetified-billing-6.0.1\AndroidManifest.xml:23:9-27:75
-211            android:name="com.android.billingclient.api.ProxyBillingActivity"
-211-->[com.android.billingclient:billing:6.0.1] C:\Users\great\.gradle\caches\transforms-3\0af1b0e80fb6051b3a2f43eb6c90c6a4\transformed\jetified-billing-6.0.1\AndroidManifest.xml:24:13-78
-212            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-212-->[com.android.billingclient:billing:6.0.1] C:\Users\great\.gradle\caches\transforms-3\0af1b0e80fb6051b3a2f43eb6c90c6a4\transformed\jetified-billing-6.0.1\AndroidManifest.xml:25:13-96
-213            android:exported="false"
-213-->[com.android.billingclient:billing:6.0.1] C:\Users\great\.gradle\caches\transforms-3\0af1b0e80fb6051b3a2f43eb6c90c6a4\transformed\jetified-billing-6.0.1\AndroidManifest.xml:26:13-37
-214            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-214-->[com.android.billingclient:billing:6.0.1] C:\Users\great\.gradle\caches\transforms-3\0af1b0e80fb6051b3a2f43eb6c90c6a4\transformed\jetified-billing-6.0.1\AndroidManifest.xml:27:13-72
-215
-216        <provider
-216-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:29:9-37:20
-217            android:name="androidx.startup.InitializationProvider"
-217-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:30:13-67
-218            android:authorities="com.sd.sddigiclock.androidx-startup"
-218-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:31:13-68
-219            android:exported="false" >
-219-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:32:13-37
-220            <meta-data
-220-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:34:13-36:52
-221                android:name="androidx.work.WorkManagerInitializer"
-221-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:35:17-68
-222                android:value="androidx.startup" />
-222-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:36:17-49
-223            <meta-data
-223-->[androidx.emoji2:emoji2:1.2.0] C:\Users\great\.gradle\caches\transforms-3\4b115223abe44ce7cac07c535e1f36e2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-224                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-224-->[androidx.emoji2:emoji2:1.2.0] C:\Users\great\.gradle\caches\transforms-3\4b115223abe44ce7cac07c535e1f36e2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-225                android:value="androidx.startup" />
-225-->[androidx.emoji2:emoji2:1.2.0] C:\Users\great\.gradle\caches\transforms-3\4b115223abe44ce7cac07c535e1f36e2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-226            <meta-data
-226-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\great\.gradle\caches\transforms-3\a26bc14c9d654e0eec486a2a52a9957f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-227                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-227-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\great\.gradle\caches\transforms-3\a26bc14c9d654e0eec486a2a52a9957f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-228                android:value="androidx.startup" />
-228-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\great\.gradle\caches\transforms-3\a26bc14c9d654e0eec486a2a52a9957f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-229            <meta-data
-229-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-230                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-230-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-231                android:value="androidx.startup" />
-231-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-232        </provider>
-233
-234        <service
-234-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:39:9-45:35
-235            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-235-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:40:13-88
-236            android:directBootAware="false"
-236-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:41:13-44
-237            android:enabled="@bool/enable_system_alarm_service_default"
-237-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:42:13-72
-238            android:exported="false" />
-238-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:43:13-37
-239        <service
-239-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:46:9-52:35
-240            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-240-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:47:13-84
-241            android:directBootAware="false"
-241-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:48:13-44
-242            android:enabled="@bool/enable_system_job_service_default"
-242-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:49:13-70
-243            android:exported="true"
-243-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:50:13-36
-244            android:permission="android.permission.BIND_JOB_SERVICE" />
-244-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:51:13-69
-245        <service
-245-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:53:9-59:35
-246            android:name="androidx.work.impl.foreground.SystemForegroundService"
-246-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:54:13-81
-247            android:directBootAware="false"
-247-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:55:13-44
-248            android:enabled="@bool/enable_system_foreground_service_default"
-248-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:56:13-77
-249            android:exported="false" />
-249-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:57:13-37
-250
-251        <receiver
-251-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:61:9-66:35
-252            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-252-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:62:13-88
-253            android:directBootAware="false"
-253-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:63:13-44
-254            android:enabled="true"
-254-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:64:13-35
-255            android:exported="false" />
-255-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:65:13-37
-256        <receiver
-256-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:67:9-77:20
-257            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-257-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:68:13-106
-258            android:directBootAware="false"
-258-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:69:13-44
-259            android:enabled="false"
-259-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:70:13-36
-260            android:exported="false" >
-260-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:71:13-37
-261            <intent-filter>
-261-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:73:13-76:29
-262                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-262-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:74:17-87
-262-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:74:25-84
-263                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-263-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:75:17-90
-263-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:75:25-87
-264            </intent-filter>
-265        </receiver>
-266        <receiver
-266-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:78:9-88:20
-267            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-267-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:79:13-104
-268            android:directBootAware="false"
-268-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:80:13-44
-269            android:enabled="false"
-269-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:81:13-36
-270            android:exported="false" >
-270-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:82:13-37
-271            <intent-filter>
-271-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:84:13-87:29
-272                <action android:name="android.intent.action.BATTERY_OKAY" />
-272-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:85:17-77
-272-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:85:25-74
-273                <action android:name="android.intent.action.BATTERY_LOW" />
-273-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:86:17-76
-273-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:86:25-73
-274            </intent-filter>
-275        </receiver>
-276        <receiver
-276-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:89:9-99:20
-277            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-277-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:90:13-104
-278            android:directBootAware="false"
-278-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:91:13-44
-279            android:enabled="false"
-279-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:92:13-36
-280            android:exported="false" >
-280-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:93:13-37
-281            <intent-filter>
-281-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:95:13-98:29
-282                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-282-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:96:17-83
-282-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:96:25-80
-283                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-283-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:97:17-82
-283-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:97:25-79
-284            </intent-filter>
-285        </receiver>
-286        <receiver
-286-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:100:9-109:20
-287            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-287-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:101:13-103
-288            android:directBootAware="false"
-288-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:102:13-44
-289            android:enabled="false"
-289-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:103:13-36
-290            android:exported="false" >
-290-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:104:13-37
-291            <intent-filter>
-291-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:106:13-108:29
-292                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-292-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:107:17-79
-292-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:107:25-76
-293            </intent-filter>
-294        </receiver>
-295        <receiver
-295-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:110:9-121:20
-296            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-296-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:111:13-88
-297            android:directBootAware="false"
-297-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:112:13-44
-298            android:enabled="false"
-298-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:113:13-36
-299            android:exported="false" >
-299-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:114:13-37
-300            <intent-filter>
-300-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:116:13-120:29
-301                <action android:name="android.intent.action.BOOT_COMPLETED" />
-301-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:109:17-79
-301-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:109:25-76
-302                <action android:name="android.intent.action.TIME_SET" />
-302-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:122:17-73
-302-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:122:25-70
-303                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-303-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:128:17-81
-303-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:128:25-78
-304            </intent-filter>
-305        </receiver>
-306        <receiver
-306-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:122:9-131:20
-307            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-307-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:123:13-99
-308            android:directBootAware="false"
-308-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:124:13-44
-309            android:enabled="@bool/enable_system_alarm_service_default"
-309-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:125:13-72
-310            android:exported="false" >
-310-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:126:13-37
-311            <intent-filter>
-311-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:128:13-130:29
-312                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-312-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:129:17-98
-312-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:129:25-95
-313            </intent-filter>
-314        </receiver>
-315        <receiver
-315-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:132:9-142:20
-316            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-316-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:133:13-78
-317            android:directBootAware="false"
-317-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:134:13-44
-318            android:enabled="true"
-318-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:135:13-35
-319            android:exported="true"
-319-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:136:13-36
-320            android:permission="android.permission.DUMP" >
-320-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:137:13-57
-321            <intent-filter>
-321-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:139:13-141:29
-322                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-322-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:140:17-88
-322-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:140:25-85
-323            </intent-filter>
-324        </receiver>
-325
-326        <uses-library
-326-->[androidx.window:window:1.0.0] C:\Users\great\.gradle\caches\transforms-3\9d048535df9df6ae9971a9e4317974ad\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-327            android:name="androidx.window.extensions"
-327-->[androidx.window:window:1.0.0] C:\Users\great\.gradle\caches\transforms-3\9d048535df9df6ae9971a9e4317974ad\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-328            android:required="false" />
-328-->[androidx.window:window:1.0.0] C:\Users\great\.gradle\caches\transforms-3\9d048535df9df6ae9971a9e4317974ad\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
-329        <uses-library
-329-->[androidx.window:window:1.0.0] C:\Users\great\.gradle\caches\transforms-3\9d048535df9df6ae9971a9e4317974ad\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-330            android:name="androidx.window.sidecar"
-330-->[androidx.window:window:1.0.0] C:\Users\great\.gradle\caches\transforms-3\9d048535df9df6ae9971a9e4317974ad\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
-331            android:required="false" />
-331-->[androidx.window:window:1.0.0] C:\Users\great\.gradle\caches\transforms-3\9d048535df9df6ae9971a9e4317974ad\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-332
-333        <service
-333-->[androidx.room:room-runtime:2.5.0] C:\Users\great\.gradle\caches\transforms-3\f84265a44ec68665022a1668581a1118\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
-334            android:name="androidx.room.MultiInstanceInvalidationService"
-334-->[androidx.room:room-runtime:2.5.0] C:\Users\great\.gradle\caches\transforms-3\f84265a44ec68665022a1668581a1118\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
-335            android:directBootAware="true"
-335-->[androidx.room:room-runtime:2.5.0] C:\Users\great\.gradle\caches\transforms-3\f84265a44ec68665022a1668581a1118\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
-336            android:exported="false" />
-336-->[androidx.room:room-runtime:2.5.0] C:\Users\great\.gradle\caches\transforms-3\f84265a44ec68665022a1668581a1118\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
-337
-338        <receiver
-338-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-339            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-339-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-340            android:directBootAware="false"
-340-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-341            android:enabled="true"
-341-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-342            android:exported="true"
-342-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-343            android:permission="android.permission.DUMP" >
-343-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-344            <intent-filter>
-344-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-345                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-345-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-345-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-346            </intent-filter>
-347            <intent-filter>
-347-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-348                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-348-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-348-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-349            </intent-filter>
-350            <intent-filter>
-350-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-351                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-351-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-351-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-352            </intent-filter>
-353            <intent-filter>
-353-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-354                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-354-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-354-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-355            </intent-filter>
-356        </receiver>
-357
-358        <service
-358-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\great\.gradle\caches\transforms-3\d23be6d3893f6d3b528d170fa6fc2b07\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
-359            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-359-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\great\.gradle\caches\transforms-3\d23be6d3893f6d3b528d170fa6fc2b07\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
-360            android:exported="false" >
-360-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\great\.gradle\caches\transforms-3\d23be6d3893f6d3b528d170fa6fc2b07\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
-361            <meta-data
-361-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\great\.gradle\caches\transforms-3\d23be6d3893f6d3b528d170fa6fc2b07\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
-362                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-362-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\great\.gradle\caches\transforms-3\d23be6d3893f6d3b528d170fa6fc2b07\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
-363                android:value="cct" />
-363-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\great\.gradle\caches\transforms-3\d23be6d3893f6d3b528d170fa6fc2b07\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
-364        </service>
-365        <service
-365-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
-366            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-366-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
-367            android:exported="false"
-367-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
-368            android:permission="android.permission.BIND_JOB_SERVICE" >
-368-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
-369        </service>
-370
-371        <receiver
-371-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
-372            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-372-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
-373            android:exported="false" />
-373-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
-374    </application>
-375
-376</manifest>
+210-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\great\.gradle\caches\transforms-3\7e138efee56857c6c616b22aee7495f4\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+211            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+211-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\great\.gradle\caches\transforms-3\7e138efee56857c6c616b22aee7495f4\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+212            android:exported="false"
+212-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\great\.gradle\caches\transforms-3\7e138efee56857c6c616b22aee7495f4\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+213            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+213-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\great\.gradle\caches\transforms-3\7e138efee56857c6c616b22aee7495f4\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+214        <activity
+214-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:53:9-58:43
+215            android:name="com.google.android.gms.ads.AdActivity"
+215-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:54:13-65
+216            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+216-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:55:13-122
+217            android:exported="false"
+217-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:56:13-37
+218            android:theme="@android:style/Theme.Translucent" />
+218-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:57:13-61
+219
+220        <provider
+220-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:60:9-65:43
+221            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+221-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:61:13-76
+222            android:authorities="com.sd.sddigiclock.mobileadsinitprovider"
+222-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:62:13-73
+223            android:exported="false"
+223-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:63:13-37
+224            android:initOrder="100" />
+224-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:64:13-36
+225
+226        <service
+226-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:67:9-71:43
+227            android:name="com.google.android.gms.ads.AdService"
+227-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:68:13-64
+228            android:enabled="true"
+228-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:69:13-35
+229            android:exported="false" />
+229-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:70:13-37
+230
+231        <activity
+231-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:73:9-77:43
+232            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+232-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:74:13-82
+233            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+233-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:75:13-122
+234            android:exported="false" />
+234-->[com.google.android.gms:play-services-ads-lite:22.3.0] C:\Users\great\.gradle\caches\transforms-3\991b991de3fe822c7b24ea374c5ebac8\transformed\jetified-play-services-ads-lite-22.3.0\AndroidManifest.xml:76:13-37
+235
+236        <meta-data
+236-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\great\.gradle\caches\transforms-3\d5226048b8f51ec3b8390936342b0491\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+237            android:name="com.google.android.gms.version"
+237-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\great\.gradle\caches\transforms-3\d5226048b8f51ec3b8390936342b0491\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+238            android:value="@integer/google_play_services_version" />
+238-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\great\.gradle\caches\transforms-3\d5226048b8f51ec3b8390936342b0491\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+239
+240        <provider
+240-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:29:9-37:20
+241            android:name="androidx.startup.InitializationProvider"
+241-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:30:13-67
+242            android:authorities="com.sd.sddigiclock.androidx-startup"
+242-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:31:13-68
+243            android:exported="false" >
+243-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:32:13-37
+244            <meta-data
+244-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:34:13-36:52
+245                android:name="androidx.work.WorkManagerInitializer"
+245-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:35:17-68
+246                android:value="androidx.startup" />
+246-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:36:17-49
+247            <meta-data
+247-->[androidx.emoji2:emoji2:1.2.0] C:\Users\great\.gradle\caches\transforms-3\4b115223abe44ce7cac07c535e1f36e2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+248                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+248-->[androidx.emoji2:emoji2:1.2.0] C:\Users\great\.gradle\caches\transforms-3\4b115223abe44ce7cac07c535e1f36e2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+249                android:value="androidx.startup" />
+249-->[androidx.emoji2:emoji2:1.2.0] C:\Users\great\.gradle\caches\transforms-3\4b115223abe44ce7cac07c535e1f36e2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+250            <meta-data
+250-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\great\.gradle\caches\transforms-3\a26bc14c9d654e0eec486a2a52a9957f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+251                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+251-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\great\.gradle\caches\transforms-3\a26bc14c9d654e0eec486a2a52a9957f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+252                android:value="androidx.startup" />
+252-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\great\.gradle\caches\transforms-3\a26bc14c9d654e0eec486a2a52a9957f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+253            <meta-data
+253-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+254                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+254-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+255                android:value="androidx.startup" />
+255-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+256        </provider>
+257
+258        <service
+258-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:39:9-45:35
+259            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+259-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:40:13-88
+260            android:directBootAware="false"
+260-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:41:13-44
+261            android:enabled="@bool/enable_system_alarm_service_default"
+261-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:42:13-72
+262            android:exported="false" />
+262-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:43:13-37
+263        <service
+263-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:46:9-52:35
+264            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+264-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:47:13-84
+265            android:directBootAware="false"
+265-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:48:13-44
+266            android:enabled="@bool/enable_system_job_service_default"
+266-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:49:13-70
+267            android:exported="true"
+267-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:50:13-36
+268            android:permission="android.permission.BIND_JOB_SERVICE" />
+268-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:51:13-69
+269        <service
+269-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:53:9-59:35
+270            android:name="androidx.work.impl.foreground.SystemForegroundService"
+270-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:54:13-81
+271            android:directBootAware="false"
+271-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:55:13-44
+272            android:enabled="@bool/enable_system_foreground_service_default"
+272-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:56:13-77
+273            android:exported="false" />
+273-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:57:13-37
+274
+275        <receiver
+275-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:61:9-66:35
+276            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+276-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:62:13-88
+277            android:directBootAware="false"
+277-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:63:13-44
+278            android:enabled="true"
+278-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:64:13-35
+279            android:exported="false" />
+279-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:65:13-37
+280        <receiver
+280-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:67:9-77:20
+281            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+281-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:68:13-106
+282            android:directBootAware="false"
+282-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:69:13-44
+283            android:enabled="false"
+283-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:70:13-36
+284            android:exported="false" >
+284-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:71:13-37
+285            <intent-filter>
+285-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:73:13-76:29
+286                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+286-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:74:17-87
+286-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:74:25-84
+287                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+287-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:75:17-90
+287-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:75:25-87
+288            </intent-filter>
+289        </receiver>
+290        <receiver
+290-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:78:9-88:20
+291            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+291-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:79:13-104
+292            android:directBootAware="false"
+292-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:80:13-44
+293            android:enabled="false"
+293-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:81:13-36
+294            android:exported="false" >
+294-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:82:13-37
+295            <intent-filter>
+295-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:84:13-87:29
+296                <action android:name="android.intent.action.BATTERY_OKAY" />
+296-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:85:17-77
+296-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:85:25-74
+297                <action android:name="android.intent.action.BATTERY_LOW" />
+297-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:86:17-76
+297-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:86:25-73
+298            </intent-filter>
+299        </receiver>
+300        <receiver
+300-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:89:9-99:20
+301            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+301-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:90:13-104
+302            android:directBootAware="false"
+302-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:91:13-44
+303            android:enabled="false"
+303-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:92:13-36
+304            android:exported="false" >
+304-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:93:13-37
+305            <intent-filter>
+305-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:95:13-98:29
+306                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+306-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:96:17-83
+306-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:96:25-80
+307                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+307-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:97:17-82
+307-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:97:25-79
+308            </intent-filter>
+309        </receiver>
+310        <receiver
+310-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:100:9-109:20
+311            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+311-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:101:13-103
+312            android:directBootAware="false"
+312-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:102:13-44
+313            android:enabled="false"
+313-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:103:13-36
+314            android:exported="false" >
+314-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:104:13-37
+315            <intent-filter>
+315-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:106:13-108:29
+316                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+316-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:107:17-79
+316-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:107:25-76
+317            </intent-filter>
+318        </receiver>
+319        <receiver
+319-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:110:9-121:20
+320            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+320-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:111:13-88
+321            android:directBootAware="false"
+321-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:112:13-44
+322            android:enabled="false"
+322-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:113:13-36
+323            android:exported="false" >
+323-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:114:13-37
+324            <intent-filter>
+324-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:116:13-120:29
+325                <action android:name="android.intent.action.BOOT_COMPLETED" />
+325-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:138:17-79
+325-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:138:25-76
+326                <action android:name="android.intent.action.TIME_SET" />
+326-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:85:17-73
+326-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:85:25-70
+327                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+327-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:88:17-81
+327-->C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:88:25-78
+328            </intent-filter>
+329        </receiver>
+330        <receiver
+330-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:122:9-131:20
+331            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+331-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:123:13-99
+332            android:directBootAware="false"
+332-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:124:13-44
+333            android:enabled="@bool/enable_system_alarm_service_default"
+333-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:125:13-72
+334            android:exported="false" >
+334-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:126:13-37
+335            <intent-filter>
+335-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:128:13-130:29
+336                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+336-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:129:17-98
+336-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:129:25-95
+337            </intent-filter>
+338        </receiver>
+339        <receiver
+339-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:132:9-142:20
+340            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+340-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:133:13-78
+341            android:directBootAware="false"
+341-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:134:13-44
+342            android:enabled="true"
+342-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:135:13-35
+343            android:exported="true"
+343-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:136:13-36
+344            android:permission="android.permission.DUMP" >
+344-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:137:13-57
+345            <intent-filter>
+345-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:139:13-141:29
+346                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+346-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:140:17-88
+346-->[androidx.work:work-runtime:2.9.0-beta01] C:\Users\great\.gradle\caches\transforms-3\1b64fa0ff59c1b4abc913d16fc60c70a\transformed\work-runtime-2.9.0-beta01\AndroidManifest.xml:140:25-85
+347            </intent-filter>
+348        </receiver>
+349
+350        <uses-library
+350-->[androidx.window:window:1.0.0] C:\Users\great\.gradle\caches\transforms-3\9d048535df9df6ae9971a9e4317974ad\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+351            android:name="androidx.window.extensions"
+351-->[androidx.window:window:1.0.0] C:\Users\great\.gradle\caches\transforms-3\9d048535df9df6ae9971a9e4317974ad\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+352            android:required="false" />
+352-->[androidx.window:window:1.0.0] C:\Users\great\.gradle\caches\transforms-3\9d048535df9df6ae9971a9e4317974ad\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+353        <uses-library
+353-->[androidx.window:window:1.0.0] C:\Users\great\.gradle\caches\transforms-3\9d048535df9df6ae9971a9e4317974ad\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+354            android:name="androidx.window.sidecar"
+354-->[androidx.window:window:1.0.0] C:\Users\great\.gradle\caches\transforms-3\9d048535df9df6ae9971a9e4317974ad\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+355            android:required="false" />
+355-->[androidx.window:window:1.0.0] C:\Users\great\.gradle\caches\transforms-3\9d048535df9df6ae9971a9e4317974ad\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+356
+357        <service
+357-->[androidx.room:room-runtime:2.5.0] C:\Users\great\.gradle\caches\transforms-3\f84265a44ec68665022a1668581a1118\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+358            android:name="androidx.room.MultiInstanceInvalidationService"
+358-->[androidx.room:room-runtime:2.5.0] C:\Users\great\.gradle\caches\transforms-3\f84265a44ec68665022a1668581a1118\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+359            android:directBootAware="true"
+359-->[androidx.room:room-runtime:2.5.0] C:\Users\great\.gradle\caches\transforms-3\f84265a44ec68665022a1668581a1118\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+360            android:exported="false" />
+360-->[androidx.room:room-runtime:2.5.0] C:\Users\great\.gradle\caches\transforms-3\f84265a44ec68665022a1668581a1118\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+361
+362        <receiver
+362-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+363            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+363-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+364            android:directBootAware="false"
+364-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+365            android:enabled="true"
+365-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+366            android:exported="true"
+366-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+367            android:permission="android.permission.DUMP" >
+367-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+368            <intent-filter>
+368-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+369                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+369-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+369-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+370            </intent-filter>
+371            <intent-filter>
+371-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+372                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+372-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+372-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+373            </intent-filter>
+374            <intent-filter>
+374-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+375                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+375-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+375-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+376            </intent-filter>
+377            <intent-filter>
+377-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+378                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+378-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+378-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\great\.gradle\caches\transforms-3\49e07d1c3ab14f934ac17356918f1263\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+379            </intent-filter>
+380        </receiver>
+381
+382        <service
+382-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\great\.gradle\caches\transforms-3\d23be6d3893f6d3b528d170fa6fc2b07\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+383            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+383-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\great\.gradle\caches\transforms-3\d23be6d3893f6d3b528d170fa6fc2b07\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+384            android:exported="false" >
+384-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\great\.gradle\caches\transforms-3\d23be6d3893f6d3b528d170fa6fc2b07\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+385            <meta-data
+385-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\great\.gradle\caches\transforms-3\d23be6d3893f6d3b528d170fa6fc2b07\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+386                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+386-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\great\.gradle\caches\transforms-3\d23be6d3893f6d3b528d170fa6fc2b07\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+387                android:value="cct" />
+387-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\great\.gradle\caches\transforms-3\d23be6d3893f6d3b528d170fa6fc2b07\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+388        </service>
+389        <service
+389-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+390            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+390-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+391            android:exported="false"
+391-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+392            android:permission="android.permission.BIND_JOB_SERVICE" >
+392-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+393        </service>
+394
+395        <receiver
+395-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+396            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+396-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+397            android:exported="false" />
+397-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\transforms-3\e4115fe4ee9a95df81f6c85442014f58\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+398    </application>
+399
+400</manifest>

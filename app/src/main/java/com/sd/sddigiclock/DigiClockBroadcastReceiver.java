@@ -82,7 +82,7 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
                 AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
                 AlarmManagerCompat.setExact(alarmManager, AlarmManager.RTC_WAKEUP, currentTimeMillis + millisToNextMin, pendingIntentR);
             }else{
-                PendingIntent pendingIntentR = PendingIntent.getService(context, 0, refreshIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+                PendingIntent pendingIntentR = PendingIntent.getBroadcast(context, 0, refreshIntent, PendingIntent.FLAG_UPDATE_CURRENT);
                 AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
                 AlarmManagerCompat.setExact(alarmManager, AlarmManager.RTC_WAKEUP, currentTimeMillis + millisToNextMin, pendingIntentR);
             }
@@ -138,7 +138,7 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
 
     public void register(final Context context) {
         if (!isRegistered){
-            //Log.d(this.toString(), " going to register this broadcast receiver");
+            Log.d(TAG, " going to register this broadcast receiver");
             IntentFilter intentFilter = new IntentFilter();
             intentFilter.addAction(REFRESH_WIDGET);
             intentFilter.addAction("android.intent.action.BOOT_COMPLETED");
@@ -170,7 +170,7 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
     }
     public void unregister(final Context context) {
         if (isRegistered) {
-            //Log.d(this.toString(), " going to unregister this broadcast receiver");
+            Log.d(TAG, " going to unregister this broadcast receiver");
             context.unregisterReceiver(this);
             isRegistered = false;
         }

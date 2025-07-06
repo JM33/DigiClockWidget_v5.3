@@ -1,20 +1,3 @@
-{
-    "logs": [
-        {
-            "outputFile": "com.sd.sddigiclock.app-mergeDebugResources-55:/values-v25/values-v25.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\great\\.gradle\\caches\\transforms-3\\b98ad1eabf84e74f85d3d6bdb837258b\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
-                    "from": {
-                        "startLines": "2,3,4,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,126,209,308",
-                        "endLines": "2,3,5,7",
-                        "endColumns": "70,82,12,12",
-                        "endOffsets": "121,204,303,414"
-                    }
-                }
-            ]
-        }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8988d148ee45f9def3762c8f45847623c0d63e6cb9941cbd1656acb6d8a322f2
+size 766

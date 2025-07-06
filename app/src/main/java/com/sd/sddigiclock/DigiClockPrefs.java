@@ -49,6 +49,7 @@ import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.window.OnBackInvokedDispatcher;
 
 import com.android.billingclient.api.AcknowledgePurchaseParams;
 import com.android.billingclient.api.AcknowledgePurchaseResponseListener;
@@ -56,11 +57,13 @@ import com.android.billingclient.api.BillingClient;
 import com.android.billingclient.api.BillingClientStateListener;
 import com.android.billingclient.api.BillingFlowParams;
 import com.android.billingclient.api.BillingResult;
+import com.android.billingclient.api.PendingPurchasesParams;
 import com.android.billingclient.api.ProductDetails;
 import com.android.billingclient.api.ProductDetailsResponseListener;
 import com.android.billingclient.api.Purchase;
 import com.android.billingclient.api.PurchasesUpdatedListener;
 import com.android.billingclient.api.QueryProductDetailsParams;
+import com.android.billingclient.api.QueryProductDetailsResult;
 import com.android.billingclient.api.SkuDetails;
 import com.android.billingclient.api.SkuDetailsParams;
 import static com.android.billingclient.api.BillingClient.SkuType.INAPP;
@@ -93,6 +96,7 @@ import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+import androidx.core.os.BuildCompat;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
@@ -336,11 +340,11 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 			initializeMobileAdsSdk();
 		}
 
-
+		PendingPurchasesParams pendingPurchasesParams = PendingPurchasesParams.newBuilder().enableOneTimeProducts().build();
 
 		billingClient = BillingClient.newBuilder(this)
 				.setListener(purchasesUpdatedListener)
-				.enablePendingPurchases()
+				.enablePendingPurchases(pendingPurchasesParams)
 				.build();
 
 		//getSupportActionBar().setTitle(R.string.p_Title);
@@ -415,7 +419,14 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		//OrientationReceiver receiver = new OrientationReceiver();
 		//getApplicationContext().registerReceiver(receiver, intentFilter);
 
-
+		if (BuildCompat.isAtLeastT()) {
+			getOnBackInvokedDispatcher().registerOnBackInvokedCallback(
+					OnBackInvokedDispatcher.PRIORITY_DEFAULT,
+					() -> {
+						OnBackPressed();
+					}
+			);
+		}
     }
 
 	private void initializeMobileAdsSdk() {
@@ -441,7 +452,8 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		}
 		//else reconnect service
 		else{
-			billingClient = BillingClient.newBuilder(DCP).enablePendingPurchases().setListener(DCP.purchasesUpdatedListener).build();
+			PendingPurchasesParams pendingPurchasesParams = PendingPurchasesParams.newBuilder().enableOneTimeProducts().build();
+			billingClient = BillingClient.newBuilder(DCP).enablePendingPurchases(pendingPurchasesParams).setListener(DCP.purchasesUpdatedListener).build();
 			billingClient.startConnection(new BillingClientStateListener() {
 				@Override
 				public void onBillingSetupFinished(BillingResult billingResult) {
@@ -459,19 +471,24 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 	}
 
 	public void initiatePurchase(){
-		List<String> skuList = new ArrayList<>();
-		skuList.add(PRODUCT_ID);
-		SkuDetailsParams.Builder params = SkuDetailsParams.newBuilder();
-		params.setSkusList(skuList).setType(INAPP);
-		billingClient.querySkuDetailsAsync(params.build(),
-				new SkuDetailsResponseListener() {
+		ImmutableList<QueryProductDetailsParams.Product> productList = ImmutableList.of(QueryProductDetailsParams.Product.newBuilder()
+				.setProductId(PRODUCT_ID)
+				.setProductType(BillingClient.ProductType.INAPP)
+				.build());
+
+		QueryProductDetailsParams params = QueryProductDetailsParams.newBuilder()
+				.setProductList(productList)
+				.build();
+
+		billingClient.queryProductDetailsAsync(
+				params,
+				new ProductDetailsResponseListener() {
 					@Override
-					public void onSkuDetailsResponse(BillingResult billingResult,
-													 List<SkuDetails> skuDetailsList) {
+					public void onProductDetailsResponse(@NonNull BillingResult billingResult, @NonNull QueryProductDetailsResult queryProductDetailsResult) {
 						if (billingResult.getResponseCode() == BillingClient.BillingResponseCode.OK) {
-							if (skuDetailsList != null && skuDetailsList.size() > 0) {
+							if (productList != null && productList.size() > 0) {
 								BillingFlowParams flowParams = BillingFlowParams.newBuilder()
-										.setSkuDetails(skuDetailsList.get(0))
+										.setProductDetailsParamsList((List<BillingFlowParams.ProductDetailsParams>) productList.get(0))
 										.build();
 								billingClient.launchBillingFlow(DigiClockPrefs.this, flowParams);
 							}
@@ -484,7 +501,13 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 									" Error "+billingResult.getDebugMessage(), Toast.LENGTH_SHORT).show();
 						}
 					}
-				});
+
+					public void onProductDetailsResponse(BillingResult billingResult, List<ProductDetails> productDetailsList) {
+						// Process the result
+					}
+				}
+		);
+
 	}
 
 	@Override
@@ -1836,7 +1859,8 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		service = PendingIntent.getService(getApplicationContext(), 0, intent, PendingIntent.FLAG_MUTABLE);
 		setResult(RESULT_OK, intent);
 		getApplicationContext().startService(intent);
-*/
+		*/
+
 		Intent serviceBG = new Intent(getApplicationContext(), WidgetBackgroundService.class);
 		//if(batterySave) {
 			serviceBG.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
@@ -2206,8 +2230,8 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 			aboutDialog.dismiss();
 	}
 
-	@Override
-	public void onBackPressed() {
+
+	public void OnBackPressed() {
 
 		SettingsHomeFragment homeFragment = (SettingsHomeFragment)getSupportFragmentManager().findFragmentByTag("Home");
 		if (homeFragment != null &&homeFragment.isVisible()) {

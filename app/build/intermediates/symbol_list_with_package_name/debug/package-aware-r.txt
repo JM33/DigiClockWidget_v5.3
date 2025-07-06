@@ -4388,6 +4388,8 @@ menu bottom_navigation_menu
 menu drawer_menu
 navigation nav_graph
 plurals mtrl_badge_content_description
+raw com_android_billingclient_heterodyne_info
+raw com_android_billingclient_registration_info
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -6047,6 +6049,7 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+xml com_android_billingclient_phenotype
 xml image_share_filepaths
 xml text_clock
 xml widget_info

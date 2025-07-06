@@ -43,7 +43,7 @@ public class WidgetBackgroundService extends Service {
     private int appWidgetId;
     private PendingIntent service;
 
-    private DigiClockBroadcastReceiver digiClockBroadcastReceiver;
+    //private DigiClockBroadcastReceiver digiClockBroadcastReceiver;
 
     @Override
     public IBinder onBind(Intent arg0){
@@ -54,30 +54,34 @@ public class WidgetBackgroundService extends Service {
     public void onCreate(){
         super.onCreate();
 
-        if(digiClockBroadcastReceiver!= null){
-            try {
-                unregisterReceiver(digiClockBroadcastReceiver);
-            }catch (IllegalArgumentException e){
-                e.printStackTrace();
+        try {
+            if (DigiClockProvider.digiClockBroadcastReceiver != null) {
+                DigiClockProvider.digiClockBroadcastReceiver.unregister(getApplicationContext());
+                DigiClockProvider.digiClockBroadcastReceiver = null;
             }
-            digiClockBroadcastReceiver = null;
+            DigiClockProvider.digiClockBroadcastReceiver = new DigiClockBroadcastReceiver();
+            DigiClockProvider.digiClockBroadcastReceiver.register(getApplicationContext());
+        }catch (IllegalArgumentException e) {
+            DigiClockProvider.digiClockBroadcastReceiver = null;
         }
-        registerDigiClockBroadcastReceiver();
     }
 
     private void registerDigiClockBroadcastReceiver() {
         IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction("android.intent.action.BOOT_COMPLETED");
         intentFilter.addAction("android.intent.action.CONFIGURATION_CHANGED");
-        digiClockBroadcastReceiver = new DigiClockBroadcastReceiver();
-        getApplicationContext().registerReceiver(digiClockBroadcastReceiver, intentFilter);
+        //digiClockBroadcastReceiver = new DigiClockBroadcastReceiver();
+        //getApplicationContext().registerReceiver(digiClockBroadcastReceiver, intentFilter);
     }
 
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
-            startMyOwnForeground();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            if(!isInBackground()) {
+                startMyOwnForeground();
+            }
+        }
         else
             startForeground(1, buildForegroundNotification());
         // for Android 8 bring the service to foreground
@@ -104,6 +108,14 @@ public class WidgetBackgroundService extends Service {
         // We want this service to continue running until it is explicitly
         // stopped, so return sticky.
         return START_STICKY;
+    }
+
+    private boolean isInBackground(){
+        ActivityManager.RunningAppProcessInfo myProcess = new ActivityManager.RunningAppProcessInfo();
+        ActivityManager.getMyMemoryState(myProcess);
+        Boolean isInBackground = myProcess.importance != ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND;
+        Log.d("isInBackground", myProcess.processName + " " + myProcess.importance + " " + isInBackground);
+        return  isInBackground;
     }
 
     private void startMyOwnForeground(){
@@ -150,13 +162,15 @@ public class WidgetBackgroundService extends Service {
             mMinuteTickReceiver = null;
         }
 
-        if(digiClockBroadcastReceiver!=null){
-            try {
-                unregisterReceiver(digiClockBroadcastReceiver);
-            }catch(IllegalArgumentException e){
-                e.printStackTrace();
+        try {
+            if (DigiClockProvider.digiClockBroadcastReceiver != null) {
+                DigiClockProvider.digiClockBroadcastReceiver.unregister(getApplicationContext());
+                DigiClockProvider.digiClockBroadcastReceiver = null;
             }
-            digiClockBroadcastReceiver = null;
+            DigiClockProvider.digiClockBroadcastReceiver = new DigiClockBroadcastReceiver();
+            DigiClockProvider.digiClockBroadcastReceiver.register(getApplicationContext());
+        }catch (IllegalArgumentException e) {
+            DigiClockProvider.digiClockBroadcastReceiver = null;
         }
 
         super.onDestroy();

@@ -364,7 +364,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 				AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
 				AlarmManagerCompat.setExact(alarmManager, AlarmManager.RTC_WAKEUP, currentTimeMillis + millisToNextMin, pendingIntentR);
 			}else{
-				PendingIntent pendingIntentR = PendingIntent.getService(context, 0, refreshIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+				PendingIntent pendingIntentR = PendingIntent.getBroadcast(context, 0, refreshIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 				AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
 				AlarmManagerCompat.setExact(alarmManager, AlarmManager.RTC_WAKEUP, currentTimeMillis + millisToNextMin, pendingIntentR);
 			}
