@@ -72,10 +72,10 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.1] C:\Users\great\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.1] C:\Users\great\.gradle\caches\8.13\transforms\b7eeca25d9f2c00973a7364033b3f897\transformed\lifecycle-livedata-core-2.9.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.1] C:\Users\great\.gradle\caches\8.13\transforms\8272c0005682995c3205c160f924b220\transformed\jetified-lifecycle-viewmodel-ktx-2.9.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.9.1] C:\Users\great\.gradle\caches\8.13\transforms\95b11e3029867142ac07c441011dfa7b\transformed\jetified-lifecycle-livedata-ktx-2.9.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\great\.gradle\caches\8.13\transforms\d8d713393bc453d1a91c6dde94db8af2\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\345a1bed8a77a44ca97f9f681e8300ca\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\great\.gradle\caches\8.13\transforms\b6401bb158ce3dd16b5c8d3af73981b2\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\great\.gradle\caches\8.13\transforms\d8d713393bc453d1a91c6dde94db8af2\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\great\.gradle\caches\8.13\transforms\9fd03fa9ef81c27f51a7215de25f49d1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\great\.gradle\caches\8.13\transforms\8727e1fd0a0c627305d2cf4bf8d71d01\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\great\.gradle\caches\8.13\transforms\c980b62fa3b18eb7ee6ed27df4ac1f72\transformed\jetified-tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
@@ -275,10 +275,10 @@ MERGED from [androidx.core:core:1.16.0] C:\Users\great\.gradle\caches\8.13\trans
 MERGED from [androidx.core:core:1.16.0] C:\Users\great\.gradle\caches\8.13\transforms\01aa0d7249d5b7d1e8c01aca0457b478\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\great\.gradle\caches\8.13\transforms\48646227518309c24372f4d8de66a024\transformed\jetified-lifecycle-process-2.9.1\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\great\.gradle\caches\8.13\transforms\48646227518309c24372f4d8de66a024\transformed\jetified-lifecycle-process-2.9.1\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
-MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\great\.gradle\caches\8.13\transforms\d8d713393bc453d1a91c6dde94db8af2\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\great\.gradle\caches\8.13\transforms\d8d713393bc453d1a91c6dde94db8af2\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\great\.gradle\caches\8.13\transforms\9fd03fa9ef81c27f51a7215de25f49d1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\great\.gradle\caches\8.13\transforms\9fd03fa9ef81c27f51a7215de25f49d1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\great\.gradle\caches\8.13\transforms\86b97bf4e36882146a24065f7a7b26b9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -463,12 +463,6 @@ action#REFRESH_WIDGET
 ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:170:17-57
 	android:name
 		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:170:25-54
-meta-data#preloaded_fonts
-ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:179:9-181:57
-	android:resource
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:181:13-54
-	android:name
-		ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:180:13-43
 meta-data#com.google.android.gms.ads.APPLICATION_ID
 ADDED from C:\Users\great\Documents\StudioProjects\DigiClockWidget v5.0.0\app\src\main\AndroidManifest.xml:183:9-185:51
 	android:value
@@ -615,14 +609,14 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.1] C:\Users\great\.g
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.1] C:\Users\great\.gradle\caches\8.13\transforms\8272c0005682995c3205c160f924b220\transformed\jetified-lifecycle-viewmodel-ktx-2.9.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.9.1] C:\Users\great\.gradle\caches\8.13\transforms\95b11e3029867142ac07c441011dfa7b\transformed\jetified-lifecycle-livedata-ktx-2.9.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.9.1] C:\Users\great\.gradle\caches\8.13\transforms\95b11e3029867142ac07c441011dfa7b\transformed\jetified-lifecycle-livedata-ktx-2.9.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\great\.gradle\caches\8.13\transforms\d8d713393bc453d1a91c6dde94db8af2\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\great\.gradle\caches\8.13\transforms\d8d713393bc453d1a91c6dde94db8af2\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\345a1bed8a77a44ca97f9f681e8300ca\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\345a1bed8a77a44ca97f9f681e8300ca\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\great\.gradle\caches\8.13\transforms\b6401bb158ce3dd16b5c8d3af73981b2\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\great\.gradle\caches\8.13\transforms\b6401bb158ce3dd16b5c8d3af73981b2\transformed\jetified-annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\great\.gradle\caches\8.13\transforms\d8d713393bc453d1a91c6dde94db8af2\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\great\.gradle\caches\8.13\transforms\d8d713393bc453d1a91c6dde94db8af2\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\great\.gradle\caches\8.13\transforms\9fd03fa9ef81c27f51a7215de25f49d1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\great\.gradle\caches\8.13\transforms\9fd03fa9ef81c27f51a7215de25f49d1\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\great\.gradle\caches\8.13\transforms\8727e1fd0a0c627305d2cf4bf8d71d01\transformed\jetified-tracing-1.2.0\AndroidManifest.xml:20:5-44
@@ -1125,16 +1119,6 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\great\.gradle\c
 		ADDED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\great\.gradle\caches\8.13\transforms\48646227518309c24372f4d8de66a024\transformed\jetified-lifecycle-process-2.9.1\AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.9.1] C:\Users\great\.gradle\caches\8.13\transforms\48646227518309c24372f4d8de66a024\transformed\jetified-lifecycle-process-2.9.1\AndroidManifest.xml:30:17-78
-service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
-	android:exported
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
-	tools:ignore
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
-	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
-	android:name
-		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\great\.gradle\caches\8.13\transforms\d8d713393bc453d1a91c6dde94db8af2\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
 	android:value
@@ -1177,6 +1161,16 @@ action#androidx.profileinstaller.action.BENCHMARK_OPERATION
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\great\.gradle\caches\8.13\transforms\d8d713393bc453d1a91c6dde94db8af2\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
 	android:name
 		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\great\.gradle\caches\8.13\transforms\d8d713393bc453d1a91c6dde94db8af2\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\great\.gradle\caches\8.13\transforms\cf0425a40c3cf11278913ccc71663945\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
 service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
 ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\great\.gradle\caches\8.13\transforms\4b1f733e73bb8740cef09380b8523ec6\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\great\.gradle\caches\8.13\transforms\7e903399d4c9669e9ad31ea26a813163\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:36:9-38:40

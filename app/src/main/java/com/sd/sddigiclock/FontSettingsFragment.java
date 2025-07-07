@@ -143,7 +143,10 @@ public class FontSettingsFragment extends Fragment {
 
         fontsLoadingLayout = (LinearLayout)mView.findViewById(R.id.FontLoadingScreen);
         fontsProgressBar = (ProgressBar)mView.findViewById(R.id.progressBarFonts);
+
+
         showLoadingScreen();
+        /*
         Log.i(TAG, "Show Loading screen - start font download");
         workManager = WorkManager.getInstance(mContext);
 
@@ -158,8 +161,10 @@ public class FontSettingsFragment extends Fragment {
                     }
                 });
 
+        */
 
-
+        loadFontButtons();
+        hideLoadingScreen();
         //setButtons();
 
 
@@ -254,7 +259,7 @@ public class FontSettingsFragment extends Fragment {
         linearLayoutFonts = mView.findViewById(R.id.LinearLayoutFontsList);
         ScrollView fontScrollView = mView.findViewById(R.id.ScrollViewFonts);
 
-
+        /*
         Field[] fontFields = R.font.class.getFields();
         ArrayList<Integer> fontIDs = new ArrayList<>();
         ArrayList<String> fontNames = new ArrayList<>();
@@ -270,14 +275,16 @@ public class FontSettingsFragment extends Fragment {
 
         Log.i(TAG, "fontsList size = "+fontsList.size());
         Log.i(TAG, "fontButtons size = "+fontButtons.size());
-
+        */
 
         ArrayList<String> allFonts = new ArrayList<String>();
 
         allFonts.addAll(fontsList);
+
+        /*
         //Add fonts from resources
         if (Build.VERSION.SDK_INT >= 26) {
-            allFonts.addAll(fontNames);
+            //allFonts.addAll(fontNames);
         }
         Collections.sort(allFonts, String.CASE_INSENSITIVE_ORDER);
 
@@ -289,6 +296,8 @@ public class FontSettingsFragment extends Fragment {
         }
         allFonts.remove(systemindex);
         allFonts.add(0, mView.getResources().getString(R.string.system_font));
+
+         */
 
         RadioGroup rg = new RadioGroup(mContext);
         final RadioButton[] rb = new RadioButton[allFonts.size()];
@@ -319,10 +328,10 @@ public class FontSettingsFragment extends Fragment {
                 font = Typeface.createFromAsset(mContext.getAssets(), allFonts.get(i));
             }
             if (Build.VERSION.SDK_INT >= 26) {
-                if (fontNames.contains(allFonts.get(i))) {
-                    int index = fontNames.indexOf(allFonts.get(i));
-                    font = ResourcesCompat.getFont(mContext, fontIDs.get(index));
-                }
+                //if (fontNames.contains(allFonts.get(i))) {
+                //    int index = fontNames.indexOf(allFonts.get(i));
+                //    font = ResourcesCompat.getFont(mContext, fontIDs.get(index));
+                //}
             }
             String fontname = allFonts.get(i).replaceFirst("[.][^.]+$", "");
             fontname = fontname.replaceAll("[-_]", " ");
@@ -370,18 +379,21 @@ public class FontSettingsFragment extends Fragment {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 int grpindex = group.indexOfChild(group.findViewById(checkedId));
+                /*
                 if(grpindex == 0){
                     mFont = 0;
                 }else{
                     if(fontsList.contains(allFonts.get(grpindex))) {
                         mFont = fontsList.indexOf(allFonts.get(grpindex));
                     }else{
-                        if(fontNames.contains(allFonts.get(grpindex))) {
-                            mFont = fontNames.indexOf(grpindex) + fontsList.size()+1;
+                        //if(fontNames.contains(allFonts.get(grpindex))) {
+                        //    mFont = fontNames.indexOf(grpindex) + fontsList.size()+1;
                             //Fontfile = allFonts.get(grpindex);
-                        }
+                        //}
                     }
                 }
+                */
+                mFont = grpindex;
                 Log.d(TAG, "rg selected mFont = " + mFont);
                 Fontfile = allFonts.get(grpindex);
                 Log.d(TAG, "rg selected FontFile = " + Fontfile);
@@ -390,7 +402,7 @@ public class FontSettingsFragment extends Fragment {
                 edit.putString("Font"+appWidgetId, Fontfile);
                 edit.putInt("Fontnum"+appWidgetId, mFont);
                 edit.commit();
-                //Log.d(TAG, "Font selected = " + Fontfile);
+                Log.d(TAG, "Font selected = " + mFont + " : " + Fontfile);
             }
         });
 

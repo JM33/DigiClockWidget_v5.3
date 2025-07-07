@@ -65,9 +65,10 @@
     <string name="common_google_play_services_wear_update_text">Je vyžadována nová verze služeb Google Play. Nová verze se brzy sama nainstaluje.</string>
     <string name="common_open_on_phone">Otevřít v telefonu</string>
     <string name="common_signin_button_text">Přihlásit se</string>
-    <string name="common_signin_button_text_long">Přihlásit se k účtu Google</string>
+    <string name="common_signin_button_text_long">Přihlášení přes Google</string>
     <string msgid="6083905920877235314" name="copy">"Kopírovat"</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Odkaz zkopírován do schránky"</string>
+    <string name="error_a11y_label">Chyba: neplatné</string>
     <string name="error_icon_content_description">Chyba</string>
     <string msgid="2427401033573778270" name="expand_button_title">"Rozšířená nastavení"</string>
     <string name="exposed_dropdown_menu_content_description">Zobrazit rozbalovací nabídku</string>
@@ -90,22 +91,29 @@
     <string name="material_timepicker_select_time">Vyberte čas</string>
     <string name="material_timepicker_text_input_mode_description">Chcete-li zadat čas, přepněte na režim textu.</string>
     <string name="mtrl_badge_numberless_content_description">Nové oznámení</string>
+    <string name="mtrl_checkbox_state_description_checked">Zaškrtnuto</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Částečně zaškrtnuto</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Nezaškrtnuto</string>
     <string name="mtrl_chip_close_icon_content_description">Odstranit položku %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Více než %1$d nových oznámení</string>
     <string name="mtrl_picker_a11y_next_month">Přejít na další měsíc</string>
     <string name="mtrl_picker_a11y_prev_month">Přejít na předchozí měsíc</string>
+    <string name="mtrl_picker_announce_current_range_selection">Výběr data zahájení: %1$s – Výběr data ukončení: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Aktuální výběr: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">prázdné</string>
     <string name="mtrl_picker_cancel">Zrušit</string>
     <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Vyberte datum</string>
     <string name="mtrl_picker_date_header_unselected">Vybrané datum</string>
-    <string name="mtrl_picker_day_of_week_column_header">Sloupec dnů: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Datum ukončení %1$s</string>
     <string name="mtrl_picker_invalid_format">Neplatný formát.</string>
     <string name="mtrl_picker_invalid_format_example">Příklad: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Použijte: %1$s</string>
     <string name="mtrl_picker_invalid_range">Neplatný rozsah.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Přejít na rok %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Přejít na aktuální rok %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Přejít na rok %1$d</string>
     <string name="mtrl_picker_out_of_range">Mimo rozsah: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Datum zahájení – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – datum ukončení</string>
@@ -113,16 +121,18 @@
     <string name="mtrl_picker_range_header_title">Vyberte rozsah</string>
     <string name="mtrl_picker_range_header_unselected">Datum zahájení – datum ukončení</string>
     <string name="mtrl_picker_save">Uložit</string>
+    <string name="mtrl_picker_start_date_description">Datum zahájení %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Datum</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Datum ukončení</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Datum zahájení</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">r</string>
+    <string name="mtrl_picker_today_description">Dnes %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Přepnout na režim zadávání do kalendáře</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Klepnutím přepnete na výběr dne</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Klepnutím přepnete na zobrazení kalendáře</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Přepnout na režim zadávání textu</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Klepnutím přepnete na výběr roku</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Klepnutím přepnete na zobrazení jednotlivých let</string>
     <string name="mtrl_timepicker_cancel">Zrušit</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="native_body">Text</string>
@@ -134,10 +144,11 @@
     <string name="notifications_permission_confirm">Povolit</string>
     <string name="notifications_permission_decline">Nepovolovat</string>
     <string name="notifications_permission_title">Chcete, aby vám aplikace zasílala oznámení?</string>
-    <string name="offline_notification_text">Klepnutím reklamu otevřete</string>
-    <string name="offline_notification_title">Zobrazte reklamu, kterou jste si uložili, když jste byli offline</string>
+    <string name="offline_dialog_image_description">Ikona</string>
+    <string name="offline_dialog_text">Děkujeme za váš zájem.\nAž budete znovu online, sdělíme vám víc.</string>
+    <string name="offline_notification_title">Jste opět online. Můžete pokračovat tam, kde jste přestali.</string>
+    <string name="offline_notification_title_with_advertiser">Jste opět online. Můžete zjistit další informace na téma %s</string>
     <string name="offline_opt_in_confirm">OK</string>
-    <string name="offline_opt_in_confirmation">Až budete znovu online, dostanete oznámení s odkazem</string>
     <string name="offline_opt_in_decline">Ne, díky</string>
     <string name="offline_opt_in_message">Pošleme vám oznámení s odkazem na web inzerenta.</string>
     <string name="offline_opt_in_title">Reklama se otevře, až budete znovu online.</string>
@@ -151,6 +162,9 @@
     <string name="s6">Povolit reklamě, aby vytvořila událost kalendáře?</string>
     <string name="s7">Zkušební reklama</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Hledat"</string>
+    <string name="searchview_clear_text_content_description">Vymazat text</string>
+    <string name="searchview_navigation_content_description">Zpět</string>
+    <string name="side_sheet_accessibility_pane_title">Postranní list</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string msgid="3140233346420563315" name="v7_preference_off">"Vypnuto"</string>

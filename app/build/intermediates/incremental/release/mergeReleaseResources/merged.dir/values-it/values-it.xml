@@ -119,7 +119,7 @@
     <string msgid="6006316683626838685" name="common_google_play_services_update_title">Aggiorna Google Play Services</string>
     <string name="common_google_play_services_updating_text">%1$s non funzionerà senza Google Play Services, attualmente in fase di aggiornamento.</string>
     <string name="common_google_play_services_wear_update_text">È richiesta una nuova versione di Google Play Services. L\'aggiornamento automatico verrà eseguito a breve.</string>
-    <string name="common_open_on_phone">Apri sul telefono</string>
+    <string name="common_open_on_phone">Apri su smartphone</string>
     <string name="common_signin_button_text">Accedi</string>
     <string name="common_signin_button_text_long">Accedi con Google</string>
     <string msgid="6083905920877235314" name="copy">"Copia"</string>
@@ -128,6 +128,7 @@
     <string name="date">Data</string>
     <string name="digital">Digitale</string>
     <string name="dist_galaxy">Verre Melkweg</string>
+    <string name="error_a11y_label">Errore: non valido</string>
     <string name="error_icon_content_description">Errore</string>
     <string msgid="2427401033573778270" name="expand_button_title">"Avanzate"</string>
     <string name="exposed_dropdown_menu_content_description">Mostra il menu a discesa</string>
@@ -148,30 +149,37 @@
     <string name="material_hour_suffix">%1$s in punto</string>
     <string name="material_minute_selection">Seleziona i minuti</string>
     <string name="material_minute_suffix">%1$s minuti</string>
-    <string name="material_timepicker_am">am</string>
+    <string name="material_timepicker_am">AM</string>
     <string name="material_timepicker_clock_mode_description">Passa alla modalità orologio per inserire l\'ora.</string>
     <string name="material_timepicker_hour">Ora</string>
     <string name="material_timepicker_minute">Minuto</string>
-    <string name="material_timepicker_pm">pm</string>
+    <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Seleziona l\'ora</string>
     <string name="material_timepicker_text_input_mode_description">Passa alla modalità di immissione testo per inserire l\'ora.</string>
     <string name="mtrl_badge_numberless_content_description">Nuova notifica</string>
+    <string name="mtrl_checkbox_state_description_checked">Selezionata</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Parzialmente selezionata</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Non selezionata</string>
     <string name="mtrl_chip_close_icon_content_description">Rimuovi %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Più di %1$d nuove notifiche</string>
     <string name="mtrl_picker_a11y_next_month">Passa al mese successivo</string>
     <string name="mtrl_picker_a11y_prev_month">Passa al mese precedente</string>
+    <string name="mtrl_picker_announce_current_range_selection">Selezione della data di inizio: %1$s. Selezione della data di fine: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Selezione attuale: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">Nessuna selezione</string>
     <string name="mtrl_picker_cancel">Annulla</string>
     <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Seleziona data</string>
     <string name="mtrl_picker_date_header_unselected">Data selezionata</string>
-    <string name="mtrl_picker_day_of_week_column_header">Colonna dei giorni: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Data di fine: %1$s</string>
     <string name="mtrl_picker_invalid_format">Formato non valido.</string>
     <string name="mtrl_picker_invalid_format_example">Esempio: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Usa: %1$s</string>
     <string name="mtrl_picker_invalid_range">Intervallo non valido.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Vai all\'anno %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Vai all\'anno corrente %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Vai all\'anno %1$d</string>
     <string name="mtrl_picker_out_of_range">Non compresa nell\'intervallo: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Data di inizio - %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s - Data di fine</string>
@@ -179,16 +187,18 @@
     <string name="mtrl_picker_range_header_title">Seleziona intervallo</string>
     <string name="mtrl_picker_range_header_unselected">Data di inizio - Data di fine</string>
     <string name="mtrl_picker_save">Salva</string>
+    <string name="mtrl_picker_start_date_description">Data di inizio: %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Data</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Data di fine</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Data di inizio</string>
     <string name="mtrl_picker_text_input_day_abbr">g</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_today_description">Oggi %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Passa alla modalità di immissione Calendario</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Tocca per passare alla selezione di un giorno</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tocca per passare alla visualizzazione Calendario</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Passa alla modalità di immissione Testo</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Tocca per passare alla selezione di un anno</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tocca per passare alla visualizzazione Anno</string>
     <string name="mtrl_timepicker_cancel">Annulla</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="native_body">Corpo</string>
@@ -201,10 +211,11 @@
     <string name="notifications_permission_confirm">Consenti</string>
     <string name="notifications_permission_decline">Non consentire</string>
     <string name="notifications_permission_title">Consentire all\'app di inviarti notifiche?</string>
-    <string name="offline_notification_text">Tocca per aprire l\'annuncio</string>
-    <string name="offline_notification_title">Visualizza l\'annuncio salvato quando eri offline</string>
+    <string name="offline_dialog_image_description">Icona</string>
+    <string name="offline_dialog_text">Grazie per il tuo interesse.\nComunicheremo ulteriori dettagli quando tornerai online.</string>
+    <string name="offline_notification_title">Sei di nuovo online Riprendiamo da dove abbiamo interrotto</string>
+    <string name="offline_notification_title_with_advertiser">Sei di nuovo online Continua a scoprire informazioni su %s</string>
     <string name="offline_opt_in_confirm">OK</string>
-    <string name="offline_opt_in_confirmation">Riceverai una notifica con il link quando sarai di nuovo online</string>
     <string name="offline_opt_in_decline">No, grazie</string>
     <string name="offline_opt_in_message">Ti invieremo una notifica con un link che rimanda al sito dell\'inserzionista.</string>
     <string name="offline_opt_in_title">Apri l\'annuncio quando sarai di nuovo online.</string>
@@ -283,6 +294,9 @@
     <string name="s6">Consentire ad AdMob di creare un evento di calendario?</string>
     <string name="s7">Annuncio di testo</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Cerca"</string>
+    <string name="searchview_clear_text_content_description">Cancella testo</string>
+    <string name="searchview_navigation_content_description">Indietro</string>
+    <string name="side_sheet_accessibility_pane_title">Scheda secondaria</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string name="system_font">Sistema</string>

@@ -68,6 +68,7 @@
     <string name="common_signin_button_text_long">Zaloguj się przez Google</string>
     <string msgid="6083905920877235314" name="copy">"Kopiuj"</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Link skopiowany do schowka"</string>
+    <string name="error_a11y_label">Błąd: nieprawidłowe</string>
     <string name="error_icon_content_description">Błąd</string>
     <string msgid="2427401033573778270" name="expand_button_title">"Zaawansowane"</string>
     <string name="exposed_dropdown_menu_content_description">Pokaż menu</string>
@@ -90,22 +91,29 @@
     <string name="material_timepicker_select_time">Określ czas</string>
     <string name="material_timepicker_text_input_mode_description">Aby wprowadzić czas, włącz tryb wprowadzania tekstu.</string>
     <string name="mtrl_badge_numberless_content_description">Nowe powiadomienie</string>
+    <string name="mtrl_checkbox_state_description_checked">Zaznaczono</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Częściowo zaznaczono</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Nie zaznaczono</string>
     <string name="mtrl_chip_close_icon_content_description">Usuń: (%1$s)</string>
     <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Liczba nowych powiadomień przekracza %1$d</string>
     <string name="mtrl_picker_a11y_next_month">Zmień na następny miesiąc</string>
     <string name="mtrl_picker_a11y_prev_month">Zmień na poprzedni miesiąc</string>
+    <string name="mtrl_picker_announce_current_range_selection">Wybrana data rozpoczęcia: %1$s – wybrana data zakończenia: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Bieżący wybór: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">brak</string>
     <string name="mtrl_picker_cancel">Anuluj</string>
     <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Wybierz datę</string>
     <string name="mtrl_picker_date_header_unselected">Wybrana data</string>
-    <string name="mtrl_picker_day_of_week_column_header">Kolumna z dniami: %1$s</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Data zakończenia %1$s</string>
     <string name="mtrl_picker_invalid_format">Nieprawidłowy format.</string>
     <string name="mtrl_picker_invalid_format_example">Przykład: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Użyj formatu: %1$s</string>
     <string name="mtrl_picker_invalid_range">Nieprawidłowy zakres.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Przejdź do roku %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Przejdź do bieżącego roku %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Przejdź do roku %1$d</string>
     <string name="mtrl_picker_out_of_range">Poza zakresem: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Data rozpoczęcia – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – data zakończenia</string>
@@ -113,16 +121,18 @@
     <string name="mtrl_picker_range_header_title">Wybierz zakres</string>
     <string name="mtrl_picker_range_header_unselected">Data rozpoczęcia – data zakończenia</string>
     <string name="mtrl_picker_save">Zapisz</string>
+    <string name="mtrl_picker_start_date_description">Data rozpoczęcia %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Data</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Data zakończenia</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Data rozpoczęcia</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">r</string>
+    <string name="mtrl_picker_today_description">Dzisiaj %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Włącz kalendarzowy tryb wprowadzania</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Kliknij, by wybrać dzień</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Kliknij, aby przełączyć się na widok kalendarza</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Włącz tekstowy tryb wprowadzania</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Kliknij, by wybrać rok</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Kliknij, aby przełączyć się na widok roku</string>
     <string name="mtrl_timepicker_cancel">Anuluj</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="native_body">Treść</string>
@@ -134,10 +144,11 @@
     <string name="notifications_permission_confirm">Zezwól</string>
     <string name="notifications_permission_decline">Nie zezwalaj</string>
     <string name="notifications_permission_title">Zezwolić aplikacji na wysyłanie powiadomień?</string>
-    <string name="offline_notification_text">Kliknij, by otworzyć reklamę</string>
-    <string name="offline_notification_title">Wyświetl reklamę zapisaną w trybie offline</string>
+    <string name="offline_dialog_image_description">Ikona</string>
+    <string name="offline_dialog_text">Dziękujemy za zainteresowanie.\nWięcej informacji otrzymasz, gdy znów będziesz online.</string>
+    <string name="offline_notification_title">Znów jesteś online. Zacznijmy tam, gdzie ostatnio skończyliśmy</string>
+    <string name="offline_notification_title_with_advertiser">Znów jesteś online. Dowiedz się więcej o reklamodawcy %s</string>
     <string name="offline_opt_in_confirm">OK</string>
-    <string name="offline_opt_in_confirmation">Otrzymasz powiadomienie z linkiem, gdy znów połączysz się z internetem</string>
     <string name="offline_opt_in_decline">Nie</string>
     <string name="offline_opt_in_message">Wyślemy Ci powiadomienie z linkiem do strony reklamodawcy.</string>
     <string name="offline_opt_in_title">Otwórz reklamę, gdy znów połączysz się z internetem.</string>
@@ -151,6 +162,9 @@
     <string name="s6">Zezwolić reklamie na utworzenie wydarzenia w kalendarzu?</string>
     <string name="s7">Reklama testowa</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Szukaj"</string>
+    <string name="searchview_clear_text_content_description">Wyczyść tekst</string>
+    <string name="searchview_navigation_content_description">Wstecz</string>
+    <string name="side_sheet_accessibility_pane_title">Arkusz boczny</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
     <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string msgid="3140233346420563315" name="v7_preference_off">"WYŁ."</string>

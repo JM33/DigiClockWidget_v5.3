@@ -32,6 +32,10 @@ import java.io.IOException;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collections;
+import java.util.List;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 import androidx.core.content.res.ResourcesCompat;
 
@@ -495,11 +499,14 @@ public class WidgetImage {
 
             //SharedPreferences prefs = getApplicationContext().getSharedPreferences(
             //		"prefs", 0);
+
+            /*
             font = Typeface.DEFAULT;
             if(mFont != 0) {
                 //font = Typeface.createFromAsset(mContext.getAssets(), Fontfile);
                 font = getFont();
             }
+            */
 
             TextPaint Datepaint= new TextPaint(TextPaint.ANTI_ALIAS_FLAG);
             Datepaint.setSubpixelText(true);
@@ -711,13 +718,17 @@ public class WidgetImage {
         fontsList = new ArrayList<String>();
         fontsList.add(mContext.getResources().getString(R.string.system_font));
         boolean hasfonts = listAssetFiles("");
-        //Log.d(TAG, "mFont= " + mFont + " fontslist size= "+fontsList.size());
+
+
+
+        Log.d(TAG, "mFont= " + mFont + " fontslist size= "+fontsList.size());
         if(hasfonts){
             if(mFont != 0 && mFont < fontsList.size()) { //add 1 to account for 0 as system font
                 font = Typeface.createFromAsset(mContext.getAssets(), fontsList.get(mFont));
             }
         }
 
+        /*
         if(mFont >= fontsList.size()){ //add 1 to account for 0 as system font
             Field[] fontFields = R.font.class.getFields();
             ArrayList<Integer> fonts = new ArrayList<>();
@@ -739,6 +750,7 @@ public class WidgetImage {
                 }
             }
         }
+        */
 
         return font;
     }
@@ -746,6 +758,7 @@ public class WidgetImage {
     private static boolean listAssetFiles(String path) {
 
         String [] list;
+        ArrayList<String> fontFiles  = new ArrayList<String>();
         try {
             list = mContext.getAssets().list(path);
             if (list.length > 0) {
@@ -756,8 +769,8 @@ public class WidgetImage {
                     else {
                         // This is a file
                         if(file.toLowerCase().endsWith("ttf")){
-                            //Log.i("FontSettings", "Adding to font list: "+file);
-                            fontsList.add(file);
+                            Log.i("FontSettings", "Adding to font list: "+file + " : "+fontsList.size());
+                            fontFiles.add(file);
                         }
                     }
                 }
@@ -765,7 +778,11 @@ public class WidgetImage {
         } catch (IOException e) {
             return false;
         }
-
+        List<String> uniqueFiles = fontFiles.stream().distinct().collect(Collectors.toList());
+        Collections.sort(uniqueFiles);
+        for (String file: uniqueFiles) {
+            fontsList.add(file);
+        }
         return true;
     }
 
