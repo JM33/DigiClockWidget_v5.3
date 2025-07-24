@@ -372,13 +372,15 @@ public class WidgetImage {
             Paint Clockpaint = new Paint();
             SharedPreferences prefs = mContext.getSharedPreferences(
                     "prefs", 0);
-            int mfont = prefs.getInt("mFont"+appWidgetId, 0);
+            mFont = prefs.getInt("Fontnum"+appWidgetId, 0);
+            /*
             Typeface font = Typeface.DEFAULT;
             if (mFont != 0) {
                 //font = Typeface.createFromAsset(mContext.getAssets(), Fontfile);
                 font = getFont();
             }
-
+            */
+            Typeface font = getFont();
 
             Clockpaint.setAntiAlias(true);
             Clockpaint.setSubpixelText(true);
@@ -455,7 +457,7 @@ public class WidgetImage {
             Paint AMPMpaint = new Paint();
 
 
-            //mfont = prefs.getInt("mFont"+appWidgetId, 0);
+            //mfont = prefs.getInt("Fontnum"+appWidgetId, 0);
             //font = Typeface.createFromAsset(this.getAssets(), Fontfile);
 
 
@@ -714,12 +716,28 @@ public class WidgetImage {
     }
 
     private static Typeface getFont(){
-        Typeface font = Typeface.DEFAULT;
+
+        SharedPreferences prefs = mContext.getSharedPreferences(
+                "prefs", 0);
+        mFont = prefs.getInt("Fontnum"+appWidgetId, 0);
+        Log.i("WidgetImage", "mFont = " + mFont + ", font = " + allFonts().get(mFont));
+
+        Typeface font  = Typeface.DEFAULT;
+        try {
+            if(mFont != 0){
+                font = Typeface.createFromAsset(mContext.getAssets(), allFonts().get(mFont));
+
+                Log.i("WidgetImage", "mFont = " + mFont + ", font = " + allFonts().get(mFont) + ", " + font.toString());
+                return font;
+            }
+        } catch (Exception e) {
+            Log.i(TAG, "Error getting font: " + e.getMessage());
+        }
+
+        /*
         fontsList = new ArrayList<String>();
         fontsList.add(mContext.getResources().getString(R.string.system_font));
         boolean hasfonts = listAssetFiles("");
-
-
 
         Log.d(TAG, "mFont= " + mFont + " fontslist size= "+fontsList.size());
         if(hasfonts){
@@ -727,8 +745,6 @@ public class WidgetImage {
                 font = Typeface.createFromAsset(mContext.getAssets(), fontsList.get(mFont));
             }
         }
-
-        /*
         if(mFont >= fontsList.size()){ //add 1 to account for 0 as system font
             Field[] fontFields = R.font.class.getFields();
             ArrayList<Integer> fonts = new ArrayList<>();
@@ -755,6 +771,39 @@ public class WidgetImage {
         return font;
     }
 
+    public static ArrayList<String> allFonts (){
+        ArrayList allFonts = new ArrayList<>();
+        allFonts.add("System");
+        allFonts.add("256 Bytes.ttf");
+        allFonts.add("ArchitectsDaughter.ttf");
+        allFonts.add("Audiowide.ttf");
+        allFonts.add("BubblerOne.ttf");
+        allFonts.add("Calligraffitti.ttf");
+        allFonts.add("Carbon Block.ttf");
+        allFonts.add("Chantelli Antiqua.ttf");
+        allFonts.add("Creepster.ttf");
+        allFonts.add("Digital.ttf");
+        allFonts.add("Distant Galaxy.ttf");
+        allFonts.add("Droid Sans.ttf");
+        allFonts.add("Droid Serif.ttf");
+        allFonts.add("Ewert-Regular.ttf");
+        allFonts.add("Fugaz One.ttf");
+        allFonts.add("Good Times.ttf");
+        allFonts.add("Graduate.ttf");
+        allFonts.add("HappyMonkey.ttf");
+        allFonts.add("Harry P.ttf");
+        allFonts.add("Jester.ttf");
+        allFonts.add("Komikax_.ttf");
+        allFonts.add("Nugie Romantic.ttf");
+        allFonts.add("Olde English.ttf");
+        allFonts.add("Roboto.ttf");
+        allFonts.add("Slackey.ttf");
+        allFonts.add("TradeWinds.ttf");
+        allFonts.add("WalterTurncoat.ttf");
+        allFonts.add("Weezer.ttf");
+
+        return allFonts;
+    }
     private static boolean listAssetFiles(String path) {
 
         String [] list;

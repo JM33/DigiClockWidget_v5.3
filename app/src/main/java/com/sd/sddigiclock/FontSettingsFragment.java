@@ -176,12 +176,18 @@ public class FontSettingsFragment extends Fragment {
     private void LoadPrefs() {
         SharedPreferences prefs = mContext.getSharedPreferences("prefs", 0);
 
+        /*
         fontsList = new ArrayList<String>();
         boolean hasfonts = listAssetFiles("");
         if(!hasfonts){
             return;
         }
         fontsList.add(0, getResources().getString(R.string.system_font));
+        String defaultFontFile = fontsList.get(0);
+
+         */
+
+        fontsList = WidgetImage.allFonts();
         String defaultFontFile = fontsList.get(0);
 
         if(!prefs.contains("Font"+appWidgetId)) {
@@ -249,6 +255,7 @@ public class FontSettingsFragment extends Fragment {
         int primaryTextColor = arr.getColor(0, -1);
         arr.recycle();
 
+        /*
         //Add fonts from assets
         fontsList = new ArrayList<String>();
         fontsList.add(mContext.getResources().getString(R.string.system_font));
@@ -256,6 +263,10 @@ public class FontSettingsFragment extends Fragment {
         if(!hasfonts){
             return;
         }
+        */
+
+        fontsList = WidgetImage.allFonts();
+
         linearLayoutFonts = mView.findViewById(R.id.LinearLayoutFontsList);
         ScrollView fontScrollView = mView.findViewById(R.id.ScrollViewFonts);
 
@@ -412,6 +423,7 @@ public class FontSettingsFragment extends Fragment {
         focusOnView(fontScrollView, selectedButton);
     }
 
+    /*
     private static boolean listAssetFiles(String path) {
 
         String [] list;
@@ -436,6 +448,8 @@ public class FontSettingsFragment extends Fragment {
 
         return true;
     }
+
+     */
 
     private static void focusOnView(ScrollView scrollView, View view){
         scrollView.post(new Runnable() {

@@ -395,11 +395,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 		//}
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
 			try {
-				if(!WidgetBackgroundService.isMyServiceRunning(context, WidgetBackgroundService.class)) {
-					ContextCompat.startForegroundService(context, serviceBG);
-				}else{
-					Log.d(TAG, "BG Service is already running");
-				}
+				ContextCompat.startForegroundService(context, serviceBG);
 			} catch (android.app.ForegroundServiceStartNotAllowedException e) {
 				Log.d(TAG, e.getMessage());
 			}
@@ -408,11 +404,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 		} else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
 			// for Android 8 start the service in foreground
 			//context.startForegroundService(serviceBG);
-			if(!WidgetBackgroundService.isMyServiceRunning(context, WidgetBackgroundService.class)) {
-				ContextCompat.startForegroundService(context, serviceBG);
-			}else{
-				Log.d(TAG, "BG Service is already running");
-			}
+			ContextCompat.startForegroundService(context, serviceBG);
 		} else {
 			//context.startService(serviceBG);
 		}

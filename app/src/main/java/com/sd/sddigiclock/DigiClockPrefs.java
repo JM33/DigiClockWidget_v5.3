@@ -732,6 +732,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 					public void onClick(View v) {
 						helpDialog.dismiss();
 					}
+
 				});
 
 				helpDialog.show();

@@ -99,40 +99,27 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
         WorkManager.getInstance(context)
                 .enqueueUniqueWork("UpdateWidgetWork", ExistingWorkPolicy.KEEP, myWork);
 
-        if(!WidgetBackgroundService.isMyServiceRunning(context, WidgetBackgroundService.class)){
+        Intent serviceBG = new Intent(context, WidgetBackgroundService.class);
+        //if(batterySave) {
+        serviceBG.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
+        //}
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            try {
+                ContextCompat.startForegroundService(context, serviceBG);
 
-            Intent serviceBG = new Intent(context, WidgetBackgroundService.class);
-            //if(batterySave) {
-            serviceBG.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
-            //}
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-                try {
-                    if(!WidgetBackgroundService.isMyServiceRunning(context, WidgetBackgroundService.class)){
-                        ContextCompat.startForegroundService(context, serviceBG);
-                    }else{
-                        Log.d(TAG, " BG Service Already Running");
-                    }
-
-                }catch(android.app.ForegroundServiceStartNotAllowedException e){
-                    Log.d(TAG, e.getMessage());
-                }
-            } else {
-                if(!WidgetBackgroundService.isMyServiceRunning(context, WidgetBackgroundService.class)){
-                    ContextCompat.startForegroundService(context, serviceBG);
-                }else{
-                    Log.d(TAG, " BG Service Already Running");
-                }
+            }catch(android.app.ForegroundServiceStartNotAllowedException e){
+                Log.d(TAG, e.getMessage());
             }
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                DigiClockProvider.scheduleJob(context);
-            } else {
-                AppWidgetAlarm appWidgetAlarm = new AppWidgetAlarm(context);
-                appWidgetAlarm.startAlarm();
-            }
-            Log.d(TAG, "UpdateWidgetWorker Started BG Service");
-        }else{
-            Log.d(TAG, "BG Service already running");
+        } else {
+            ContextCompat.startForegroundService(context, serviceBG);
         }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            DigiClockProvider.scheduleJob(context);
+        } else {
+            AppWidgetAlarm appWidgetAlarm = new AppWidgetAlarm(context);
+            appWidgetAlarm.startAlarm();
+        }
+        Log.d(TAG, "UpdateWidgetWorker Started BG Service");
 
     }
 
