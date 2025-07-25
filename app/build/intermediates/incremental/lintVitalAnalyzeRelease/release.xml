@@ -5,9 +5,9 @@
     minSdkVersion="23"
     targetSdkVersion="36.0"
     mergedManifest="build\intermediates\merged_manifest\release\processReleaseMainManifest\AndroidManifest.xml"
-    proguardFiles="build\intermediates\default_proguard_files\global\proguard-android.txt-8.11.0;proguard-rules.txt"
+    proguardFiles="build\intermediates\default_proguard_files\global\proguard-android.txt-8.11.1;proguard-rules.txt"
     partialResultsDir="build\intermediates\lint_vital_partial_results\release\lintVitalAnalyzeRelease\out"
-    desugaredMethodsFiles="C:\Users\great\.gradle\caches\8.13\transforms\9f9387f8d3e3116380a425aa65af920d\transformed\desugar_jdk_libs_configuration-2.1.5-desugar-lint.txt;C:\Users\great\.gradle\caches\8.13\transforms\a6e1d30fcf57f1d68a4530422ede09cf\transformed\D8BackportedDesugaredMethods.txt">
+    desugaredMethodsFiles="C:\Users\great\.gradle\caches\9.0-milestone-1\transforms\ede80d549f0031072766a02e38baa5c8\transformed\desugar_jdk_libs_configuration-2.1.5-desugar-lint.txt;C:\Users\great\.gradle\caches\9.0-milestone-1\transforms\32379af2e9f2378d90e3ac3006103009\transformed\D8BackportedDesugaredMethods.txt">
   <buildFeatures
       coreLibraryDesugaring="true"
       namespacing="REQUIRED"/>
@@ -28,6 +28,6 @@
       applicationId="com.sd.sddigiclock"
       generatedSourceFolders="build\generated\ap_generated_sources\release\out;build\generated\source\buildConfig\release"
       generatedResourceFolders="build\generated\res\resValues\release"
-      desugaredMethodsFiles="C:\Users\great\.gradle\caches\8.13\transforms\9f9387f8d3e3116380a425aa65af920d\transformed\desugar_jdk_libs_configuration-2.1.5-desugar-lint.txt;C:\Users\great\.gradle\caches\8.13\transforms\a6e1d30fcf57f1d68a4530422ede09cf\transformed\D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="C:\Users\great\.gradle\caches\9.0-milestone-1\transforms\ede80d549f0031072766a02e38baa5c8\transformed\desugar_jdk_libs_configuration-2.1.5-desugar-lint.txt;C:\Users\great\.gradle\caches\9.0-milestone-1\transforms\32379af2e9f2378d90e3ac3006103009\transformed\D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

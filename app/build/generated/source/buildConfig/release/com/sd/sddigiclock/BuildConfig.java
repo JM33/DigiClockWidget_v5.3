@@ -7,6 +7,6 @@ public final class BuildConfig {
   public static final boolean DEBUG = false;
   public static final String APPLICATION_ID = "com.sd.sddigiclock";
   public static final String BUILD_TYPE = "release";
-  public static final int VERSION_CODE = 18;
-  public static final String VERSION_NAME = "5.6";
+  public static final int VERSION_CODE = 19;
+  public static final String VERSION_NAME = "5.7";
 }

@@ -4,7 +4,7 @@
     name=":app"
     type="APP"
     maven="DigiClockWidget v5.0.0:app:unspecified"
-    agpVersion="8.11.0"
+    agpVersion="8.11.1"
     buildFolder="build"
     bootClassPath="D:\Android\bundle\sdk\platforms\android-36\android.jar;D:\Android\bundle\sdk\build-tools\35.0.0\core-lambda-stubs.jar"
     javaSourceLevel="1.8"
