@@ -77,10 +77,11 @@ public class WidgetBackgroundService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            if(!isInBackground()) {
+            //if(!isInBackground()) {
                 startMyOwnForeground();
-            }
+            //}
         }
         else
             startForeground(1, buildForegroundNotification());
@@ -105,11 +106,17 @@ public class WidgetBackgroundService extends Service {
             //Log.i(TAG, "mMinuteTickReceiver is null, attempting to register");
             registerOnTickReceiver();
         }
+
+        if(intent.getBooleanExtra("stops",false)){
+            stopSelf();
+            Log.i(TAG, "Widget Service -- Stop Self to avoid start foreground timeout");
+        }
         // We want this service to continue running until it is explicitly
         // stopped, so return sticky.
         return START_STICKY;
     }
 
+    /*
     private boolean isInBackground(){
         ActivityManager.RunningAppProcessInfo myProcess = new ActivityManager.RunningAppProcessInfo();
         ActivityManager.getMyMemoryState(myProcess);
@@ -117,6 +124,7 @@ public class WidgetBackgroundService extends Service {
         Log.d("isInBackground", myProcess.processName + " " + myProcess.importance + " " + isInBackground);
         return  isInBackground;
     }
+    */
 
     private void startMyOwnForeground(){
         String NOTIFICATION_CHANNEL_ID = "com.sd.digiclockwidget";

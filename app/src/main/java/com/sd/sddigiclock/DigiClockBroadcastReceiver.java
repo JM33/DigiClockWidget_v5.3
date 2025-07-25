@@ -105,7 +105,7 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
         //}
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             try {
-                ContextCompat.startForegroundService(context, serviceBG);
+                ContextCompat.startForegroundService(context, serviceBG.putExtra("stops", true));
 
             }catch(android.app.ForegroundServiceStartNotAllowedException e){
                 Log.d(TAG, e.getMessage());

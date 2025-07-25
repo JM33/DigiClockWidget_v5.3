@@ -5,13 +5,13 @@ buildscript {
             url 'https://maven.google.com/'
             name 'Google'
         }
-        jcenter()
+        //jcenter()
 
         google()
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.11.0'
+        classpath 'com.android.tools.build:gradle:8.11.1'
     }
 
 }
@@ -22,7 +22,7 @@ allprojects {
         maven {
             url 'https://maven.google.com/'
         }
-        jcenter()
+        //jcenter()
 
         google()
         mavenCentral()

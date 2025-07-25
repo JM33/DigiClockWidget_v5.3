@@ -13,7 +13,21 @@
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
-              <option name="timeIntervalDays" value="SIXTY_DAYS" />
+              <option name="timeIntervalDays" value="SEVEN_DAYS" />
+              <option name="versions">
+                <list>
+                  <VersionSetting>
+                    <option name="buildVersion" value="18" />
+                    <option name="displayName" value="18" />
+                    <option name="displayVersion" value="18" />
+                    <option name="tracks">
+                      <list>
+                        <option value="PRODUCTION" />
+                      </list>
+                    </option>
+                  </VersionSetting>
+                </list>
+              </option>
               <option name="visibilityType" value="ALL" />
             </InsightsFilterSettings>
           </value>

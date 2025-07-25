@@ -99,7 +99,7 @@ public class UpdateWidgetWorker extends Worker {
         //}
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             try {
-                ContextCompat.startForegroundService(mContext, serviceBG);
+                ContextCompat.startForegroundService(mContext, serviceBG.putExtra("stops", true));
 
             }catch(android.app.ForegroundServiceStartNotAllowedException e){
                 Log.d(TAG, e.getMessage());
