@@ -1920,6 +1920,7 @@ public class DigiClockPrefs extends AppCompatActivity implements NavigationBarVi
 		Intent refreshIntent = new Intent(DCP, DigiClockBroadcastReceiver.class);
 		refreshIntent.setPackage(DCP.getPackageName());
 		refreshIntent.setAction(DigiClockBroadcastReceiver.REFRESH_WIDGET);
+		refreshIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
 		getApplicationContext().sendBroadcast(refreshIntent);
 
 

@@ -79,9 +79,7 @@ public class WidgetBackgroundService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            //if(!isInBackground()) {
-                startMyOwnForeground();
-            //}
+            startMyOwnForeground();
         }
         else
             startForeground(1, buildForegroundNotification());

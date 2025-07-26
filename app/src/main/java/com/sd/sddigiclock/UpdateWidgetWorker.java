@@ -58,10 +58,26 @@ public class UpdateWidgetWorker extends Worker {
         }
 
         try {
-            for (int appWidgetId : appWidgetIds) {
-                UpdateWidgetView.updateView(mContext, appWidgetId);
-                Log.i(TAG, "Worker updated widget ID: " + appWidgetId);
-            }
+            Thread updateThread = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    for(int appWidgetId: appWidgetIds){
+                        if(appWidgetId != AppWidgetManager.INVALID_APPWIDGET_ID){
+                            UpdateWidgetView.updateView(mContext, appWidgetId);
+                            Log.i(TAG, "Worker updated widget ID: " + appWidgetId);
+                            //Toast.makeText(mContext, "Worker updated widget ID: " + appWidgetId, Toast.LENGTH_SHORT);
+                        }
+                        try {
+                            Thread.sleep(100);
+                        } catch (InterruptedException e) {
+                            throw new RuntimeException(e);
+                        }
+                    }
+                }
+            });
+
+            updateThread.run();
+
 
             Calendar calendar = Calendar.getInstance();
             long currentTimeMillis = calendar.getTimeInMillis();
@@ -74,6 +90,7 @@ public class UpdateWidgetWorker extends Worker {
             Intent refreshIntent = new Intent(mContext, DigiClockBroadcastReceiver.class);
             refreshIntent.setPackage(mContext.getPackageName());
             refreshIntent.setAction(DigiClockBroadcastReceiver.REFRESH_WIDGET);
+            refreshIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
 
             //note: adding an equal alarm will replace existing alarm, two alarms will not be set
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
@@ -96,10 +113,11 @@ public class UpdateWidgetWorker extends Worker {
         Intent serviceBG = new Intent(getApplicationContext(), WidgetBackgroundService.class);
         //if(batterySave) {
         serviceBG.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
+        serviceBG.putExtra("stops", true);
         //}
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             try {
-                ContextCompat.startForegroundService(mContext, serviceBG.putExtra("stops", true));
+                ContextCompat.startForegroundService(mContext, serviceBG);
 
             }catch(android.app.ForegroundServiceStartNotAllowedException e){
                 Log.d(TAG, e.getMessage());

@@ -162,13 +162,26 @@ public class DigiClockProvider extends AppWidgetProvider {
 		Log.w(TAG, "onUpdate method called");
 
 		try{
-			for(int appWidgetId: appWidgetIds){
-				if(appWidgetId != AppWidgetManager.INVALID_APPWIDGET_ID){
-					UpdateWidgetView.updateView(context, appWidgetId);
-					Log.i(TAG, "DigiClockProvider updated widget ID: " + appWidgetId);
-					//Toast.makeText(mContext, "Worker updated widget ID: " + appWidgetId, Toast.LENGTH_SHORT);
+			Thread updateThread = new Thread(new Runnable() {
+				@Override
+				public void run() {
+					for(int appWidgetId: appWidgetIds){
+						if(appWidgetId != AppWidgetManager.INVALID_APPWIDGET_ID){
+							UpdateWidgetView.updateView(context, appWidgetId);
+							Log.i(TAG, "DigiClockProvider updated widget ID: " + appWidgetId);
+							//Toast.makeText(mContext, "Worker updated widget ID: " + appWidgetId, Toast.LENGTH_SHORT);
+							//Toast.makeText(mContext, "Worker updated widget ID: " + appWidgetId, Toast.LENGTH_SHORT);
+						}
+						try {
+							Thread.sleep(100);
+						} catch (InterruptedException e) {
+							throw new RuntimeException(e);
+						}
+					}
 				}
-			}
+			});
+
+			updateThread.run();
 		} catch (Exception exception){
 			Log.d(TAG, "onUpdate Exception: "+ exception);
 		}
@@ -212,6 +225,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 			Intent serviceBG = new Intent(context.getApplicationContext(), WidgetBackgroundService.class);
 			serviceBG.setPackage(context.getPackageName());
 			serviceBG.putExtra("SHUTDOWN", true);
+			serviceBG.putExtra("stops", true);
 			context.getApplicationContext().startService(serviceBG);
 			context.getApplicationContext().stopService(serviceBG);
 
@@ -241,7 +255,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 		 if (intent.getAction().equals(SETTINGS_CHANGED)) {
 			 onUpdate(context, appWidgetManager, appWidgetIds);
 			 if (appWidgetIds.length > 0) {
-			 restartAll(context);
+			 	restartAll(context);
 			 }
 			 Log.i(TAG, "Settings Change Action");
 		 }
@@ -390,6 +404,7 @@ public class DigiClockProvider extends AppWidgetProvider {
 
 		Intent serviceBG = new Intent(context.getApplicationContext(), WidgetBackgroundService.class);
 		serviceBG.setPackage(context.getPackageName());
+		serviceBG.putExtra("stops", true);
 		//if(batterySave) {
 		serviceBG.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
 		//}

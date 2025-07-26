@@ -108,7 +108,7 @@ public class UpdateWidgetView {
             //view.setOnClickPendingIntent(R.id.SettingsButton, getPendingSelfIntent(context, ClockOnClick));
         }else{
             PendingIntent pendingIntent = PendingIntent.getActivity(context,
-                    0, prefsIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+                    appWidgetId, prefsIntent, PendingIntent.FLAG_UPDATE_CURRENT);
             view.setOnClickPendingIntent(R.id.SettingsButton, pendingIntent);
             //view.setOnClickPendingIntent(R.id.SettingsButton, getPendingSelfIntent(context, ClockOnClick));
         }

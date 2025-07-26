@@ -720,14 +720,14 @@ public class WidgetImage {
         SharedPreferences prefs = mContext.getSharedPreferences(
                 "prefs", 0);
         mFont = prefs.getInt("Fontnum"+appWidgetId, 0);
-        Log.i("WidgetImage", "mFont = " + mFont + ", font = " + allFonts().get(mFont));
+        Log.i("WidgetImage", "mFont = " + mFont + ", font = " + allFonts().get(mFont) +", widegt id =" + appWidgetId);
 
         Typeface font  = Typeface.DEFAULT;
         try {
             if(mFont != 0){
                 font = Typeface.createFromAsset(mContext.getAssets(), allFonts().get(mFont));
 
-                Log.i("WidgetImage", "mFont = " + mFont + ", font = " + allFonts().get(mFont) + ", " + font.toString());
+                Log.i("WidgetImage", "mFont = " + mFont + ", font = " + allFonts().get(mFont) + ", " + font.toString() +", widegt id =" + appWidgetId);
                 return font;
             }
         } catch (Exception e) {

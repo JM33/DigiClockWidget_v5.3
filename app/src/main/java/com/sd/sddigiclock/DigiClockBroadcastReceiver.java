@@ -53,13 +53,25 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
         appWidgetIds = appWidgetManager.getAppWidgetIds(thisAppWidget);
 
         try{
-            for(int appWidgetId: appWidgetIds){
-                if(appWidgetId != AppWidgetManager.INVALID_APPWIDGET_ID){
-                    UpdateWidgetView.updateView(context, appWidgetId);
-                    Log.i(TAG, "BroadcastReceiver updated widget ID: " + appWidgetId);
-                    //Toast.makeText(mContext, "Worker updated widget ID: " + appWidgetId, Toast.LENGTH_SHORT);
+            Thread updateThread = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    for(int appWidgetId: appWidgetIds){
+                        if(appWidgetId != AppWidgetManager.INVALID_APPWIDGET_ID){
+                            UpdateWidgetView.updateView(context, appWidgetId);
+                            Log.i(TAG, "BroadcastReceiver updated widget ID: " + appWidgetId);
+                            //Toast.makeText(mContext, "Worker updated widget ID: " + appWidgetId, Toast.LENGTH_SHORT);
+                        }
+                        try {
+                            Thread.sleep(100);
+                        } catch (InterruptedException e) {
+                            throw new RuntimeException(e);
+                        }
+                    }
                 }
-            }
+            });
+
+            updateThread.run();
 
             //Intent intent = new Intent(mContext.getApplicationContext(), DigiClockProvider.class);
             //intent.setAction(DigiClockProvider.ACTION_TICK);
@@ -76,6 +88,8 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
             Intent refreshIntent = new Intent(context, DigiClockBroadcastReceiver.class);
             refreshIntent.setPackage(context.getPackageName());
             refreshIntent.setAction(DigiClockBroadcastReceiver.REFRESH_WIDGET);
+            //refreshIntent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
+
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
                 PendingIntent pendingIntentR = PendingIntent.getBroadcast(context, 0, refreshIntent, PendingIntent.FLAG_IMMUTABLE);
@@ -102,10 +116,11 @@ public class DigiClockBroadcastReceiver extends BroadcastReceiver {
         Intent serviceBG = new Intent(context, WidgetBackgroundService.class);
         //if(batterySave) {
         serviceBG.setAction("android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS");
+        serviceBG.putExtra("stops", true);
         //}
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             try {
-                ContextCompat.startForegroundService(context, serviceBG.putExtra("stops", true));
+                ContextCompat.startForegroundService(context, serviceBG);
 
             }catch(android.app.ForegroundServiceStartNotAllowedException e){
                 Log.d(TAG, e.getMessage());
